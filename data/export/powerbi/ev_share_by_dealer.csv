@@ -1,0 +1,360 @@
+﻿year,dealer_code,dealer_name,city,brand,total_sales,ev_sales,ev_share_pct
+2019,B01,Borusan Oto İstanbul,İstanbul,BMW,23,8,34.78
+2019,B01,Borusan Oto İstanbul,İstanbul,Defender,2,0,0.0
+2019,B01,Borusan Oto İstanbul,İstanbul,Discovery,3,0,0.0
+2019,B01,Borusan Oto İstanbul,İstanbul,Jaguar,1,0,0.0
+2019,B01,Borusan Oto İstanbul,İstanbul,MINI,10,9,90.0
+2019,B01,Borusan Oto İstanbul,İstanbul,Range Rover,2,0,0.0
+2019,B02,Borusan Oto Ankara,Ankara,BMW,28,13,46.43
+2019,B02,Borusan Oto Ankara,Ankara,Defender,2,0,0.0
+2019,B02,Borusan Oto Ankara,Ankara,Jaguar,3,2,66.67
+2019,B02,Borusan Oto Ankara,Ankara,MINI,11,10,90.91
+2019,B02,Borusan Oto Ankara,Ankara,Range Rover,2,0,0.0
+2019,B03,Borusan Oto İzmir,İzmir,BMW,25,7,28.0
+2019,B03,Borusan Oto İzmir,İzmir,Defender,2,0,0.0
+2019,B03,Borusan Oto İzmir,İzmir,Discovery,1,0,0.0
+2019,B03,Borusan Oto İzmir,İzmir,MINI,16,16,100.0
+2019,B03,Borusan Oto İzmir,İzmir,Range Rover,6,0,0.0
+2019,B04,Borusan Oto Bursa,Bursa,BMW,17,7,41.18
+2019,B04,Borusan Oto Bursa,Bursa,Defender,2,0,0.0
+2019,B04,Borusan Oto Bursa,Bursa,Discovery,3,0,0.0
+2019,B04,Borusan Oto Bursa,Bursa,MINI,13,13,100.0
+2019,B04,Borusan Oto Bursa,Bursa,Range Rover,5,0,0.0
+2019,B05,Borusan Oto Antalya,Antalya,BMW,12,5,41.67
+2019,B05,Borusan Oto Antalya,Antalya,Defender,5,0,0.0
+2019,B05,Borusan Oto Antalya,Antalya,Discovery,2,0,0.0
+2019,B05,Borusan Oto Antalya,Antalya,Jaguar,5,4,80.0
+2019,B05,Borusan Oto Antalya,Antalya,MINI,11,11,100.0
+2019,B05,Borusan Oto Antalya,Antalya,Range Rover,3,0,0.0
+2019,B06,Borusan Oto Adana,Adana,BMW,22,11,50.0
+2019,B06,Borusan Oto Adana,Adana,Defender,2,0,0.0
+2019,B06,Borusan Oto Adana,Adana,Discovery,1,0,0.0
+2019,B06,Borusan Oto Adana,Adana,Jaguar,2,0,0.0
+2019,B06,Borusan Oto Adana,Adana,MINI,10,9,90.0
+2019,B06,Borusan Oto Adana,Adana,Range Rover,3,0,0.0
+2019,B07,Borusan Oto Konya,Konya,BMW,18,7,38.89
+2019,B07,Borusan Oto Konya,Konya,Discovery,5,0,0.0
+2019,B07,Borusan Oto Konya,Konya,Jaguar,1,0,0.0
+2019,B07,Borusan Oto Konya,Konya,MINI,8,8,100.0
+2019,B07,Borusan Oto Konya,Konya,Range Rover,7,0,0.0
+2019,B08,Borusan Oto Kocaeli,Kocaeli,BMW,22,8,36.36
+2019,B08,Borusan Oto Kocaeli,Kocaeli,Defender,4,0,0.0
+2019,B08,Borusan Oto Kocaeli,Kocaeli,Discovery,3,0,0.0
+2019,B08,Borusan Oto Kocaeli,Kocaeli,Jaguar,2,2,100.0
+2019,B08,Borusan Oto Kocaeli,Kocaeli,MINI,12,11,91.67
+2019,B08,Borusan Oto Kocaeli,Kocaeli,Range Rover,1,0,0.0
+2020,B01,Borusan Oto İstanbul,İstanbul,BMW,25,8,32.0
+2020,B01,Borusan Oto İstanbul,İstanbul,Defender,2,0,0.0
+2020,B01,Borusan Oto İstanbul,İstanbul,Discovery,2,0,0.0
+2020,B01,Borusan Oto İstanbul,İstanbul,Jaguar,3,3,100.0
+2020,B01,Borusan Oto İstanbul,İstanbul,MINI,7,7,100.0
+2020,B01,Borusan Oto İstanbul,İstanbul,Range Rover,4,0,0.0
+2020,B02,Borusan Oto Ankara,Ankara,BMW,24,7,29.17
+2020,B02,Borusan Oto Ankara,Ankara,Defender,5,0,0.0
+2020,B02,Borusan Oto Ankara,Ankara,Discovery,3,0,0.0
+2020,B02,Borusan Oto Ankara,Ankara,Jaguar,1,1,100.0
+2020,B02,Borusan Oto Ankara,Ankara,MINI,12,10,83.33
+2020,B02,Borusan Oto Ankara,Ankara,Range Rover,5,0,0.0
+2020,B03,Borusan Oto İzmir,İzmir,BMW,22,7,31.82
+2020,B03,Borusan Oto İzmir,İzmir,Defender,5,0,0.0
+2020,B03,Borusan Oto İzmir,İzmir,Discovery,1,0,0.0
+2020,B03,Borusan Oto İzmir,İzmir,Jaguar,3,2,66.67
+2020,B03,Borusan Oto İzmir,İzmir,MINI,8,4,50.0
+2020,B03,Borusan Oto İzmir,İzmir,Range Rover,5,0,0.0
+2020,B04,Borusan Oto Bursa,Bursa,BMW,20,6,30.0
+2020,B04,Borusan Oto Bursa,Bursa,Defender,3,0,0.0
+2020,B04,Borusan Oto Bursa,Bursa,Discovery,3,0,0.0
+2020,B04,Borusan Oto Bursa,Bursa,Jaguar,3,1,33.33
+2020,B04,Borusan Oto Bursa,Bursa,MINI,11,10,90.91
+2020,B04,Borusan Oto Bursa,Bursa,Range Rover,3,0,0.0
+2020,B05,Borusan Oto Antalya,Antalya,BMW,17,5,29.41
+2020,B05,Borusan Oto Antalya,Antalya,Defender,5,0,0.0
+2020,B05,Borusan Oto Antalya,Antalya,Discovery,2,0,0.0
+2020,B05,Borusan Oto Antalya,Antalya,MINI,8,8,100.0
+2020,B05,Borusan Oto Antalya,Antalya,Range Rover,3,0,0.0
+2020,B06,Borusan Oto Adana,Adana,BMW,16,9,56.25
+2020,B06,Borusan Oto Adana,Adana,Defender,2,0,0.0
+2020,B06,Borusan Oto Adana,Adana,Discovery,1,0,0.0
+2020,B06,Borusan Oto Adana,Adana,Jaguar,5,4,80.0
+2020,B06,Borusan Oto Adana,Adana,MINI,8,7,87.5
+2020,B06,Borusan Oto Adana,Adana,Range Rover,4,0,0.0
+2020,B07,Borusan Oto Konya,Konya,BMW,17,5,29.41
+2020,B07,Borusan Oto Konya,Konya,Defender,4,0,0.0
+2020,B07,Borusan Oto Konya,Konya,MINI,11,8,72.73
+2020,B07,Borusan Oto Konya,Konya,Range Rover,2,0,0.0
+2020,B08,Borusan Oto Kocaeli,Kocaeli,BMW,23,6,26.09
+2020,B08,Borusan Oto Kocaeli,Kocaeli,Defender,2,0,0.0
+2020,B08,Borusan Oto Kocaeli,Kocaeli,Discovery,1,0,0.0
+2020,B08,Borusan Oto Kocaeli,Kocaeli,Jaguar,1,1,100.0
+2020,B08,Borusan Oto Kocaeli,Kocaeli,MINI,9,8,88.89
+2020,B08,Borusan Oto Kocaeli,Kocaeli,Range Rover,3,0,0.0
+2021,B01,Borusan Oto İstanbul,İstanbul,BMW,15,5,33.33
+2021,B01,Borusan Oto İstanbul,İstanbul,Defender,2,0,0.0
+2021,B01,Borusan Oto İstanbul,İstanbul,Discovery,5,0,0.0
+2021,B01,Borusan Oto İstanbul,İstanbul,Jaguar,1,1,100.0
+2021,B01,Borusan Oto İstanbul,İstanbul,MINI,9,7,77.78
+2021,B01,Borusan Oto İstanbul,İstanbul,Range Rover,3,0,0.0
+2021,B02,Borusan Oto Ankara,Ankara,BMW,28,8,28.57
+2021,B02,Borusan Oto Ankara,Ankara,Discovery,1,0,0.0
+2021,B02,Borusan Oto Ankara,Ankara,Jaguar,1,0,0.0
+2021,B02,Borusan Oto Ankara,Ankara,MINI,10,10,100.0
+2021,B02,Borusan Oto Ankara,Ankara,Range Rover,2,0,0.0
+2021,B03,Borusan Oto İzmir,İzmir,BMW,23,9,39.13
+2021,B03,Borusan Oto İzmir,İzmir,Defender,3,0,0.0
+2021,B03,Borusan Oto İzmir,İzmir,Discovery,2,0,0.0
+2021,B03,Borusan Oto İzmir,İzmir,MINI,11,8,72.73
+2021,B03,Borusan Oto İzmir,İzmir,Range Rover,7,0,0.0
+2021,B04,Borusan Oto Bursa,Bursa,BMW,11,1,9.09
+2021,B04,Borusan Oto Bursa,Bursa,Defender,2,0,0.0
+2021,B04,Borusan Oto Bursa,Bursa,Discovery,1,0,0.0
+2021,B04,Borusan Oto Bursa,Bursa,Jaguar,6,5,83.33
+2021,B04,Borusan Oto Bursa,Bursa,MINI,11,9,81.82
+2021,B04,Borusan Oto Bursa,Bursa,Range Rover,6,0,0.0
+2021,B05,Borusan Oto Antalya,Antalya,BMW,19,7,36.84
+2021,B05,Borusan Oto Antalya,Antalya,Defender,3,0,0.0
+2021,B05,Borusan Oto Antalya,Antalya,Discovery,3,0,0.0
+2021,B05,Borusan Oto Antalya,Antalya,Jaguar,4,0,0.0
+2021,B05,Borusan Oto Antalya,Antalya,MINI,8,8,100.0
+2021,B05,Borusan Oto Antalya,Antalya,Range Rover,3,0,0.0
+2021,B06,Borusan Oto Adana,Adana,BMW,15,8,53.33
+2021,B06,Borusan Oto Adana,Adana,Defender,6,0,0.0
+2021,B06,Borusan Oto Adana,Adana,Discovery,2,0,0.0
+2021,B06,Borusan Oto Adana,Adana,Jaguar,1,1,100.0
+2021,B06,Borusan Oto Adana,Adana,MINI,10,10,100.0
+2021,B06,Borusan Oto Adana,Adana,Range Rover,5,0,0.0
+2021,B07,Borusan Oto Konya,Konya,BMW,16,7,43.75
+2021,B07,Borusan Oto Konya,Konya,Defender,1,0,0.0
+2021,B07,Borusan Oto Konya,Konya,Discovery,1,0,0.0
+2021,B07,Borusan Oto Konya,Konya,Jaguar,2,1,50.0
+2021,B07,Borusan Oto Konya,Konya,MINI,13,10,76.92
+2021,B07,Borusan Oto Konya,Konya,Range Rover,6,0,0.0
+2021,B08,Borusan Oto Kocaeli,Kocaeli,BMW,22,9,40.91
+2021,B08,Borusan Oto Kocaeli,Kocaeli,Defender,1,0,0.0
+2021,B08,Borusan Oto Kocaeli,Kocaeli,Discovery,1,0,0.0
+2021,B08,Borusan Oto Kocaeli,Kocaeli,Jaguar,1,0,0.0
+2021,B08,Borusan Oto Kocaeli,Kocaeli,MINI,12,12,100.0
+2021,B08,Borusan Oto Kocaeli,Kocaeli,Range Rover,1,0,0.0
+2022,B01,Borusan Oto İstanbul,İstanbul,BMW,30,12,40.0
+2022,B01,Borusan Oto İstanbul,İstanbul,Defender,2,0,0.0
+2022,B01,Borusan Oto İstanbul,İstanbul,Discovery,1,0,0.0
+2022,B01,Borusan Oto İstanbul,İstanbul,Jaguar,3,1,33.33
+2022,B01,Borusan Oto İstanbul,İstanbul,MINI,17,13,76.47
+2022,B01,Borusan Oto İstanbul,İstanbul,Range Rover,3,0,0.0
+2022,B02,Borusan Oto Ankara,Ankara,BMW,19,4,21.05
+2022,B02,Borusan Oto Ankara,Ankara,Discovery,3,0,0.0
+2022,B02,Borusan Oto Ankara,Ankara,Jaguar,3,1,33.33
+2022,B02,Borusan Oto Ankara,Ankara,MINI,8,8,100.0
+2022,B02,Borusan Oto Ankara,Ankara,Range Rover,7,0,0.0
+2022,B03,Borusan Oto İzmir,İzmir,BMW,21,6,28.57
+2022,B03,Borusan Oto İzmir,İzmir,Defender,1,0,0.0
+2022,B03,Borusan Oto İzmir,İzmir,Discovery,3,0,0.0
+2022,B03,Borusan Oto İzmir,İzmir,Jaguar,3,0,0.0
+2022,B03,Borusan Oto İzmir,İzmir,MINI,12,12,100.0
+2022,B03,Borusan Oto İzmir,İzmir,Range Rover,6,0,0.0
+2022,B04,Borusan Oto Bursa,Bursa,BMW,18,4,22.22
+2022,B04,Borusan Oto Bursa,Bursa,Defender,6,0,0.0
+2022,B04,Borusan Oto Bursa,Bursa,Jaguar,2,2,100.0
+2022,B04,Borusan Oto Bursa,Bursa,MINI,10,8,80.0
+2022,B04,Borusan Oto Bursa,Bursa,Range Rover,2,0,0.0
+2022,B05,Borusan Oto Antalya,Antalya,BMW,18,6,33.33
+2022,B05,Borusan Oto Antalya,Antalya,Defender,2,0,0.0
+2022,B05,Borusan Oto Antalya,Antalya,Discovery,3,0,0.0
+2022,B05,Borusan Oto Antalya,Antalya,Jaguar,1,1,100.0
+2022,B05,Borusan Oto Antalya,Antalya,MINI,10,8,80.0
+2022,B05,Borusan Oto Antalya,Antalya,Range Rover,6,0,0.0
+2022,B06,Borusan Oto Adana,Adana,BMW,25,4,16.0
+2022,B06,Borusan Oto Adana,Adana,Defender,3,0,0.0
+2022,B06,Borusan Oto Adana,Adana,Discovery,2,0,0.0
+2022,B06,Borusan Oto Adana,Adana,Jaguar,2,1,50.0
+2022,B06,Borusan Oto Adana,Adana,MINI,7,6,85.71
+2022,B06,Borusan Oto Adana,Adana,Range Rover,2,0,0.0
+2022,B07,Borusan Oto Konya,Konya,BMW,20,10,50.0
+2022,B07,Borusan Oto Konya,Konya,Defender,3,0,0.0
+2022,B07,Borusan Oto Konya,Konya,Discovery,3,0,0.0
+2022,B07,Borusan Oto Konya,Konya,MINI,5,5,100.0
+2022,B07,Borusan Oto Konya,Konya,Range Rover,7,0,0.0
+2022,B08,Borusan Oto Kocaeli,Kocaeli,BMW,26,5,19.23
+2022,B08,Borusan Oto Kocaeli,Kocaeli,Defender,4,0,0.0
+2022,B08,Borusan Oto Kocaeli,Kocaeli,Discovery,4,0,0.0
+2022,B08,Borusan Oto Kocaeli,Kocaeli,Jaguar,3,1,33.33
+2022,B08,Borusan Oto Kocaeli,Kocaeli,MINI,10,9,90.0
+2022,B08,Borusan Oto Kocaeli,Kocaeli,Range Rover,4,0,0.0
+2023,B01,Borusan Oto İstanbul,İstanbul,BMW,24,7,29.17
+2023,B01,Borusan Oto İstanbul,İstanbul,Defender,5,0,0.0
+2023,B01,Borusan Oto İstanbul,İstanbul,Discovery,4,0,0.0
+2023,B01,Borusan Oto İstanbul,İstanbul,Jaguar,1,0,0.0
+2023,B01,Borusan Oto İstanbul,İstanbul,MINI,11,11,100.0
+2023,B01,Borusan Oto İstanbul,İstanbul,Range Rover,6,0,0.0
+2023,B02,Borusan Oto Ankara,Ankara,BMW,19,7,36.84
+2023,B02,Borusan Oto Ankara,Ankara,Defender,4,0,0.0
+2023,B02,Borusan Oto Ankara,Ankara,Discovery,2,0,0.0
+2023,B02,Borusan Oto Ankara,Ankara,Jaguar,3,2,66.67
+2023,B02,Borusan Oto Ankara,Ankara,MINI,3,3,100.0
+2023,B02,Borusan Oto Ankara,Ankara,Range Rover,4,0,0.0
+2023,B03,Borusan Oto İzmir,İzmir,BMW,26,9,34.62
+2023,B03,Borusan Oto İzmir,İzmir,Discovery,2,0,0.0
+2023,B03,Borusan Oto İzmir,İzmir,Jaguar,2,0,0.0
+2023,B03,Borusan Oto İzmir,İzmir,MINI,7,6,85.71
+2023,B03,Borusan Oto İzmir,İzmir,Range Rover,7,0,0.0
+2023,B04,Borusan Oto Bursa,Bursa,BMW,18,5,27.78
+2023,B04,Borusan Oto Bursa,Bursa,Defender,4,0,0.0
+2023,B04,Borusan Oto Bursa,Bursa,Discovery,2,0,0.0
+2023,B04,Borusan Oto Bursa,Bursa,Jaguar,3,2,66.67
+2023,B04,Borusan Oto Bursa,Bursa,MINI,8,8,100.0
+2023,B04,Borusan Oto Bursa,Bursa,Range Rover,4,0,0.0
+2023,B05,Borusan Oto Antalya,Antalya,BMW,22,6,27.27
+2023,B05,Borusan Oto Antalya,Antalya,Defender,3,0,0.0
+2023,B05,Borusan Oto Antalya,Antalya,Discovery,2,0,0.0
+2023,B05,Borusan Oto Antalya,Antalya,Jaguar,2,1,50.0
+2023,B05,Borusan Oto Antalya,Antalya,MINI,8,7,87.5
+2023,B05,Borusan Oto Antalya,Antalya,Range Rover,6,0,0.0
+2023,B06,Borusan Oto Adana,Adana,BMW,25,5,20.0
+2023,B06,Borusan Oto Adana,Adana,Defender,1,0,0.0
+2023,B06,Borusan Oto Adana,Adana,Discovery,2,0,0.0
+2023,B06,Borusan Oto Adana,Adana,MINI,5,5,100.0
+2023,B06,Borusan Oto Adana,Adana,Range Rover,7,0,0.0
+2023,B07,Borusan Oto Konya,Konya,BMW,20,8,40.0
+2023,B07,Borusan Oto Konya,Konya,Defender,7,0,0.0
+2023,B07,Borusan Oto Konya,Konya,Discovery,1,0,0.0
+2023,B07,Borusan Oto Konya,Konya,Jaguar,2,1,50.0
+2023,B07,Borusan Oto Konya,Konya,MINI,12,10,83.33
+2023,B07,Borusan Oto Konya,Konya,Range Rover,6,0,0.0
+2023,B08,Borusan Oto Kocaeli,Kocaeli,BMW,27,10,37.04
+2023,B08,Borusan Oto Kocaeli,Kocaeli,Defender,2,0,0.0
+2023,B08,Borusan Oto Kocaeli,Kocaeli,Discovery,3,0,0.0
+2023,B08,Borusan Oto Kocaeli,Kocaeli,MINI,11,10,90.91
+2023,B08,Borusan Oto Kocaeli,Kocaeli,Range Rover,3,0,0.0
+2024,B01,Borusan Oto İstanbul,İstanbul,BMW,24,9,37.5
+2024,B01,Borusan Oto İstanbul,İstanbul,Defender,2,0,0.0
+2024,B01,Borusan Oto İstanbul,İstanbul,Discovery,1,0,0.0
+2024,B01,Borusan Oto İstanbul,İstanbul,Jaguar,1,0,0.0
+2024,B01,Borusan Oto İstanbul,İstanbul,MINI,8,8,100.0
+2024,B02,Borusan Oto Ankara,Ankara,BMW,19,8,42.11
+2024,B02,Borusan Oto Ankara,Ankara,Defender,2,0,0.0
+2024,B02,Borusan Oto Ankara,Ankara,Discovery,1,0,0.0
+2024,B02,Borusan Oto Ankara,Ankara,MINI,8,7,87.5
+2024,B02,Borusan Oto Ankara,Ankara,Range Rover,3,0,0.0
+2024,B03,Borusan Oto İzmir,İzmir,BMW,22,6,27.27
+2024,B03,Borusan Oto İzmir,İzmir,Defender,1,0,0.0
+2024,B03,Borusan Oto İzmir,İzmir,Jaguar,4,2,50.0
+2024,B03,Borusan Oto İzmir,İzmir,MINI,10,9,90.0
+2024,B03,Borusan Oto İzmir,İzmir,Range Rover,4,0,0.0
+2024,B04,Borusan Oto Bursa,Bursa,BMW,21,8,38.1
+2024,B04,Borusan Oto Bursa,Bursa,Defender,3,0,0.0
+2024,B04,Borusan Oto Bursa,Bursa,Discovery,3,0,0.0
+2024,B04,Borusan Oto Bursa,Bursa,Jaguar,1,1,100.0
+2024,B04,Borusan Oto Bursa,Bursa,MINI,14,13,92.86
+2024,B04,Borusan Oto Bursa,Bursa,Range Rover,10,0,0.0
+2024,B05,Borusan Oto Antalya,Antalya,BMW,23,10,43.48
+2024,B05,Borusan Oto Antalya,Antalya,Defender,1,0,0.0
+2024,B05,Borusan Oto Antalya,Antalya,Discovery,3,0,0.0
+2024,B05,Borusan Oto Antalya,Antalya,Jaguar,7,4,57.14
+2024,B05,Borusan Oto Antalya,Antalya,MINI,8,8,100.0
+2024,B05,Borusan Oto Antalya,Antalya,Range Rover,4,0,0.0
+2024,B06,Borusan Oto Adana,Adana,BMW,25,11,44.0
+2024,B06,Borusan Oto Adana,Adana,Defender,3,0,0.0
+2024,B06,Borusan Oto Adana,Adana,Discovery,4,0,0.0
+2024,B06,Borusan Oto Adana,Adana,Jaguar,5,3,60.0
+2024,B06,Borusan Oto Adana,Adana,MINI,7,7,100.0
+2024,B06,Borusan Oto Adana,Adana,Range Rover,4,0,0.0
+2024,B07,Borusan Oto Konya,Konya,BMW,14,5,35.71
+2024,B07,Borusan Oto Konya,Konya,Defender,5,0,0.0
+2024,B07,Borusan Oto Konya,Konya,Discovery,1,0,0.0
+2024,B07,Borusan Oto Konya,Konya,Jaguar,3,1,33.33
+2024,B07,Borusan Oto Konya,Konya,MINI,10,10,100.0
+2024,B07,Borusan Oto Konya,Konya,Range Rover,5,0,0.0
+2024,B08,Borusan Oto Kocaeli,Kocaeli,BMW,18,4,22.22
+2024,B08,Borusan Oto Kocaeli,Kocaeli,Defender,7,0,0.0
+2024,B08,Borusan Oto Kocaeli,Kocaeli,Discovery,2,0,0.0
+2024,B08,Borusan Oto Kocaeli,Kocaeli,Jaguar,7,3,42.86
+2024,B08,Borusan Oto Kocaeli,Kocaeli,MINI,14,14,100.0
+2024,B08,Borusan Oto Kocaeli,Kocaeli,Range Rover,5,0,0.0
+2025,B01,Borusan Oto İstanbul,İstanbul,BMW,21,8,38.1
+2025,B01,Borusan Oto İstanbul,İstanbul,Defender,2,0,0.0
+2025,B01,Borusan Oto İstanbul,İstanbul,Discovery,1,0,0.0
+2025,B01,Borusan Oto İstanbul,İstanbul,Jaguar,4,2,50.0
+2025,B01,Borusan Oto İstanbul,İstanbul,MINI,6,6,100.0
+2025,B01,Borusan Oto İstanbul,İstanbul,Range Rover,2,0,0.0
+2025,B02,Borusan Oto Ankara,Ankara,BMW,22,10,45.45
+2025,B02,Borusan Oto Ankara,Ankara,Defender,5,0,0.0
+2025,B02,Borusan Oto Ankara,Ankara,Discovery,2,0,0.0
+2025,B02,Borusan Oto Ankara,Ankara,Jaguar,5,3,60.0
+2025,B02,Borusan Oto Ankara,Ankara,MINI,12,10,83.33
+2025,B02,Borusan Oto Ankara,Ankara,Range Rover,5,0,0.0
+2025,B03,Borusan Oto İzmir,İzmir,BMW,16,7,43.75
+2025,B03,Borusan Oto İzmir,İzmir,Defender,2,0,0.0
+2025,B03,Borusan Oto İzmir,İzmir,Discovery,4,0,0.0
+2025,B03,Borusan Oto İzmir,İzmir,Jaguar,3,2,66.67
+2025,B03,Borusan Oto İzmir,İzmir,MINI,7,5,71.43
+2025,B03,Borusan Oto İzmir,İzmir,Range Rover,3,0,0.0
+2025,B04,Borusan Oto Bursa,Bursa,BMW,18,9,50.0
+2025,B04,Borusan Oto Bursa,Bursa,Defender,1,0,0.0
+2025,B04,Borusan Oto Bursa,Bursa,Jaguar,1,0,0.0
+2025,B04,Borusan Oto Bursa,Bursa,MINI,5,4,80.0
+2025,B04,Borusan Oto Bursa,Bursa,Range Rover,3,0,0.0
+2025,B05,Borusan Oto Antalya,Antalya,BMW,17,6,35.29
+2025,B05,Borusan Oto Antalya,Antalya,Defender,2,0,0.0
+2025,B05,Borusan Oto Antalya,Antalya,Discovery,1,0,0.0
+2025,B05,Borusan Oto Antalya,Antalya,Jaguar,6,2,33.33
+2025,B05,Borusan Oto Antalya,Antalya,MINI,9,9,100.0
+2025,B05,Borusan Oto Antalya,Antalya,Range Rover,7,0,0.0
+2025,B06,Borusan Oto Adana,Adana,BMW,17,2,11.76
+2025,B06,Borusan Oto Adana,Adana,Defender,3,0,0.0
+2025,B06,Borusan Oto Adana,Adana,MINI,10,9,90.0
+2025,B06,Borusan Oto Adana,Adana,Range Rover,3,0,0.0
+2025,B07,Borusan Oto Konya,Konya,BMW,17,8,47.06
+2025,B07,Borusan Oto Konya,Konya,Defender,1,0,0.0
+2025,B07,Borusan Oto Konya,Konya,Discovery,2,0,0.0
+2025,B07,Borusan Oto Konya,Konya,Jaguar,2,1,50.0
+2025,B07,Borusan Oto Konya,Konya,MINI,10,10,100.0
+2025,B07,Borusan Oto Konya,Konya,Range Rover,8,0,0.0
+2025,B08,Borusan Oto Kocaeli,Kocaeli,BMW,17,5,29.41
+2025,B08,Borusan Oto Kocaeli,Kocaeli,Defender,2,0,0.0
+2025,B08,Borusan Oto Kocaeli,Kocaeli,Discovery,2,0,0.0
+2025,B08,Borusan Oto Kocaeli,Kocaeli,Jaguar,6,4,66.67
+2025,B08,Borusan Oto Kocaeli,Kocaeli,MINI,8,8,100.0
+2025,B08,Borusan Oto Kocaeli,Kocaeli,Range Rover,3,0,0.0
+2026,B01,Borusan Oto İstanbul,İstanbul,BMW,20,10,50.0
+2026,B01,Borusan Oto İstanbul,İstanbul,Defender,2,0,0.0
+2026,B01,Borusan Oto İstanbul,İstanbul,Discovery,2,0,0.0
+2026,B01,Borusan Oto İstanbul,İstanbul,Jaguar,2,1,50.0
+2026,B01,Borusan Oto İstanbul,İstanbul,MINI,3,3,100.0
+2026,B01,Borusan Oto İstanbul,İstanbul,Range Rover,3,0,0.0
+2026,B02,Borusan Oto Ankara,Ankara,BMW,12,2,16.67
+2026,B02,Borusan Oto Ankara,Ankara,Defender,1,0,0.0
+2026,B02,Borusan Oto Ankara,Ankara,Discovery,1,0,0.0
+2026,B02,Borusan Oto Ankara,Ankara,Jaguar,1,0,0.0
+2026,B02,Borusan Oto Ankara,Ankara,MINI,8,6,75.0
+2026,B02,Borusan Oto Ankara,Ankara,Range Rover,5,0,0.0
+2026,B03,Borusan Oto İzmir,İzmir,BMW,17,3,17.65
+2026,B03,Borusan Oto İzmir,İzmir,Defender,1,0,0.0
+2026,B03,Borusan Oto İzmir,İzmir,Discovery,3,0,0.0
+2026,B03,Borusan Oto İzmir,İzmir,MINI,11,9,81.82
+2026,B03,Borusan Oto İzmir,İzmir,Range Rover,2,0,0.0
+2026,B04,Borusan Oto Bursa,Bursa,BMW,18,3,16.67
+2026,B04,Borusan Oto Bursa,Bursa,Defender,2,0,0.0
+2026,B04,Borusan Oto Bursa,Bursa,MINI,7,6,85.71
+2026,B04,Borusan Oto Bursa,Bursa,Range Rover,1,0,0.0
+2026,B05,Borusan Oto Antalya,Antalya,BMW,18,8,44.44
+2026,B05,Borusan Oto Antalya,Antalya,Defender,1,0,0.0
+2026,B05,Borusan Oto Antalya,Antalya,Discovery,4,0,0.0
+2026,B05,Borusan Oto Antalya,Antalya,Jaguar,1,1,100.0
+2026,B05,Borusan Oto Antalya,Antalya,MINI,2,2,100.0
+2026,B05,Borusan Oto Antalya,Antalya,Range Rover,4,0,0.0
+2026,B06,Borusan Oto Adana,Adana,BMW,16,4,25.0
+2026,B06,Borusan Oto Adana,Adana,Defender,4,0,0.0
+2026,B06,Borusan Oto Adana,Adana,Jaguar,2,1,50.0
+2026,B06,Borusan Oto Adana,Adana,MINI,7,6,85.71
+2026,B06,Borusan Oto Adana,Adana,Range Rover,2,0,0.0
+2026,B07,Borusan Oto Konya,Konya,BMW,9,2,22.22
+2026,B07,Borusan Oto Konya,Konya,Defender,1,0,0.0
+2026,B07,Borusan Oto Konya,Konya,Discovery,1,0,0.0
+2026,B07,Borusan Oto Konya,Konya,Jaguar,2,1,50.0
+2026,B07,Borusan Oto Konya,Konya,MINI,3,3,100.0
+2026,B07,Borusan Oto Konya,Konya,Range Rover,1,0,0.0
+2026,B08,Borusan Oto Kocaeli,Kocaeli,BMW,10,6,60.0
+2026,B08,Borusan Oto Kocaeli,Kocaeli,Defender,4,0,0.0
+2026,B08,Borusan Oto Kocaeli,Kocaeli,Discovery,2,0,0.0
+2026,B08,Borusan Oto Kocaeli,Kocaeli,Jaguar,2,1,50.0
+2026,B08,Borusan Oto Kocaeli,Kocaeli,MINI,10,8,80.0
+2026,B08,Borusan Oto Kocaeli,Kocaeli,Range Rover,2,0,0.0

@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electrification Intelligence Platform | Borusan Otomotiv Grubu</title>
+  <link rel="stylesheet" href="/app/style.css">
+</head>
+<body>
+
+  <!-- ============================================================================== -->
+  <!-- Top Navigation Header -->
+  <!-- ============================================================================== -->
+  <header class="app-header">
+    <div class="header-container">
+      <div class="brand-section">
+        <div class="brand-logo">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+          </svg>
+        </div>
+        <div class="brand-titles">
+          <div class="brand-name">ELECTRIFICATION INTELLIGENCE PLATFORM</div>
+          <div class="brand-sub">Borusan Otomotiv Grubu · Müşteri 360 & Fırsat Radarı</div>
+        </div>
+      </div>
+
+      <div class="header-badges">
+        <span class="badge badge-warning" title="Tüm veriler mimari gösterim amacıyla sentetik olarak üretilmiştir.">
+          <span class="pulse-dot warning-dot"></span>
+          ⚠️ SENTETİK VERİ
+        </span>
+        <span class="badge badge-privacy" title="Tüm kişisel veriler KVKK standartlarına uygun maskelenmiştir.">
+          🔒 KVKK UYUMLU / SIFIR PII
+        </span>
+        <span class="badge badge-meta" id="header-ref-date" title="Tüm zaman hesaplamaları için referans tarih">
+          📅 Referans: 2026-10-09
+        </span>
+      </div>
+    </div>
+
+    <!-- Navigation Tabs -->
+    <nav class="app-nav">
+      <div class="nav-container">
+        <button class="nav-tab active" data-tab="radar" id="tab-btn-radar">
+          <svg class="tab-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"></circle>
+            <circle cx="12" cy="12" r="6"></circle>
+            <circle cx="12" cy="12" r="2"></circle>
+          </svg>
+          🎯 Fırsat Radarı
+        </button>
+        <button class="nav-tab" data-tab="management" id="tab-btn-management">
+          <svg class="tab-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="18" y1="20" x2="18" y2="10"></line>
+            <line x1="12" y1="20" x2="12" y2="4"></line>
+            <line x1="6" y1="20" x2="6" y2="14"></line>
+          </svg>
+          📊 Yönetim Paneli
+        </button>
+        <button class="nav-tab" data-tab="data-health" id="tab-btn-data-health">
+          <svg class="tab-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+          </svg>
+          🛡️ Veri Sağlığı
+        </button>
+        <button class="nav-tab" data-tab="catalog" id="tab-btn-catalog">
+          <svg class="tab-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+          </svg>
+          📖 Veri Kataloğu & Metrikler
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ============================================================================== -->
+  <!-- Main Container -->
+  <!-- ============================================================================== -->
+  <main class="app-main">
+
+    <!-- ============================================================================ -->
+    <!-- TAB 1: FIRSAT RADARI (Opportunity Radar) -->
+    <!-- ============================================================================ -->
+    <section class="tab-content active" id="tab-radar">
+      <div class="content-header">
+        <div>
+          <h1 class="page-title">Elektrikli Araç Dönüşüm Radarı</h1>
+          <p class="page-desc">Mevcut içten yanmalı araç sahipleri arasından sözleşme bitişi, araç yaşı ve servis geçmişine göre önceliklendirilen dönüşüm fırsatları.</p>
+        </div>
+        <div class="lead-counter-pill">
+          <span class="counter-label">Toplam Aday:</span>
+          <span class="counter-val" id="radar-total-count">1.057</span>
+          <span class="counter-sub">(İçten Yanmalı Sahibi)</span>
+        </div>
+      </div>
+
+      <!-- Score Band Filter Chips -->
+      <div class="score-bands-section">
+        <div class="score-bands-title">Fırsat Skoru Segmentleri (Filtrelemek için tıklayınız):</div>
+        <div class="score-chips-container" id="score-chips-container">
+          <button class="chip active" data-band="all">
+            <span class="chip-dot dot-all"></span>
+            Tüm Skorlar <strong id="chip-count-all">1.057</strong>
+          </button>
+          <button class="chip" data-band="80-100">
+            <span class="chip-dot dot-tier1"></span>
+            80 – 100 Puan (En Yüksek Öncelik) <strong id="chip-count-80-100">7</strong>
+          </button>
+          <button class="chip" data-band="60-79">
+            <span class="chip-dot dot-tier2"></span>
+            60 – 79 Puan (Yüksek Öncelik) <strong id="chip-count-60-79">231</strong>
+          </button>
+          <button class="chip" data-band="40-59">
+            <span class="chip-dot dot-tier3"></span>
+            40 – 59 Puan (Orta Öncelik) <strong id="chip-count-40-59">398</strong>
+          </button>
+          <button class="chip" data-band="0-39">
+            <span class="chip-dot dot-tier4"></span>
+            0 – 39 Puan (Düşük Öncelik) <strong id="chip-count-0-39">421</strong>
+          </button>
+        </div>
+      </div>
+
+      <!-- Filters Toolbar -->
+      <div class="filter-card">
+        <div class="filters-grid">
+          <div class="filter-group">
+            <label for="filter-brand">Marka:</label>
+            <select id="filter-brand" class="form-control">
+              <option value="">Tüm Markalar</option>
+              <option value="BMW">BMW</option>
+              <option value="MINI">MINI</option>
+              <option value="Range Rover">Range Rover</option>
+              <option value="Defender">Defender</option>
+              <option value="Discovery">Discovery</option>
+              <option value="Jaguar">Jaguar</option>
+            </select>
+          </div>
+
+          <div class="filter-group">
+            <label for="filter-dealer">Yetkili Satıcı / Bayi:</label>
+            <select id="filter-dealer" class="form-control">
+              <option value="">Tüm Satıcılar</option>
+              <option value="İstanbul">Borusan Oto İstanbul</option>
+              <option value="Ankara">Borusan Oto Ankara</option>
+              <option value="İzmir">Borusan Oto İzmir</option>
+              <option value="Bursa">Borusan Oto Bursa</option>
+              <option value="Antalya">Borusan Oto Antalya</option>
+              <option value="Adana">Borusan Oto Adana</option>
+              <option value="Kocaeli">Borusan Oto Kocaeli</option>
+              <option value="Konya">Borusan Oto Konya</option>
+            </select>
+          </div>
+
+          <div class="filter-group">
+            <label for="filter-min-score">Minimum Skor: <span id="min-score-val">0</span></label>
+            <input type="range" id="filter-min-score" min="0" max="100" value="0" step="5" class="slider-control">
+          </div>
+
+          <div class="filter-group">
+            <label for="filter-search">Arama (Müşteri / VIN / Model):</label>
+            <input type="text" id="filter-search" placeholder="Örn: C001, BMW, 5 Serisi..." class="form-control">
+          </div>
+
+          <div class="filter-actions">
+            <button id="btn-reset-filters" class="btn btn-outline" title="Tüm filtreleri sıfırla">
+              Filtreleri Temizle
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Active Filter Status -->
+      <div class="table-meta-bar">
+        <div class="meta-left">
+          <span>Gösterilen Fırsat: <strong id="radar-shown-count">0</strong> / 1.057</span>
+          <span id="active-filter-badge" class="badge badge-info" style="display:none;"></span>
+        </div>
+        <div class="meta-right">
+          <label for="sort-select">Sıralama:</label>
+          <select id="sort-select" class="form-control form-control-sm">
+            <option value="score_desc">Skora Göre (Yüksekten Düşüğe)</option>
+            <option value="score_asc">Skora Göre (Düşükten Yükseğe)</option>
+            <option value="days_asc">Sözleşme Bitişine Göre (Yakın Tarih)</option>
+            <option value="age_desc">Araç Yaşına Göre (Eskiden Yeniye)</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Opportunities Table -->
+      <div class="table-container">
+        <table class="data-table" id="opportunities-table">
+          <thead>
+            <tr>
+              <th style="width: 130px;">Müşteri ID / İsim</th>
+              <th style="width: 170px;">Mevcut Araç</th>
+              <th style="width: 90px;">Yakıt</th>
+              <th style="width: 130px;">Sözleşme Tipi</th>
+              <th style="width: 120px;">Sözleşme Bitişi</th>
+              <th style="width: 100px;">Kalan Gün</th>
+              <th style="width: 110px;">Fırsat Skoru</th>
+              <th>Öncelik Sinyalleri</th>
+              <th style="width: 100px; text-align: center;">İşlem</th>
+            </tr>
+          </thead>
+          <tbody id="opportunities-tbody">
+            <tr>
+              <td colspan="9" class="text-center py-4">Fırsat verileri yükleniyor...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Pagination Controls -->
+      <div class="pagination-bar" id="radar-pagination">
+        <button class="btn btn-sm btn-outline" id="btn-radar-prev" disabled>« Önceki Sayfa</button>
+        <span class="pagination-info" id="radar-page-info">Sayfa 1 / 1</span>
+        <button class="btn btn-sm btn-outline" id="btn-radar-next">Sonraki Sayfa »</button>
+      </div>
+
+      <!-- ========================================================================== -->
+      <!-- Secondary Panel: Fuel Type Verification Queue (102 customers) -->
+      <!-- ========================================================================== -->
+      <div class="sub-panel verification-panel">
+        <div class="sub-panel-header">
+          <div class="sub-panel-title-area">
+            <div class="sub-panel-icon">⚠️</div>
+            <div>
+              <h2 class="sub-panel-title">Doğrulama Bekleyen Müşteriler (Yakıt Tipi Bilinmeyen Araçlar)</h2>
+              <p class="sub-panel-desc">
+                Servis kayıtlarında yer alan fakat yakıt tipi <code>UNKNOWN</code> olan araçlara sahip <strong>102 müşteri</strong>. 
+                Bu araçların yakıt tipi teyit edilmeden EV fırsat havuzuna dahil edilemez. Teyit sonrası uygun olanlar radara aktarılacaktır.
+              </p>
+            </div>
+          </div>
+          <div class="sub-panel-badge">
+            <span class="badge badge-warning">102 Bekleyen Kayıt</span>
+          </div>
+        </div>
+
+        <div class="table-container" style="max-height: 320px;">
+          <table class="data-table" id="verification-table">
+            <thead>
+              <tr>
+                <th style="width: 120px;">Müşteri ID</th>
+                <th style="width: 160px;">Maskeli İsim</th>
+                <th style="width: 130px;">Maskeli Telefon</th>
+                <th style="width: 180px;">Şasi No (VIN)</th>
+                <th style="width: 140px;">Marka / Model</th>
+                <th>Kuyruk Durumu / Neden</th>
+              </tr>
+            </thead>
+            <tbody id="verification-tbody">
+              <tr>
+                <td colspan="6" class="text-center py-3">Kuyruk kayıtları yükleniyor...</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="pagination-bar" style="margin-top: 10px;">
+          <button class="btn btn-xs btn-outline" id="btn-verif-prev" disabled>« Önceki</button>
+          <span class="pagination-info" id="verif-page-info">1 - 25 / 102</span>
+          <button class="btn btn-xs btn-outline" id="btn-verif-next">Sonraki »</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================================ -->
+    <!-- TAB 2: YÖNETİM PANELİ (Management Cockpit) -->
+    <!-- ============================================================================ -->
+    <section class="tab-content" id="tab-management">
+      <div class="content-header">
+        <div>
+          <h1 class="page-title">Yönetim Paneli & Elektrifikasyon Göstergeleri</h1>
+          <p class="page-desc">Grup çapında elektrifikasyon penetrasyonu, bayi performansı ve içten yanmalı vs. elektrikli servis harcama dinamikleri.</p>
+        </div>
+      </div>
+
+      <!-- KPI Summary Cards -->
+      <div class="kpi-grid">
+        <div class="kpi-card">
+          <div class="kpi-icon-box bg-blue">🎯</div>
+          <div class="kpi-content">
+            <div class="kpi-label">EV Fırsat Havuzu</div>
+            <div class="kpi-value" id="kpi-opp-count">1.057</div>
+            <div class="kpi-trend">Dönüşüme hazır içten yanmalı müşteri</div>
+          </div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-icon-box bg-indigo">⭐</div>
+          <div class="kpi-content">
+            <div class="kpi-label">Ortalama Fırsat Skoru</div>
+            <div class="kpi-value" id="kpi-avg-score">44,8 <span class="kpi-unit">/ 100</span></div>
+            <div class="kpi-trend">7 Müşteri Tier 1 (80+ Skor)</div>
+          </div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-icon-box bg-green">⚡</div>
+          <div class="kpi-content">
+            <div class="kpi-label">Genel EV Satış Payı</div>
+            <div class="kpi-value" id="kpi-ev-share">23,4%</div>
+            <div class="kpi-trend">MINI markasında %90,1 EV payı</div>
+          </div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-icon-box bg-teal">💰</div>
+          <div class="kpi-content">
+            <div class="kpi-label">Yıllık Servis Tasarrufu</div>
+            <div class="kpi-value" id="kpi-service-diff">~4.170 TL</div>
+            <div class="kpi-trend">Elektrikli araçlarda %40,5 daha az bakım</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Synthetic Disclaimer Callout -->
+      <div class="disclaimer-callout">
+        <div class="disclaimer-icon">ℹ️</div>
+        <div class="disclaimer-text">
+          <strong>Metodolojik Uyarı:</strong> 
+          Aşağıdaki servis maliyeti karşılaştırması ve takas değer koruma grafikleri 
+          <em>sentetik veri varsayımıdır; gerçek veriyle doğrulanmamıştır</em>. 
+          Bulgular kurumsal bir maliyet tespiti olarak değil, veri boru hattı mimarisi ve analitik modelleme kabiliyeti gösterimi olarak değerlendirilmelidir.
+        </div>
+      </div>
+
+      <!-- Management Charts Grid -->
+      <div class="charts-grid">
+        <!-- Chart 1: EV Share by Dealer -->
+        <div class="chart-card">
+          <div class="chart-header">
+            <div>
+              <h3 class="chart-title">Bayi Bazında EV Satış Payı (%)</h3>
+              <p class="chart-subtitle">Yetkili satıcı noktalarına göre elektrikli araç satış penetrasyonu</p>
+            </div>
+            <span class="badge badge-outline">Borusan Oto Ağı</span>
+          </div>
+          <div class="chart-body" id="chart-dealer-ev-share">
+            <!-- Inline SVG Chart Rendered via JS -->
+            <div class="chart-loader">Grafik oluşturuluyor...</div>
+          </div>
+        </div>
+
+        <!-- Chart 2: Service Cost Comparison -->
+        <div class="chart-card">
+          <div class="chart-header">
+            <div>
+              <h3 class="chart-title">Yıllık Servis Harcaması Karşılaştırması (TL / Araç-Yıl)</h3>
+              <p class="chart-subtitle">Elektrikli vs. İçten Yanmalı / Hibrit bakım maliyeti farkı</p>
+            </div>
+            <span class="badge badge-warning">Sentetik Varsayım</span>
+          </div>
+          <div class="chart-body" id="chart-service-cost">
+            <!-- Inline SVG Chart Rendered via JS -->
+            <div class="chart-loader">Grafik oluşturuluyor...</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Additional Management Table: Trade-In Residual Value -->
+      <div class="sub-panel" style="margin-top: 24px;">
+        <div class="sub-panel-header">
+          <div>
+            <h3 class="sub-panel-title">Borusan Next Takas Değer Koruma Oranları (Residual Value Retention)</h3>
+            <p class="sub-panel-desc">Marka ve motor tipine göre takas teklifinin orijinal satış fiyatına oranı. <em>(Sentetik veri varsayımı)</em></p>
+          </div>
+          <span class="badge badge-warning">Sentetik Veri Varsayımı</span>
+        </div>
+        <div class="table-container">
+          <table class="data-table" id="trade-in-table">
+            <thead>
+              <tr>
+                <th>Marka</th>
+                <th>Motor Tipi</th>
+                <th>Takas İşlem Sayısı</th>
+                <th>Ort. Orijinal Satış Fiyatı (TL)</th>
+                <th>Ort. Takas Teklifi (TL)</th>
+                <th>Değer Koruma Oranı (%)</th>
+              </tr>
+            </thead>
+            <tbody id="trade-in-tbody">
+              <tr><td colspan="6" class="text-center py-3">Veriler yükleniyor...</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================================ -->
+    <!-- TAB 3: VERİ SAĞLIĞI & YÖNETİŞİM (Data Health) -->
+    <!-- ============================================================================ -->
+    <section class="tab-content" id="tab-data-health">
+      <div class="content-header">
+        <div>
+          <h1 class="page-title">Veri Sağlığı & Yönetişim Kokpiti</h1>
+          <p class="page-desc">Lakehouse katmanları kalite puanları, karantina retleri analizi, referans bütünlüğü denetimleri ve müşteri eşleme başarısı.</p>
+        </div>
+        <div class="run-status-pill">
+          <span class="status-indicator status-success"></span>
+          <span>Boru Hattı Durumu: <strong>BAŞARILI (SUCCESS)</strong></span>
+        </div>
+      </div>
+
+      <!-- Headline Data Health KPIs (No Silver 100% headline as requested!) -->
+      <div class="kpi-grid">
+        <div class="kpi-card">
+          <div class="kpi-icon-box bg-purple">📋</div>
+          <div class="kpi-content">
+            <div class="kpi-label">Bronze Veri Geçerliliği</div>
+            <div class="kpi-value" id="kpi-bronze-validity">93,8%</div>
+            <div class="kpi-trend">Ham veride kural doğrulama oranı</div>
+          </div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-icon-box bg-red">🚫</div>
+          <div class="kpi-content">
+            <div class="kpi-label">Karantina Ret Oranı</div>
+            <div class="kpi-value" id="kpi-rejection-rate">5,57%</div>
+            <div class="kpi-trend">738 tekil satır / 741 kural ihlali</div>
+          </div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-icon-box bg-amber">🔗</div>
+          <div class="kpi-content">
+            <div class="kpi-label">Referans Bütünlüğü Yetim Oranı</div>
+            <div class="kpi-value" id="kpi-orphan-rate">5,40%</div>
+            <div class="kpi-trend">Satışı karantinada olan servis/sözleşme olguları</div>
+          </div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-icon-box bg-green">👥</div>
+          <div class="kpi-content">
+            <div class="kpi-label">Müşteri Eşleme F1-Skoru</div>
+            <div class="kpi-value" id="kpi-er-f1">90,52%</div>
+            <div class="kpi-trend">Precision %100 | Recall %82,68</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Rejection Audit: Events vs Distinct Rows -->
+      <div class="health-section-grid">
+        <div class="health-card">
+          <div class="card-title-bar">
+            <h3 class="card-title">Karantina Analizi: İhlal Olayları vs. Tekil Ret Satırları</h3>
+            <span class="badge badge-danger">Silver Karantina Masası</span>
+          </div>
+          <p class="card-subtitle">
+            Bir satır birden fazla kuralı ihlal edebilir (ör. hem eksik şasi hem geçersiz sözleşme tarihi). 
+            Bu sebeple toplam olay sayısı tekil satır sayısından fazladır.
+          </p>
+          <div class="rejection-comparison-box">
+            <div class="comp-item">
+              <div class="comp-num" id="comp-total-events">741</div>
+              <div class="comp-desc">Toplam Kural İhlal Olayı</div>
+            </div>
+            <div class="comp-divider">vs</div>
+            <div class="comp-item">
+              <div class="comp-num" id="comp-distinct-rows">738</div>
+              <div class="comp-desc">Karantinaya Alınan Tekil Satır</div>
+            </div>
+            <div class="comp-divider">→</div>
+            <div class="comp-item">
+              <div class="comp-num text-danger">5,57%</div>
+              <div class="comp-desc">Toplam Bronze Ret Oranı</div>
+            </div>
+          </div>
+
+          <div class="rules-distribution-list" id="rules-distribution-list">
+            <!-- Rendered by JS -->
+            <div class="rule-bar-row">
+              <div class="rule-name"><code>MISSING_VIN</code> (Eksik / Boş Şasi No)</div>
+              <div class="rule-count">401 olay (%54,1)</div>
+            </div>
+            <div class="rule-bar-row">
+              <div class="rule-name"><code>INVALID_VIN</code> (Geçersiz Karakter / Hatalı Uzunluk)</div>
+              <div class="rule-count">276 olay (%37,2)</div>
+            </div>
+            <div class="rule-bar-row">
+              <div class="rule-name"><code>DUPLICATE_KEY</code> (Mükerrer İşlem / Satış Anahtarı)</div>
+              <div class="rule-count">40 olay (%5,4)</div>
+            </div>
+            <div class="rule-bar-row">
+              <div class="rule-name"><code>CONTRACT_END_BEFORE_START</code> (Bitiş Tarihi Başlangıçtan Önce)</div>
+              <div class="rule-count">24 olay (%3,2)</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Entity Resolution Quality Card -->
+        <div class="health-card">
+          <div class="card-title-bar">
+            <h3 class="card-title">Müşteri Varlık Çözümleme (Entity Resolution) Kalitesi</h3>
+            <span class="badge badge-success">Kural Tabanlı Eşleme</span>
+          </div>
+          <p class="card-subtitle">
+            Dört farklı kaynaktan gelen müşteri kayıtlarının kesin kurallarla (VIN, telefon + fonetik isim) tekil müşteri kimliğine bağlanması performansı.
+          </p>
+
+          <div class="er-metrics-grid">
+            <div class="er-box">
+              <div class="er-num text-success">100,0%</div>
+              <div class="er-label">Eşleme Hassasiyeti (Precision)</div>
+              <div class="er-sub">0 Yanlış Birleştirme (Zero False Positive)</div>
+            </div>
+            <div class="er-box">
+              <div class="er-num text-primary">82,68%</div>
+              <div class="er-label">Kapsama Oranı (Recall)</div>
+              <div class="er-sub">136 Eksik Eşleme (Kayıt Bölünmesi)</div>
+            </div>
+            <div class="er-box">
+              <div class="er-num text-info">90,52%</div>
+              <div class="er-label">Harmonik Ortalama (F1-Skoru)</div>
+              <div class="er-sub">Dengeli Doğruluk Skoru</div>
+            </div>
+            <div class="er-box">
+              <div class="er-num text-success">100,0%</div>
+              <div class="er-label">Küme Saflığı (Cluster Purity)</div>
+              <div class="er-sub">Yabancı Kayıt Karışımı Yok</div>
+            </div>
+          </div>
+
+          <!-- Mandatory Matching Disclaimer Note -->
+          <div class="disclaimer-callout alert-callout" style="margin-top: 14px;">
+            <div class="disclaimer-icon">⚠️</div>
+            <div class="disclaimer-text">
+              <strong>Önemli Metodolojik Not:</strong> 
+              Karantinadaki kayıtlar değerlendirmeye dahil değildir; 
+              recall %82,68, yani bazı müşteriler birden fazla kayda bölünmüş olabilir.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Referential Integrity Checks Table -->
+      <div class="sub-panel" style="margin-top: 24px;">
+        <div class="sub-panel-header">
+          <div>
+            <h3 class="sub-panel-title">Referans Bütünlüğü Denetimleri (Referential Integrity Audits)</h3>
+            <p class="sub-panel-desc">
+              Silver olgu tabloları ile Araç Boyutu (dim_vehicles) arasındaki yabancı anahtar (FK) bütünlüğü denetim sonuçları.
+            </p>
+          </div>
+          <span class="badge badge-info">/gold/referential-integrity</span>
+        </div>
+        <div class="table-container">
+          <table class="data-table" id="ref-integrity-table">
+            <thead>
+              <tr>
+                <th>Olgu Tablosu (Fact)</th>
+                <th>Yabancı Anahtar</th>
+                <th>Hedef Boyut</th>
+                <th>Toplam Satır</th>
+                <th>Yetim Satır (Orphan)</th>
+                <th>Yetim Oranı (%)</th>
+                <th>Tekil Yetim VIN</th>
+                <th>Kök Neden Açıklaması</th>
+              </tr>
+            </thead>
+            <tbody id="ref-integrity-tbody">
+              <tr><td colspan="8" class="text-center py-3">Referans bütünlüğü verileri yükleniyor...</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Lakehouse Layer Quality Scores Table -->
+      <div class="sub-panel" style="margin-top: 24px;">
+        <div class="sub-panel-header">
+          <div>
+            <h3 class="sub-panel-title">Lakehouse Tablo Kalite Skorları (Data Quality Scorecards)</h3>
+            <p class="sub-panel-desc">Tüm katmanlardaki tabloların eksiksizlik, kural geçerliliği ve tekillik oranları.</p>
+          </div>
+          <span class="badge badge-outline">20 Tablo Denetimi</span>
+        </div>
+        <div class="table-container">
+          <table class="data-table" id="table-dq-scores-table">
+            <thead>
+              <tr>
+                <th>Tablo Adı</th>
+                <th>Katman</th>
+                <th>Satır Sayısı</th>
+                <th>Eksiksizlik (Completeness)</th>
+                <th>Geçerlilik (Validity)</th>
+                <th>Tekillik (Uniqueness)</th>
+                <th>Genel Kalite Skoru</th>
+                <th>Durum</th>
+              </tr>
+            </thead>
+            <tbody id="table-dq-scores-tbody">
+              <tr><td colspan="8" class="text-center py-3">Kalite puanları yükleniyor...</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================================ -->
+    <!-- TAB 4: VERİ KATALOĞU & METRİKLER (Catalog & Glossary) -->
+    <!-- ============================================================================ -->
+    <section class="tab-content" id="tab-catalog">
+      <div class="content-header">
+        <div>
+          <h1 class="page-title">Veri Kataloğu & Metrik Kılavuzu</h1>
+          <p class="page-desc">Medallion Lakehouse katmanlarındaki tüm tablolar, kolon şemaları, veri soybağı (lineage) ve işletme metrik formülleri.</p>
+        </div>
+      </div>
+
+      <!-- Catalog Search & Filter Controls -->
+      <div class="filter-card">
+        <div class="catalog-search-bar">
+          <input type="text" id="catalog-search-input" class="form-control" placeholder="Tablo adı, kolon, açıklama veya metrik ara (örn: opportunity, vin, satis)...">
+          <button class="btn btn-primary" id="btn-catalog-search">Ara</button>
+        </div>
+        <div class="catalog-layer-pills" id="catalog-layer-pills">
+          <button class="pill-btn active" data-layer="all">Tümü (20 Tablo)</button>
+          <button class="pill-btn" data-layer="bronze">Bronze (5)</button>
+          <button class="pill-btn" data-layer="silver">Silver (8)</button>
+          <button class="pill-btn" data-layer="gold">Gold (7)</button>
+          <button class="pill-btn" data-layer="metrics">Metrikler (13)</button>
+        </div>
+      </div>
+
+      <!-- Section: Metrics Glossary -->
+      <div class="catalog-section" id="metrics-glossary-section">
+        <div class="section-title-bar">
+          <h2 class="section-heading">İşletme Metrikleri Sözlüğü (Metric Glossary)</h2>
+          <span class="badge badge-info">13 Metrik</span>
+        </div>
+        <div class="metrics-grid" id="metrics-cards-container">
+          <!-- Rendered by JS -->
+          <div class="text-center py-4">Metrikler yükleniyor...</div>
+        </div>
+      </div>
+
+      <!-- Section: Tables Catalog -->
+      <div class="catalog-section" id="tables-catalog-section" style="margin-top: 32px;">
+        <div class="section-title-bar">
+          <h2 class="section-heading">Lakehouse Tablo Şemaları & Veri Soybağı (Lineage)</h2>
+          <span class="badge badge-outline" id="catalog-table-counter">20 Tablo</span>
+        </div>
+        <div class="tables-accordion" id="tables-accordion-container">
+          <!-- Rendered by JS -->
+          <div class="text-center py-4">Tablo kataloğu yükleniyor...</div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================================== -->
+  <!-- SIDE DRAWER: "Bu Müşteriyle Neden İletişime Geçilmeli?" -->
+  <!-- ============================================================================== -->
+  <div class="drawer-backdrop" id="drawer-backdrop"></div>
+  <aside class="side-drawer" id="side-drawer">
+    <div class="drawer-header">
+      <div>
+        <div class="drawer-tag">MÜŞTERİ 360 & SATIŞ DANIŞMANI REHBERİ</div>
+        <h2 class="drawer-title" id="drawer-title">Bu Müşteriyle Neden İletişime Geçilmeli?</h2>
+      </div>
+      <button class="drawer-close-btn" id="btn-close-drawer" title="Kapat">✕</button>
+    </div>
+
+    <div class="drawer-body" id="drawer-body">
+      <!-- Top Customer Card -->
+      <div class="drawer-customer-card">
+        <div class="cust-info">
+          <div class="cust-name" id="drawer-cust-name">O*** Ş****</div>
+          <div class="cust-sub">
+            <span id="drawer-cust-id">C000123</span> · 
+            <span id="drawer-cust-phone">530***4226</span>
+          </div>
+          <div class="cust-vehicle" id="drawer-cust-vehicle">BMW 5 Serisi (Dizel)</div>
+        </div>
+        <div class="cust-score-badge">
+          <div class="score-circle" id="drawer-score-circle">80</div>
+          <div class="score-label">Fırsat Skoru</div>
+        </div>
+      </div>
+
+      <!-- Sales Pitch & Recommended Action (Deterministic Rule-Based) -->
+      <div class="drawer-section">
+        <h3 class="drawer-section-title">
+          <span class="section-icon">💡</span> 
+          Satış Danışmanı Aksiyon Özeti
+        </h3>
+        <div class="action-pitch-box" id="drawer-pitch-content">
+          <!-- Deterministic text injected by JS -->
+        </div>
+      </div>
+
+      <!-- Score Reasons / Points Awarded -->
+      <div class="drawer-section">
+        <h3 class="drawer-section-title">
+          <span class="section-icon">🎯</span> 
+          Skor Sinyalleri & Gerekçeleri
+        </h3>
+        <ul class="score-reasons-list" id="drawer-reasons-list">
+          <!-- Injected by JS -->
+        </ul>
+      </div>
+
+      <!-- Technical & Contract Details Grid -->
+      <div class="drawer-section">
+        <h3 class="drawer-section-title">
+          <span class="section-icon">📋</span> 
+          Araç ve Sözleşme Bilgileri
+        </h3>
+        <div class="drawer-details-grid" id="drawer-details-grid">
+          <!-- Injected by JS -->
+        </div>
+      </div>
+
+      <!-- Action Button -->
+      <div class="drawer-footer-actions">
+        <button class="btn btn-primary btn-block" onclick="alert('Sentetik ortam: Arama kaydı ve test sürüşü talebi simüle edildi.')">
+          📞 Müşteri İletişim Notu Oluştur
+        </button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- External Script -->
+  <script src="/app/app.js"></script>
+</body>
+</html>

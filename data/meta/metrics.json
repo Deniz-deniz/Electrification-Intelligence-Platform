@@ -1,0 +1,330 @@
+{
+  "glossary_version": "1.0",
+  "generated_at": "2026-10-11T22:06:51.524111+00:00",
+  "run_id": "test-catalog-run-001",
+  "total_metrics": 13,
+  "metrics": [
+    {
+      "name": "opportunity_score",
+      "business_definition": "Propensity score (0 to 100) indicating an existing ICE vehicle owner's likelihood and urgency to transition to an electric vehicle (EV).",
+      "formula": "Additive formula capped between 0 and 100: (1) Contract Expiry: Kiralama/Finans ending within 90 days = +30 pts; ending within 91-180 days = +20 pts; expired within past 180 days = +10 pts; expired > 180 days = 0 pts. (2) Kasko Renewal: Kasko ending within 60 days = +5 pts. (3) Vehicle Age: > 4.0 years = +25 pts; 3.0-4.0 years = +15 pts. (4) Maintenance Spend: Historical spend > 30,000 TL = +20 pts; 15,000-30,000 TL = +10 pts. (5) Service Recency: No workshop visit in > 365 days = +15 pts. (6) Brand EV Availability: BMW, MINI, or Jaguar in portfolio = +10 pts. (7) Unknown Fuel Vehicle Flag: has_unknown_vehicle adds 0 pts (flag only). Final score = min(100, max(0, sum(points))).",
+      "source_tables": [
+        "contracts",
+        "customers",
+        "sales",
+        "service_records",
+        "vehicles"
+      ],
+      "owner": "Sales Data Team",
+      "refresh_frequency": "Daily (On Pipeline Run)"
+    },
+    {
+      "name": "overall_dq_score",
+      "business_definition": "Composite data quality and governance index measuring dataset trustworthiness and readiness across Bronze and Silver layers.",
+      "formula": "overall_dq_score = 0.40 * validity_pct + 0.35 * completeness_pct + 0.25 * uniqueness_pct, where validity_pct is the compliance rate across non-null business domain validation rules (17-char VIN, valid dates 2015..2026-10-09, 10-digit 5xx phone, contract end >= start), completeness_pct measures non-missing attributes (excluding derived masked columns), and uniqueness_pct measures primary/business key distinctness.",
+      "source_tables": [
+        "bayi_servis_noktalari",
+        "contracts",
+        "customers",
+        "dealers",
+        "dms_satis",
+        "next_islem",
+        "premium_sozlesme",
+        "sales",
+        "service_records",
+        "servis_kayit",
+        "trade_ins",
+        "vehicles"
+      ],
+      "owner": "Data Governance",
+      "refresh_frequency": "Daily (On Pipeline Run)"
+    },
+    {
+      "name": "ev_share_pct",
+      "business_definition": "Electrification adoption rate representing the share of 100% battery-electric vehicle sales within total vehicle sales by dealership, brand, and calendar year.",
+      "formula": "(ev_sales / total_sales) * 100. Computed at the dealer, brand, and calendar year level.",
+      "source_tables": [
+        "dealers",
+        "sales"
+      ],
+      "owner": "Sales Data Team",
+      "refresh_frequency": "Daily (On Pipeline Run)"
+    },
+    {
+      "name": "avg_annual_cost_per_vehicle_tl",
+      "business_definition": "Normalized annual maintenance and repair cost per vehicle-year, allowing direct lifecycle cost comparison between electric and internal combustion vehicles.",
+      "formula": "total_service_spend_tl / total_vehicle_years, where vehicle_years = (REFERENCE_DATE - sale_date) / 365.25. Excludes orphan vehicles lacking original sales date.",
+      "source_tables": [
+        "sales",
+        "service_records",
+        "vehicles"
+      ],
+      "owner": "Aftersales Data Team",
+      "refresh_frequency": "Daily (On Pipeline Run)"
+    },
+    {
+      "name": "avg_cost_per_visit_tl",
+      "business_definition": "Average invoice ticket value per workshop visit, segmented by brand and powertrain type.",
+      "formula": "total_service_spend_tl / total_service_visits.",
+      "source_tables": [
+        "sales",
+        "service_records"
+      ],
+      "owner": "Aftersales Data Team",
+      "refresh_frequency": "Daily (On Pipeline Run)"
+    },
+    {
+      "name": "retention_pct",
+      "business_definition": "Secondary market residual value retention percentage comparing Borusan Next trade-in appraisal offers against original vehicle purchase prices across powertrains and brands.",
+      "formula": "(avg_offer_tl / avg_sale_price_tl) * 100 for trade-in vehicles matched to original sales records by VIN.",
+      "source_tables": [
+        "sales",
+        "trade_ins"
+      ],
+      "owner": "Remarketing & Trade-In Team",
+      "refresh_frequency": "Daily (On Pipeline Run)"
+    },
+    {
+      "name": "unmatched_dim_vehicles_pct",
+      "business_definition": "Referential integrity failure rate representing the percentage of silver fact table records whose VIN cannot be matched to dim_vehicles.",
+      "formula": "(unmatched_dim_vehicles_rows / total_fact_rows) * 100.",
+      "source_tables": [
+        "contracts",
+        "service_records",
+        "trade_ins",
+        "vehicles"
+      ],
+      "owner": "Data Governance",
+      "refresh_frequency": "Daily (On Pipeline Run)"
+    },
+    {
+      "name": "orphan_unmatched_sales_pct",
+      "business_definition": "Percentage of fact table records with valid VINs whose sales transaction was quarantined, resulting in lack of sales lineage.",
+      "formula": "(orphan_unmatched_sales_rows / total_fact_rows) * 100.",
+      "source_tables": [
+        "contracts",
+        "sales",
+        "service_records",
+        "trade_ins"
+      ],
+      "owner": "Data Governance",
+      "refresh_frequency": "Daily (On Pipeline Run)"
+    },
+    {
+      "name": "customer_match_precision",
+      "business_definition": "Pairwise precision of rule-based customer entity resolution linking vehicle ownership records to golden customer clusters. Measured against SYNTHETIC ground truth (vin_to_customer.csv); quarantined records are not evaluated.",
+      "formula": "true_positives / (true_positives + false_positives), evaluating pairwise vehicle-customer links against synthetic ground truth (quarantined records excluded).",
+      "source_tables": [
+        "data/meta/matching_quality.json"
+      ],
+      "owner": "Data Governance",
+      "refresh_frequency": "Daily (On Pipeline Run)"
+    },
+    {
+      "name": "customer_match_recall",
+      "business_definition": "Pairwise recall of rule-based customer entity resolution measuring the proportion of true multi-vehicle customer ownership pairs successfully linked. Measured against SYNTHETIC ground truth (vin_to_customer.csv); quarantined records are not evaluated.",
+      "formula": "true_positives / (true_positives + false_negatives), evaluating pairwise vehicle-customer links against synthetic ground truth (quarantined records excluded).",
+      "source_tables": [
+        "data/meta/matching_quality.json"
+      ],
+      "owner": "Data Governance",
+      "refresh_frequency": "Daily (On Pipeline Run)"
+    },
+    {
+      "name": "customer_match_f1",
+      "business_definition": "Harmonic mean of pairwise precision and recall for customer entity resolution. Measured against SYNTHETIC ground truth (vin_to_customer.csv); quarantined records are not evaluated.",
+      "formula": "2 * (precision * recall) / (precision + recall), evaluating pairwise vehicle-customer links against synthetic ground truth (quarantined records excluded).",
+      "source_tables": [
+        "data/meta/matching_quality.json"
+      ],
+      "owner": "Data Governance",
+      "refresh_frequency": "Daily (On Pipeline Run)"
+    },
+    {
+      "name": "rejection_rate",
+      "business_definition": "Data quarantine rate measuring the percentage of distinct incoming Bronze records removed from clean Silver processing due to domain validation or referential integrity failures.",
+      "formula": "(distinct rejected bronze rows / bronze rows) * 100 per table. Evaluated distinct bronze rows quarantined with one or more rule failure events.",
+      "source_tables": [
+        "dms_satis",
+        "next_islem",
+        "premium_sozlesme",
+        "rejected_records",
+        "servis_kayit"
+      ],
+      "owner": "Data Governance",
+      "refresh_frequency": "Daily (On Pipeline Run)"
+    },
+    {
+      "name": "fuel_type_unknown_customers",
+      "business_definition": "Count of customers in the operational fuel type verification queue who own exclusively vehicles with unknown powertrain type, queued for workshop data verification before EV qualification.",
+      "formula": "Count of distinct customer records present in fuel_type_verification_queue (customers where all owned vehicles have fuel_type == 'UNKNOWN').",
+      "source_tables": [
+        "fuel_type_verification_queue"
+      ],
+      "owner": "Data Governance",
+      "refresh_frequency": "Daily (On Pipeline Run)"
+    }
+  ],
+  "metrics_by_name": {
+    "opportunity_score": {
+      "name": "opportunity_score",
+      "business_definition": "Propensity score (0 to 100) indicating an existing ICE vehicle owner's likelihood and urgency to transition to an electric vehicle (EV).",
+      "formula": "Additive formula capped between 0 and 100: (1) Contract Expiry: Kiralama/Finans ending within 90 days = +30 pts; ending within 91-180 days = +20 pts; expired within past 180 days = +10 pts; expired > 180 days = 0 pts. (2) Kasko Renewal: Kasko ending within 60 days = +5 pts. (3) Vehicle Age: > 4.0 years = +25 pts; 3.0-4.0 years = +15 pts. (4) Maintenance Spend: Historical spend > 30,000 TL = +20 pts; 15,000-30,000 TL = +10 pts. (5) Service Recency: No workshop visit in > 365 days = +15 pts. (6) Brand EV Availability: BMW, MINI, or Jaguar in portfolio = +10 pts. (7) Unknown Fuel Vehicle Flag: has_unknown_vehicle adds 0 pts (flag only). Final score = min(100, max(0, sum(points))).",
+      "source_tables": [
+        "contracts",
+        "customers",
+        "sales",
+        "service_records",
+        "vehicles"
+      ],
+      "owner": "Sales Data Team",
+      "refresh_frequency": "Daily (On Pipeline Run)"
+    },
+    "overall_dq_score": {
+      "name": "overall_dq_score",
+      "business_definition": "Composite data quality and governance index measuring dataset trustworthiness and readiness across Bronze and Silver layers.",
+      "formula": "overall_dq_score = 0.40 * validity_pct + 0.35 * completeness_pct + 0.25 * uniqueness_pct, where validity_pct is the compliance rate across non-null business domain validation rules (17-char VIN, valid dates 2015..2026-10-09, 10-digit 5xx phone, contract end >= start), completeness_pct measures non-missing attributes (excluding derived masked columns), and uniqueness_pct measures primary/business key distinctness.",
+      "source_tables": [
+        "bayi_servis_noktalari",
+        "contracts",
+        "customers",
+        "dealers",
+        "dms_satis",
+        "next_islem",
+        "premium_sozlesme",
+        "sales",
+        "service_records",
+        "servis_kayit",
+        "trade_ins",
+        "vehicles"
+      ],
+      "owner": "Data Governance",
+      "refresh_frequency": "Daily (On Pipeline Run)"
+    },
+    "ev_share_pct": {
+      "name": "ev_share_pct",
+      "business_definition": "Electrification adoption rate representing the share of 100% battery-electric vehicle sales within total vehicle sales by dealership, brand, and calendar year.",
+      "formula": "(ev_sales / total_sales) * 100. Computed at the dealer, brand, and calendar year level.",
+      "source_tables": [
+        "dealers",
+        "sales"
+      ],
+      "owner": "Sales Data Team",
+      "refresh_frequency": "Daily (On Pipeline Run)"
+    },
+    "avg_annual_cost_per_vehicle_tl": {
+      "name": "avg_annual_cost_per_vehicle_tl",
+      "business_definition": "Normalized annual maintenance and repair cost per vehicle-year, allowing direct lifecycle cost comparison between electric and internal combustion vehicles.",
+      "formula": "total_service_spend_tl / total_vehicle_years, where vehicle_years = (REFERENCE_DATE - sale_date) / 365.25. Excludes orphan vehicles lacking original sales date.",
+      "source_tables": [
+        "sales",
+        "service_records",
+        "vehicles"
+      ],
+      "owner": "Aftersales Data Team",
+      "refresh_frequency": "Daily (On Pipeline Run)"
+    },
+    "avg_cost_per_visit_tl": {
+      "name": "avg_cost_per_visit_tl",
+      "business_definition": "Average invoice ticket value per workshop visit, segmented by brand and powertrain type.",
+      "formula": "total_service_spend_tl / total_service_visits.",
+      "source_tables": [
+        "sales",
+        "service_records"
+      ],
+      "owner": "Aftersales Data Team",
+      "refresh_frequency": "Daily (On Pipeline Run)"
+    },
+    "retention_pct": {
+      "name": "retention_pct",
+      "business_definition": "Secondary market residual value retention percentage comparing Borusan Next trade-in appraisal offers against original vehicle purchase prices across powertrains and brands.",
+      "formula": "(avg_offer_tl / avg_sale_price_tl) * 100 for trade-in vehicles matched to original sales records by VIN.",
+      "source_tables": [
+        "sales",
+        "trade_ins"
+      ],
+      "owner": "Remarketing & Trade-In Team",
+      "refresh_frequency": "Daily (On Pipeline Run)"
+    },
+    "unmatched_dim_vehicles_pct": {
+      "name": "unmatched_dim_vehicles_pct",
+      "business_definition": "Referential integrity failure rate representing the percentage of silver fact table records whose VIN cannot be matched to dim_vehicles.",
+      "formula": "(unmatched_dim_vehicles_rows / total_fact_rows) * 100.",
+      "source_tables": [
+        "contracts",
+        "service_records",
+        "trade_ins",
+        "vehicles"
+      ],
+      "owner": "Data Governance",
+      "refresh_frequency": "Daily (On Pipeline Run)"
+    },
+    "orphan_unmatched_sales_pct": {
+      "name": "orphan_unmatched_sales_pct",
+      "business_definition": "Percentage of fact table records with valid VINs whose sales transaction was quarantined, resulting in lack of sales lineage.",
+      "formula": "(orphan_unmatched_sales_rows / total_fact_rows) * 100.",
+      "source_tables": [
+        "contracts",
+        "sales",
+        "service_records",
+        "trade_ins"
+      ],
+      "owner": "Data Governance",
+      "refresh_frequency": "Daily (On Pipeline Run)"
+    },
+    "customer_match_precision": {
+      "name": "customer_match_precision",
+      "business_definition": "Pairwise precision of rule-based customer entity resolution linking vehicle ownership records to golden customer clusters. Measured against SYNTHETIC ground truth (vin_to_customer.csv); quarantined records are not evaluated.",
+      "formula": "true_positives / (true_positives + false_positives), evaluating pairwise vehicle-customer links against synthetic ground truth (quarantined records excluded).",
+      "source_tables": [
+        "data/meta/matching_quality.json"
+      ],
+      "owner": "Data Governance",
+      "refresh_frequency": "Daily (On Pipeline Run)"
+    },
+    "customer_match_recall": {
+      "name": "customer_match_recall",
+      "business_definition": "Pairwise recall of rule-based customer entity resolution measuring the proportion of true multi-vehicle customer ownership pairs successfully linked. Measured against SYNTHETIC ground truth (vin_to_customer.csv); quarantined records are not evaluated.",
+      "formula": "true_positives / (true_positives + false_negatives), evaluating pairwise vehicle-customer links against synthetic ground truth (quarantined records excluded).",
+      "source_tables": [
+        "data/meta/matching_quality.json"
+      ],
+      "owner": "Data Governance",
+      "refresh_frequency": "Daily (On Pipeline Run)"
+    },
+    "customer_match_f1": {
+      "name": "customer_match_f1",
+      "business_definition": "Harmonic mean of pairwise precision and recall for customer entity resolution. Measured against SYNTHETIC ground truth (vin_to_customer.csv); quarantined records are not evaluated.",
+      "formula": "2 * (precision * recall) / (precision + recall), evaluating pairwise vehicle-customer links against synthetic ground truth (quarantined records excluded).",
+      "source_tables": [
+        "data/meta/matching_quality.json"
+      ],
+      "owner": "Data Governance",
+      "refresh_frequency": "Daily (On Pipeline Run)"
+    },
+    "rejection_rate": {
+      "name": "rejection_rate",
+      "business_definition": "Data quarantine rate measuring the percentage of distinct incoming Bronze records removed from clean Silver processing due to domain validation or referential integrity failures.",
+      "formula": "(distinct rejected bronze rows / bronze rows) * 100 per table. Evaluated distinct bronze rows quarantined with one or more rule failure events.",
+      "source_tables": [
+        "dms_satis",
+        "next_islem",
+        "premium_sozlesme",
+        "rejected_records",
+        "servis_kayit"
+      ],
+      "owner": "Data Governance",
+      "refresh_frequency": "Daily (On Pipeline Run)"
+    },
+    "fuel_type_unknown_customers": {
+      "name": "fuel_type_unknown_customers",
+      "business_definition": "Count of customers in the operational fuel type verification queue who own exclusively vehicles with unknown powertrain type, queued for workshop data verification before EV qualification.",
+      "formula": "Count of distinct customer records present in fuel_type_verification_queue (customers where all owned vehicles have fuel_type == 'UNKNOWN').",
+      "source_tables": [
+        "fuel_type_verification_queue"
+      ],
+      "owner": "Data Governance",
+      "refresh_frequency": "Daily (On Pipeline Run)"
+    }
+  }
+}

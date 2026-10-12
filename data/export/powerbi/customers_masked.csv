@@ -1,0 +1,2111 @@
+﻿customer_id,phone_masked,name_masked,source_systems,record_count,match_rule_summary,match_confidence
+C000001,536***8522,A**** A*****,"DMS, PREMIUM, SERVIS",17,VIN + Phone + Name Match,HIGH
+C000002,542***1390,A**** A*****,"DMS, PREMIUM, SERVIS",16,VIN + Phone + Name Match,HIGH
+C000003,555***8977,A**** A*****,"DMS, NEXT, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000004,536***3377,A**** A*****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000005,,A**** A*****,"DMS, SERVIS",8,VIN Match,HIGH
+C000006,539***2890,A**** A****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000007,539***4309,A**** A****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000008,542***1751,A**** C****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000009,552***7737,A**** D****,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C000010,,A**** D****,"DMS, SERVIS",7,VIN Match,HIGH
+C000011,536***9543,A**** D****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000012,559***2723,A**** D****,"DMS, NEXT, PREMIUM, SERVIS",21,VIN + Phone + Name Match,HIGH
+C000013,550***3533,A**** D****,"DMS, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C000014,547***3546,A**** D****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000015,541***3611,A**** D****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000016,,A**** D****,"DMS, SERVIS",6,VIN Match,HIGH
+C000017,543***6196,A**** D****,"PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000018,559***8700,A**** D****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000019,559***9960,A**** D****,"DMS, PREMIUM, SERVIS",12,VIN + Phone + Name Match,HIGH
+C000020,558***0554,A**** G****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000021,548***7135,A**** G****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000022,549***7211,A**** G****,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000023,554***6497,A**** G****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000024,547***4506,A**** G****,"DMS, NEXT, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000025,554***1317,A**** G****,"DMS, NEXT, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000026,537***1465,A**** K***,"DMS, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C000027,540***1524,A**** K***,"DMS, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000028,551***6802,A**** K***,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000029,548***3718,A**** K***,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000030,539***2102,A**** K***,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000031,556***4219,A**** K**,"DMS, NEXT, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000032,530***9053,A**** K**,"DMS, NEXT, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000033,533***0320,A**** K**,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000034,555***4425,A**** K**,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000035,553***8170,A**** K**,"DMS, NEXT, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000036,550***5697,A**** K**,"DMS, NEXT, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000037,,A**** K**,"NEXT, SERVIS",8,VIN Match,HIGH
+C000038,,A**** K**,SERVIS,5,VIN Match,HIGH
+C000039,540***5967,A**** K***,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000040,534***6911,A**** K***,DMS,1,VIN + Phone + Name Match,HIGH
+C000041,,A**** K****,"DMS, SERVIS",3,VIN Match,HIGH
+C000042,535***9145,A**** K****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000043,550***4801,A**** K****,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C000044,556***3227,A**** K****,"DMS, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C000045,555***2871,A**** K****,"DMS, NEXT, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000046,559***0011,A**** K****,"DMS, NEXT, PREMIUM, SERVIS",15,VIN + Phone + Name Match,HIGH
+C000047,538***6994,A**** K****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000048,556***4418,A**** K****,"DMS, NEXT, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000049,541***8671,A**** K****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000050,552***6934,A**** K****,"DMS, NEXT, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000051,531***1360,A**** P****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000052,541***3696,A**** P****,DMS,1,VIN + Phone + Name Match,HIGH
+C000053,556***7124,A**** P****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000054,,A**** P****,"DMS, SERVIS",2,VIN Match,HIGH
+C000055,556***3819,A**** Ş*****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000056,547***1115,A**** Y*****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000057,553***3147,A**** Y*****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000058,557***3361,A**** Y*****,"DMS, NEXT, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000059,543***1860,A**** Y*****,"DMS, NEXT, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000060,550***4743,A**** Y*****,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C000061,556***2083,A**** Y*****,DMS,1,VIN + Phone + Name Match,HIGH
+C000062,536***5866,A**** Y*****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000063,548***6537,A**** Ç****,"DMS, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000064,531***5319,A**** Ç****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000065,,A**** Ç****,"DMS, SERVIS",3,VIN Match,HIGH
+C000066,538***5861,A**** Ç****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000067,552***7731,A**** Ç****,"DMS, NEXT, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000068,549***7107,A**** Ç****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000069,550***5630,A**** Ç****,DMS,2,VIN + Phone + Name Match,HIGH
+C000070,531***3132,A**** Ç****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000071,557***2832,A**** Ö****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000072,534***4556,A**** Ö****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000073,546***7249,A**** Ö****,"DMS, NEXT, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C000074,548***3065,A**** Ö****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000075,,A**** Ö****,SERVIS,7,VIN Match,HIGH
+C000076,545***7594,A**** Ö*****,"DMS, PREMIUM, SERVIS",14,VIN + Phone + Name Match,HIGH
+C000077,535***5783,A**** Ö*****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000078,546***1748,A**** Ö*****,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000079,,A**** Ö*****,SERVIS,2,VIN Match,HIGH
+C000080,559***0523,A**** Ş****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000081,551***1559,A**** Ş****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000082,558***2463,A**** Ş****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000083,553***9384,A**** Ş*****,"DMS, PREMIUM, SERVIS",12,VIN + Phone + Name Match,HIGH
+C000084,545***2869,F**** A*****,"DMS, NEXT, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C000085,554***3744,A***** M*****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000086,556***0339,A***** M*****,DMS,1,VIN + Phone + Name Match,HIGH
+C000087,,O*** A*****,"DMS, SERVIS",3,VIN Match,HIGH
+C000088,546***8379,A**** B****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000089,558***0671,B**** A****,"DMS, NEXT, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000090,,A**** C**,SERVIS,1,VIN Match,HIGH
+C000091,543***1986,C**** A****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000092,,E*** A****,"NEXT, SERVIS",3,VIN Match,HIGH
+C000093,551***5261,G**** A****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000094,548***8975,A**** K****,DMS,1,VIN + Phone + Name Match,HIGH
+C000095,549***3138,M**** A****,"DMS, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C000096,556***2977,A**** O***,DMS,1,VIN + Phone + Name Match,HIGH
+C000097,542***5080,A**** Z*****,DMS,1,VIN + Phone + Name Match,HIGH
+C000098,534***9727,A**** İ***,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000099,530***2438,B**** A****,"DMS, PREMIUM, SERVIS",15,VIN + Phone + Name Match,HIGH
+C000100,538***1424,C** A****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000101,,A**** D****,"DMS, SERVIS",4,VIN Match,HIGH
+C000102,545***0713,A**** E***,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000103,558***9482,A**** S****,DMS,1,VIN + Phone + Name Match,HIGH
+C000104,536***1296,A*** A****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000105,550***6896,A*** Ç****,"DMS, NEXT, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000106,552***2613,A*** D****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000107,539***0841,A*** D****,"DMS, NEXT, SERVIS",20,VIN + Phone + Name Match,HIGH
+C000108,559***3465,A*** K***,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000109,533***6325,A*** K****,"DMS, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C000110,557***6088,A*** K**,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000111,557***3827,A*** K**,"DMS, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000112,551***8771,A*** Ö****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000113,552***9654,A*** Ş****,"DMS, PREMIUM, SERVIS",17,VIN + Phone + Name Match,HIGH
+C000114,547***8726,A*** Ş*****,"DMS, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C000115,558***3202,A*** A*****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000116,554***1578,A*** A*****,"DMS, NEXT, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000117,,A*** A*****,DMS,1,VIN Match,HIGH
+C000118,536***4524,A*** A*****,"DMS, PREMIUM, SERVIS",13,VIN + Phone + Name Match,HIGH
+C000119,534***5341,A*** A*****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000120,542***2438,A*** A*****,"DMS, NEXT, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000121,541***6181,A*** A*****,"DMS, PREMIUM, SERVIS",20,VIN + Phone + Name Match,HIGH
+C000122,540***1363,A*** A*****,"DMS, SERVIS",13,VIN + Phone + Name Match,HIGH
+C000123,541***2689,A*** A*****,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000124,535***8815,A*** A****,"DMS, PREMIUM, SERVIS",15,VIN + Phone + Name Match,HIGH
+C000125,557***4522,A*** A****,"DMS, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000126,559***8490,A*** A****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000127,556***3561,A*** A****,"DMS, PREMIUM, SERVIS",14,VIN + Phone + Name Match,HIGH
+C000128,554***6912,A*** A****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000129,540***0985,A*** D****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000130,535***4453,A*** D****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000131,532***8269,A*** D****,"DMS, PREMIUM, SERVIS",19,VIN + Phone + Name Match,HIGH
+C000132,549***3095,A*** D****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000133,531***8238,A*** G****,"DMS, SERVIS",11,VIN + Phone + Name Match,HIGH
+C000134,540***7511,A*** G****,DMS,2,VIN + Phone + Name Match,HIGH
+C000135,549***7303,A*** G****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000136,557***3670,A*** K***,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000137,533***5376,A*** K***,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000138,551***2774,A*** K******,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000139,534***2862,A*** K******,"DMS, NEXT, PREMIUM, SERVIS",15,VIN + Phone + Name Match,HIGH
+C000140,530***3491,A*** K******,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000141,553***4309,A*** K******,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000142,558***0225,A*** K******,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000143,554***4414,A*** K******,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000144,555***5670,A*** K******,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000145,,A*** K******,SERVIS,12,VIN Match,HIGH
+C000146,543***1268,A*** K**,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000147,533***1976,A*** K**,"DMS, NEXT, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000148,,A*** K**,"DMS, SERVIS",4,VIN Match,HIGH
+C000149,549***7557,A*** K**,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000150,,A*** K**,SERVIS,1,VIN Match,HIGH
+C000151,555***2635,A*** K***,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000152,549***8628,A*** K****,"DMS, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000153,,A*** K****,"DMS, SERVIS",7,VIN Match,HIGH
+C000154,548***2195,A*** K****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000155,545***1503,A*** K****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000156,540***8583,A*** K****,"DMS, NEXT, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C000157,530***1486,A*** K****,"DMS, NEXT, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000158,539***7228,A*** P****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000159,536***7336,A*** P****,"DMS, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C000160,534***4610,A*** P****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000161,553***5751,A*** P****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000162,539***0069,A*** P****,"DMS, NEXT, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000163,559***4493,A*** P****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000164,547***6209,A*** P****,DMS,1,VIN + Phone + Name Match,HIGH
+C000165,554***8423,A*** P****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000166,551***5012,A*** P****,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C000167,538***8325,A*** Y*****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000168,540***8861,A*** Y*****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000169,559***9982,A*** Y*****,"DMS, NEXT, PREMIUM, SERVIS",16,VIN + Phone + Name Match,HIGH
+C000170,548***3008,A*** Y*****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000171,543***9113,A*** Y*****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000172,557***3397,A*** Y*****,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000173,551***4412,A*** Y*****,"DMS, PREMIUM, SERVIS",14,VIN + Phone + Name Match,HIGH
+C000174,554***5186,A*** Ç****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000175,553***4340,A*** Ç****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000176,530***0890,A*** Ç****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000177,538***2998,A*** Ç****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000178,549***6212,A*** Ç****,"DMS, NEXT, PREMIUM, SERVIS",12,VIN + Phone + Name Match,HIGH
+C000179,534***2799,A*** Ç****,"DMS, SERVIS",10,VIN + Phone + Name Match,HIGH
+C000180,545***2892,A*** Ç****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000181,,A*** Ç****,DMS,1,VIN Match,HIGH
+C000182,546***5608,A*** Ç****,"DMS, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000183,549***1290,A*** Ç****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000184,551***6555,A*** Ö****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000185,547***3041,A*** Ö****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000186,534***7608,A*** Ö****,"DMS, NEXT, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000187,545***8341,A*** Ö****,"DMS, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000188,550***8318,A*** Ö*****,DMS,1,VIN + Phone + Name Match,HIGH
+C000189,544***9005,A*** Ö*****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000190,543***8905,A*** Ö*****,"DMS, SERVIS",11,VIN + Phone + Name Match,HIGH
+C000191,538***9560,A*** Ş****,"DMS, SERVIS",18,VIN + Phone + Name Match,HIGH
+C000192,547***5700,A*** Ş****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000193,546***9592,A*** Ş****,"DMS, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000194,547***1546,A*** Ş*****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000195,536***8522,A*** Ş*****,"DMS, NEXT, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000196,552***3916,A*** Ş*****,"PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000197,544***8760,B**** A*****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000198,533***4868,B**** A*****,"DMS, NEXT, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000199,557***5848,B**** C****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000200,541***6005,B**** D****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000201,,B**** D****,"NEXT, SERVIS",5,VIN Match,HIGH
+C000202,542***8131,B**** D****,"DMS, NEXT, SERVIS",15,VIN + Phone + Name Match,HIGH
+C000203,554***3857,B**** Ö****,"DMS, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C000204,549***6750,B**** Ö****,"DMS, NEXT, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000205,539***1880,B**** Ö*****,"DMS, NEXT, PREMIUM, SERVIS",18,VIN + Phone + Name Match,HIGH
+C000206,549***7213,B**** S*****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000207,546***3457,B**** A*****,"DMS, NEXT, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000208,545***1572,B**** A****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000209,535***0504,B**** A****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000210,534***4487,B**** A****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000211,558***6479,B**** A****,"DMS, NEXT, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000212,544***4426,B**** A****,"PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000213,537***4734,B**** A****,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C000214,544***5870,B**** A****,"NEXT, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C000215,547***1470,B**** D****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000216,546***2559,B**** D****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000217,541***1839,B**** D****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000218,559***1311,B**** D****,DMS,1,VIN + Phone + Name Match,HIGH
+C000219,544***9382,B**** D****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000220,552***1161,B**** G****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000221,531***0561,B**** G****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000222,545***0584,B**** G****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000223,538***0622,B**** G****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000224,559***2130,B**** G****,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000225,,B**** G****,SERVIS,2,VIN Match,HIGH
+C000226,556***9646,B**** K***,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000227,537***9663,B**** K***,DMS,1,VIN + Phone + Name Match,HIGH
+C000228,535***5356,B**** K***,PREMIUM,1,VIN + Phone + Name Match,HIGH
+C000229,,B**** K***,SERVIS,4,VIN Match,HIGH
+C000230,,B**** K******,"DMS, SERVIS",3,VIN Match,HIGH
+C000231,545***5747,B**** K******,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000232,542***3292,B**** K******,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000233,535***3888,B**** K******,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000234,540***1907,B**** K**,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000235,530***2815,B**** K**,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000236,539***2288,B**** K**,"DMS, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000237,,B**** K**,DMS,1,VIN Match,HIGH
+C000238,555***4856,B**** K**,"DMS, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000239,538***1174,B**** K**,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000240,558***4358,B**** K**,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000241,530***6725,B**** K**,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C000242,532***4038,B**** K**,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000243,536***9842,B**** K**,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000244,,B**** K**,"DMS, SERVIS",3,VIN Match,HIGH
+C000245,,B**** K**,"NEXT, PREMIUM, SERVIS",3,VIN Match,HIGH
+C000246,541***1590,B**** K***,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000247,533***4721,B**** K***,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000248,553***7641,B**** K***,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000249,547***4490,B**** K***,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000250,543***6560,B**** K***,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000251,555***0300,B**** K****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000252,540***6016,B**** K****,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C000253,546***0350,B**** K****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000254,557***6330,B**** K****,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000255,543***8379,B**** P****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000256,557***6549,B**** P****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000257,539***9419,B**** Y*****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000258,530***5803,B**** Y*****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000259,,B**** Y*****,"DMS, SERVIS",6,VIN Match,HIGH
+C000260,538***2041,B**** Y*****,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000261,545***5630,B**** Y*****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000262,548***1610,B**** Y*****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000263,533***2692,B**** Y*****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000264,530***9507,B**** Ç****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000265,,B**** Ç****,"NEXT, PREMIUM, SERVIS",4,VIN Match,HIGH
+C000266,545***8301,B**** Ç****,DMS,1,VIN + Phone + Name Match,HIGH
+C000267,556***7794,B**** Ç****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000268,,B**** Ç****,"DMS, SERVIS",3,VIN Match,HIGH
+C000269,552***1643,B**** Ç****,DMS,1,VIN + Phone + Name Match,HIGH
+C000270,544***1570,B**** Ç****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000271,540***4345,B**** Ö****,DMS,1,VIN + Phone + Name Match,HIGH
+C000272,552***8901,B**** Ö****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000273,553***4796,B**** Ö****,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000274,544***8100,B**** Ö****,"PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000275,,B**** Ö*****,SERVIS,2,VIN Match,HIGH
+C000276,554***9569,B**** Ş****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000277,532***9482,B**** Ş****,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C000278,541***8757,B**** Ş****,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C000279,,B**** Ş****,DMS,1,VIN Match,HIGH
+C000280,532***7862,B**** Ş****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000281,,B**** Ş****,"DMS, SERVIS",2,VIN Match,HIGH
+C000282,557***1745,B**** Ş*****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000283,543***1954,B**** Ş*****,"DMS, PREMIUM, SERVIS",15,VIN + Phone + Name Match,HIGH
+C000284,,B**** Ş*****,DMS,1,VIN Match,HIGH
+C000285,,B**** Ş*****,SERVIS,1,VIN Match,HIGH
+C000286,557***4686,B**** A*****,"DMS, PREMIUM, SERVIS",12,VIN + Phone + Name Match,HIGH
+C000287,538***8810,B**** A*****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000288,538***3359,B**** A****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000289,558***3630,B**** A****,"DMS, SERVIS",17,VIN + Phone + Name Match,HIGH
+C000290,539***4903,B**** A****,"DMS, SERVIS",10,VIN + Phone + Name Match,HIGH
+C000291,536***4342,B**** A****,"DMS, PREMIUM, SERVIS",16,VIN + Phone + Name Match,HIGH
+C000292,558***6418,B**** A****,"DMS, NEXT, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000293,558***5520,B**** A****,"DMS, NEXT, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000294,534***2778,B**** A****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000295,541***5660,B**** A****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000296,545***4195,B**** A****,"DMS, PREMIUM, SERVIS",13,VIN + Phone + Name Match,HIGH
+C000297,553***4648,B**** Ç****,"DMS, SERVIS",11,VIN + Phone + Name Match,HIGH
+C000298,539***9657,B**** D****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000299,532***1223,B**** D****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000300,540***1542,B**** D****,"DMS, SERVIS",17,VIN + Phone + Name Match,HIGH
+C000301,530***8755,B**** D****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000302,546***1090,B**** D****,"DMS, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000303,552***7442,B**** D****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000304,538***2121,B**** D****,"DMS, NEXT, PREMIUM, SERVIS",12,VIN + Phone + Name Match,HIGH
+C000305,542***8792,B**** G****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000306,552***9728,B**** G****,"DMS, NEXT, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000307,556***6685,B**** K***,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000308,553***6485,B**** K******,"DMS, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000309,557***8087,B**** K******,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000310,553***2286,B**** K******,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000311,530***0377,B**** K******,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000312,556***3789,B**** K**,"DMS, PREMIUM, SERVIS",13,VIN + Phone + Name Match,HIGH
+C000313,,B**** K**,"DMS, SERVIS",3,VIN Match,HIGH
+C000314,548***1363,B**** K**,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000315,533***1321,B**** K**,"PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000316,552***7208,B**** K***,"DMS, NEXT, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000317,558***4096,B**** K***,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000318,558***3269,B**** K***,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000319,545***0286,B**** K***,"DMS, NEXT, PREMIUM",4,VIN + Phone + Name Match,HIGH
+C000320,553***4356,B**** K****,"DMS, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000321,547***0079,B**** K****,"DMS, PREMIUM, SERVIS",13,VIN + Phone + Name Match,HIGH
+C000322,542***2692,B**** P****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000323,543***1982,B**** P****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000324,549***3301,B**** P****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000325,554***0915,B**** P****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000326,537***5428,B**** P****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000327,540***3306,B**** Y*****,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C000328,,B**** Y*****,SERVIS,6,VIN Match,HIGH
+C000329,532***4488,B**** Y*****,"DMS, NEXT, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000330,542***4241,B**** Y*****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000331,559***8919,B**** Y*****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000332,558***9138,B**** Y*****,"DMS, SERVIS",11,VIN + Phone + Name Match,HIGH
+C000333,554***5791,B**** Y*****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000334,536***5251,B**** Y*****,"DMS, NEXT, PREMIUM, SERVIS",12,VIN + Phone + Name Match,HIGH
+C000335,550***4600,B**** Y*****,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000336,,B**** Y*****,SERVIS,7,VIN Match,HIGH
+C000337,542***4841,B**** Y*****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000338,530***5838,B**** Y*****,DMS,1,VIN + Phone + Name Match,HIGH
+C000339,539***6668,B**** Y*****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000340,533***4199,B**** Y*****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000341,554***9792,B**** Y*****,"PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000342,542***4982,B**** Y*****,"PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000343,555***7572,B**** Ç****,"DMS, NEXT, PREMIUM, SERVIS",12,VIN + Phone + Name Match,HIGH
+C000344,554***8387,B**** Ç****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000345,543***9471,B**** Ç****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000346,545***8175,B**** Ç****,DMS,1,VIN + Phone + Name Match,HIGH
+C000347,557***1550,B**** Ç****,"DMS, SERVIS",11,VIN + Phone + Name Match,HIGH
+C000348,536***0761,B**** Ö****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000349,541***7856,B**** Ö****,"DMS, PREMIUM, SERVIS",15,VIN + Phone + Name Match,HIGH
+C000350,533***6314,B**** Ö****,"DMS, PREMIUM, SERVIS",13,VIN + Phone + Name Match,HIGH
+C000351,557***8107,B**** Ö****,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000352,542***4111,B**** Ö****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000353,536***7802,B**** Ö*****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000354,,B**** Ö*****,"DMS, SERVIS",8,VIN Match,HIGH
+C000355,547***5471,B**** Ş****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000356,532***1583,B**** Ş****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000357,537***3426,B**** Ş****,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C000358,,B**** Ş****,DMS,1,VIN Match,HIGH
+C000359,544***0183,B**** Ş*****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000360,536***0582,B**** Ş*****,"DMS, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000361,543***0838,B**** D****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000362,539***2987,B**** D****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000363,,B**** D****,"DMS, SERVIS",3,VIN Match,HIGH
+C000364,548***3410,B**** D****,DMS,1,VIN + Phone + Name Match,HIGH
+C000365,541***6953,B**** G****,DMS,1,VIN + Phone + Name Match,HIGH
+C000366,557***1448,B**** K****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000367,537***0822,B**** K******,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000368,539***5319,B**** K******,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000369,530***2210,B**** A*****,DMS,1,VIN + Phone + Name Match,HIGH
+C000370,530***6879,B**** A*****,"DMS, NEXT, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000371,,B**** A****,"DMS, SERVIS",3,VIN Match,HIGH
+C000372,537***9885,B**** A****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000373,,B**** A****,"DMS, SERVIS",7,VIN Match,HIGH
+C000374,550***0605,B**** A****,"DMS, NEXT, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C000375,540***2698,B**** A****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000376,537***7625,B**** A****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000377,547***7917,B**** A****,DMS,1,VIN + Phone + Name Match,HIGH
+C000378,539***7427,B**** A****,"DMS, NEXT, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000379,548***8312,B**** D****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000380,555***4741,B**** D****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000381,544***0151,B**** D****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000382,,B**** D****,"DMS, SERVIS",9,VIN Match,HIGH
+C000383,541***4717,B**** D****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000384,550***8198,B**** D****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000385,553***1542,B**** G****,"DMS, NEXT, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000386,549***5572,B**** G****,"DMS, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000387,549***3584,B**** G****,"DMS, NEXT, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000388,558***8979,B**** G****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000389,550***0305,B**** G****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000390,546***0322,B**** G****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000391,555***9062,B**** G****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000392,530***6978,B**** G****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000393,531***5915,B**** G****,"NEXT, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000394,,B**** G****,SERVIS,1,VIN Match,HIGH
+C000395,553***8499,B**** K***,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000396,537***2169,B**** K***,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000397,533***4251,B**** K***,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000398,537***0059,B**** K***,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000399,541***7725,B**** K***,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000400,,B**** K***,SERVIS,3,VIN Match,HIGH
+C000401,550***2392,B**** K******,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000402,536***3668,B**** K******,"DMS, NEXT, SERVIS",16,VIN + Phone + Name Match,HIGH
+C000403,,B**** K******,"NEXT, SERVIS",4,VIN Match,HIGH
+C000404,533***7802,B**** K**,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000405,,B**** K**,"DMS, NEXT, SERVIS",5,VIN Match,HIGH
+C000406,550***2862,B**** K**,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000407,543***2979,B**** K***,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000408,557***4760,B**** K***,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000409,559***6084,B**** K***,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000410,545***6765,B**** K****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000411,559***6007,B**** K****,"DMS, NEXT, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000412,544***0769,B**** K****,"DMS, NEXT, SERVIS",19,VIN + Phone + Name Match,HIGH
+C000413,,B**** K****,"DMS, SERVIS",5,VIN Match,HIGH
+C000414,553***9587,B**** K****,"DMS, NEXT, PREMIUM, SERVIS",14,VIN + Phone + Name Match,HIGH
+C000415,530***3545,B**** K****,"DMS, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000416,,B**** P****,DMS,1,VIN Match,HIGH
+C000417,535***0006,B**** P****,"DMS, SERVIS",11,VIN + Phone + Name Match,HIGH
+C000418,554***1742,B**** P****,"PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000419,547***7245,B**** Y*****,"DMS, NEXT, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000420,551***5005,B**** Y*****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000421,554***9057,B**** Y*****,"DMS, PREMIUM, SERVIS",14,VIN + Phone + Name Match,HIGH
+C000422,549***5795,B**** Ç****,"DMS, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000423,546***6173,B**** Ç****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000424,556***1541,B**** Ö****,"DMS, NEXT, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000425,537***8539,B**** Ö****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000426,530***0702,B**** Ö****,"DMS, NEXT, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C000427,548***5853,B**** Ö*****,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C000428,539***6060,B**** Ö*****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000429,551***7071,B**** Ş****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000430,539***2081,B**** Ş*****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000431,,B**** Ş*****,"DMS, SERVIS",2,VIN Match,HIGH
+C000432,542***9915,B**** Ş*****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000433,530***2741,B**** Ş*****,DMS,1,VIN + Phone + Name Match,HIGH
+C000434,555***0253,B**** Ş*****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000435,534***3926,C** A*****,"DMS, NEXT, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000436,546***2928,C** A****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000437,556***8293,C** A****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000438,551***0958,C** A****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000439,536***9387,C** A****,"DMS, NEXT, SERVIS",16,VIN + Phone + Name Match,HIGH
+C000440,541***2843,C** A****,"DMS, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000441,549***3591,C** A****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000442,533***5295,C** A****,"DMS, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000443,533***9574,C** A****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000444,535***0865,C** C****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000445,537***0177,C** D****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000446,548***4683,C** D****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000447,543***9180,C** D****,DMS,1,VIN + Phone + Name Match,HIGH
+C000448,534***7152,C** D****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000449,549***3779,C** D****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000450,532***7501,C** D****,"DMS, NEXT, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000451,550***7925,C** D****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000452,553***0765,C** D****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000453,,C** D****,SERVIS,9,VIN Match,HIGH
+C000454,552***5017,C** G****,"DMS, PREMIUM, SERVIS",13,VIN + Phone + Name Match,HIGH
+C000455,557***2845,C** G****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000456,534***4508,C** G****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000457,537***9300,C** G****,DMS,1,VIN + Phone + Name Match,HIGH
+C000458,531***1239,C** K***,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000459,552***6461,C** K***,"DMS, SERVIS",11,VIN + Phone + Name Match,HIGH
+C000460,534***2546,C** K***,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000461,554***6183,C** K***,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000462,559***7353,C** K***,"DMS, NEXT, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000463,555***3550,C** K***,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000464,542***9465,C** K***,"DMS, PREMIUM, SERVIS",16,VIN + Phone + Name Match,HIGH
+C000465,532***4777,C** K***,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000466,,C** K***,"NEXT, SERVIS",4,VIN Match,HIGH
+C000467,,C** K****,SERVIS,4,VIN Match,HIGH
+C000468,537***9311,C** K******,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000469,548***7541,C** K******,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000470,533***0561,C** K******,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000471,,C** K******,"DMS, SERVIS",3,VIN Match,HIGH
+C000472,532***6398,C** K******,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000473,545***3845,C** K******,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000474,557***4620,C** K******,"DMS, NEXT, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000475,,C** K******,"DMS, NEXT, SERVIS",5,VIN Match,HIGH
+C000476,549***7984,C** K**,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000477,542***4172,C** K**,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000478,550***0868,C** K***,DMS,1,VIN + Phone + Name Match,HIGH
+C000479,551***3787,C** K***,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000480,536***1184,C** K***,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000481,558***3621,C** K***,"DMS, SERVIS",15,VIN + Phone + Name Match,HIGH
+C000482,554***2894,C** K***,"DMS, NEXT, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000483,540***1868,C** K****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000484,539***1859,C** K****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000485,557***5358,C** K****,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000486,549***2555,C** K****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000487,,C** K****,"DMS, SERVIS",3,VIN Match,HIGH
+C000488,550***3251,C** Ö****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000489,548***8393,C** Ö****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000490,533***0043,C** P****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000491,553***5083,C** P****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000492,532***9259,C** P****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000493,542***8664,C** P****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000494,534***4604,C** Ş****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000495,536***4931,C** Ş*****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000496,530***4575,C** Y*****,"DMS, NEXT, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000497,539***3716,C** Y*****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000498,531***4956,C** Y*****,"DMS, NEXT, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000499,548***1641,C** Y*****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000500,,C** Y*****,"DMS, NEXT, SERVIS",5,VIN Match,HIGH
+C000501,546***8480,C** Y*****,"DMS, NEXT, PREMIUM, SERVIS",13,VIN + Phone + Name Match,HIGH
+C000502,541***3461,C** Y*****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000503,553***1488,C** Y*****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000504,537***8072,C** Ç****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000505,532***0560,C** Ç****,"DMS, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000506,533***0369,C** Ç****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000507,,C** Ç****,DMS,1,VIN Match,HIGH
+C000508,532***8766,C** Ç****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000509,534***3115,C** Ç****,"PREMIUM, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000510,551***3497,C** Ç****,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C000511,557***7814,C** Ö****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000512,551***1130,C** Ö*****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000513,,C** Ö*****,"DMS, SERVIS",12,VIN Match,HIGH
+C000514,,C** Ö*****,"DMS, SERVIS",2,VIN Match,HIGH
+C000515,531***4499,C** Ö*****,"DMS, NEXT, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000516,544***9153,C** Ö*****,"DMS, NEXT, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000517,531***7627,C** Ö*****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000518,530***3974,C** Ö*****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000519,536***3698,C** Ş****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000520,557***9076,C** Ş*****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000521,547***4509,C** Ş*****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000522,532***9704,C** A*****,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000523,536***9499,C** A*****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000524,556***2357,C** A*****,"DMS, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C000525,,C** A*****,"DMS, NEXT, SERVIS",4,VIN Match,HIGH
+C000526,,C** A*****,"DMS, SERVIS",2,VIN Match,HIGH
+C000527,532***3417,C** A*****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000528,547***7287,C** A****,"DMS, NEXT, PREMIUM, SERVIS",15,VIN + Phone + Name Match,HIGH
+C000529,548***9417,C** A****,"DMS, NEXT, PREMIUM, SERVIS",14,VIN + Phone + Name Match,HIGH
+C000530,551***9401,C** A****,"DMS, NEXT",2,VIN + Phone + Name Match,HIGH
+C000531,530***5640,C** A****,"DMS, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C000532,534***9962,C** A****,"DMS, PREMIUM, SERVIS",13,VIN + Phone + Name Match,HIGH
+C000533,532***1905,C** A****,"DMS, PREMIUM, SERVIS",17,VIN + Phone + Name Match,HIGH
+C000534,546***8902,C** A****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000535,554***1610,C** A****,"DMS, NEXT, PREMIUM, SERVIS",15,VIN + Phone + Name Match,HIGH
+C000536,553***8442,C** D****,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000537,558***2985,C** D****,"DMS, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000538,540***3656,C** D****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000539,553***6087,C** D****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000540,559***0100,C** D****,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000541,543***5284,C** G****,"DMS, SERVIS",15,VIN + Phone + Name Match,HIGH
+C000542,,C** G****,DMS,1,VIN Match,HIGH
+C000543,551***5409,C** G****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000544,543***4723,C** G****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000545,541***8605,C** G****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000546,557***6868,C** K***,"DMS, NEXT, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000547,543***4430,C** K***,"DMS, NEXT, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C000548,556***2665,C** K******,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000549,530***0657,C** K******,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000550,558***8222,C** K******,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000551,549***8508,C** K******,"DMS, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000552,530***6691,C** K******,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000553,542***9332,C** K******,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000554,535***6479,C** K******,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000555,554***9493,C** K******,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000556,545***0982,C** K**,"DMS, NEXT, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000557,547***3617,C** K**,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000558,553***5275,C** K**,"NEXT, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000559,557***3337,C** K***,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000560,532***1871,C** K***,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000561,,C** K***,"DMS, SERVIS",3,VIN Match,HIGH
+C000562,555***3230,C** K****,"DMS, PREMIUM, SERVIS",12,VIN + Phone + Name Match,HIGH
+C000563,551***3308,C** K****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000564,550***5638,C** K****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000565,546***8852,C** K****,"DMS, NEXT, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000566,,C** K****,SERVIS,5,VIN Match,HIGH
+C000567,,C** K****,SERVIS,9,VIN Match,HIGH
+C000568,,C** K****,SERVIS,3,VIN Match,HIGH
+C000569,533***9651,C** Ö****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000570,542***6621,C** P****,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C000571,556***4505,C** P****,"PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000572,554***4327,C** Y*****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000573,535***0013,C** Y*****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000574,544***9442,C** Y*****,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000575,552***9891,C** Y*****,DMS,1,VIN + Phone + Name Match,HIGH
+C000576,552***1983,C** Y*****,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000577,556***2833,C** Y*****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000578,552***2797,C** Y*****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000579,,C** Y*****,DMS,1,VIN Match,HIGH
+C000580,545***2672,C** Y*****,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000581,555***8212,C** Y*****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000582,533***6895,C** Y*****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000583,547***0872,C** Y*****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000584,559***3035,C** Y*****,"DMS, NEXT, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000585,,C** Y*****,SERVIS,1,VIN Match,HIGH
+C000586,531***9670,C** Ç****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000587,545***1086,C** Ç****,"DMS, NEXT, PREMIUM, SERVIS",14,VIN + Phone + Name Match,HIGH
+C000588,550***6676,C** Ç****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000589,552***4616,C** Ç****,"DMS, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000590,549***2574,C** Ç****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000591,542***6040,C** Ç****,"DMS, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C000592,543***5463,C** Ç****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000593,556***6269,C** Ç****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000594,539***5950,C** Ç****,"DMS, PREMIUM, SERVIS",20,VIN + Phone + Name Match,HIGH
+C000595,533***7247,C** Ç****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000596,531***0791,C** Ö****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000597,548***6405,C** Ö****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000598,,C** Ö****,"DMS, SERVIS",3,VIN Match,HIGH
+C000599,538***7946,C** Ö****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000600,,C** Ö****,"DMS, SERVIS",4,VIN Match,HIGH
+C000601,534***9000,C** Ö*****,"DMS, NEXT, PREMIUM, SERVIS",12,VIN + Phone + Name Match,HIGH
+C000602,,C** Ö*****,"DMS, PREMIUM, SERVIS",5,VIN Match,HIGH
+C000603,558***0808,C** Ş****,"DMS, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000604,540***9907,C** Ş****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000605,543***0539,C** Ş****,"DMS, NEXT, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000606,531***8383,C** Ş****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000607,546***3963,C** Ş*****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000608,559***7344,C** Ş*****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000609,,C** Ş*****,"DMS, NEXT, SERVIS",4,VIN Match,HIGH
+C000610,554***6723,C** Ş*****,"DMS, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000611,540***8663,C**** A*****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000612,540***7902,C**** A*****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000613,,C**** A*****,"DMS, SERVIS",7,VIN Match,HIGH
+C000614,532***1626,C**** A*****,"DMS, NEXT, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000615,534***9342,C**** A*****,"DMS, SERVIS",10,VIN + Phone + Name Match,HIGH
+C000616,548***6758,C**** A*****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000617,543***6735,C**** A****,"DMS, PREMIUM, SERVIS",13,VIN + Phone + Name Match,HIGH
+C000618,552***6389,C**** A****,"DMS, NEXT, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000619,556***0258,C**** A****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000620,546***9216,C**** A****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000621,541***1730,C**** A****,"DMS, PREMIUM, SERVIS",12,VIN + Phone + Name Match,HIGH
+C000622,541***2820,C**** D****,"DMS, SERVIS",10,VIN + Phone + Name Match,HIGH
+C000623,534***6470,C**** D****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000624,551***2875,C**** D****,"DMS, NEXT, PREMIUM, SERVIS",15,VIN + Phone + Name Match,HIGH
+C000625,534***2495,C**** D****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000626,558***8147,C**** D****,"DMS, NEXT, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C000627,549***9317,C**** D****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000628,556***9803,C**** D****,"DMS, NEXT, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000629,537***1464,C**** D****,"DMS, NEXT, PREMIUM, SERVIS",12,VIN + Phone + Name Match,HIGH
+C000630,,C**** D****,"NEXT, SERVIS",4,VIN Match,HIGH
+C000631,,C**** D****,"DMS, NEXT, SERVIS",8,VIN Match,HIGH
+C000632,534***8993,C**** D****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000633,532***3718,C**** D****,"PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000634,543***8755,C**** G****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000635,540***9188,C**** G****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000636,559***8203,C**** G****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000637,,C**** G****,"DMS, SERVIS",3,VIN Match,HIGH
+C000638,,C**** G****,"DMS, SERVIS",2,VIN Match,HIGH
+C000639,544***9277,C**** G****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000640,539***9821,C**** K***,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000641,550***7572,C**** K***,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000642,532***0919,C**** K***,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000643,542***6077,C**** K**,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000644,534***5475,C**** K******,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000645,550***4650,C**** K******,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000646,547***7997,C**** K******,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000647,547***7679,C**** K******,"DMS, PREMIUM, SERVIS",12,VIN + Phone + Name Match,HIGH
+C000648,551***4713,C**** K******,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000649,549***8387,C**** K******,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000650,536***2524,C**** K**,"DMS, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000651,,C**** K**,"DMS, SERVIS",5,VIN Match,HIGH
+C000652,558***6805,C**** K**,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000653,536***1212,C**** K**,DMS,1,VIN + Phone + Name Match,HIGH
+C000654,554***3912,C**** K**,"DMS, SERVIS",10,VIN + Phone + Name Match,HIGH
+C000655,550***0483,C**** K***,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000656,536***7484,C**** K***,"DMS, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000657,,C**** K***,DMS,1,VIN Match,HIGH
+C000658,540***8383,C**** K***,"DMS, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000659,558***9091,C**** K***,"DMS, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000660,557***0355,C**** K***,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000661,548***1491,C**** K****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000662,539***2875,C**** K****,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C000663,555***6753,C**** K****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000664,538***5119,C**** K****,"DMS, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000665,554***1966,C**** P****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000666,536***4951,C**** P****,"DMS, NEXT, PREMIUM, SERVIS",14,VIN + Phone + Name Match,HIGH
+C000667,537***1999,C**** P****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000668,551***9831,C**** P****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000669,,C**** P****,"NEXT, SERVIS",5,VIN Match,HIGH
+C000670,541***9302,C**** Y*****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000671,554***5399,C**** Y*****,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000672,558***4421,C**** Y*****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000673,542***8234,C**** Y*****,"DMS, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000674,540***1935,C**** Y*****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000675,536***1514,C**** Ç****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000676,548***8325,C**** Ç****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000677,540***5378,C**** Ç****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000678,550***5824,C**** Ç****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000679,553***9457,C**** Ç****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000680,535***2361,C**** Ç****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000681,536***2434,C**** Ç****,"DMS, NEXT, PREMIUM, SERVIS",15,VIN + Phone + Name Match,HIGH
+C000682,537***5836,C**** Ç****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000683,532***2867,C**** Ç****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000684,545***2679,C**** Ç****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000685,533***4680,C**** Ç****,"DMS, NEXT, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000686,544***6097,C**** Ö****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000687,545***5025,C**** Ö****,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C000688,530***1631,C**** Ö****,"DMS, NEXT, PREMIUM, SERVIS",13,VIN + Phone + Name Match,HIGH
+C000689,541***4434,C**** Ö*****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000690,539***8395,C**** Ş****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000691,544***4605,C**** Ş****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000692,544***9504,C**** Ş****,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000693,557***3929,C**** Ş****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000694,531***2021,C**** Ş*****,"DMS, NEXT, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C000695,555***6526,C**** Ş*****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000696,544***3096,C**** Ş*****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000697,545***6669,K**** D****,"DMS, NEXT, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000698,547***2037,D**** Y******,DMS,1,VIN + Phone + Name Match,HIGH
+C000699,542***4154,D**** Y******,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000700,545***8380,D**** A*****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000701,547***0429,D**** A*****,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000702,531***8206,D**** A*****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000703,530***1859,D**** A****,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000704,543***8838,D**** A****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000705,549***7316,D**** A****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000706,537***7670,D**** A****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000707,545***5125,D**** Ç****,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000708,556***4256,D**** D****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000709,559***0370,D**** D****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000710,531***1860,D**** D****,DMS,1,VIN + Phone + Name Match,HIGH
+C000711,542***3211,D**** D****,"DMS, PREMIUM, SERVIS",12,VIN + Phone + Name Match,HIGH
+C000712,552***7544,D**** D****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000713,534***1450,D**** D****,"DMS, NEXT, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000714,553***6970,D**** D****,"DMS, NEXT, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000715,556***5525,D**** D****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000716,553***2082,D**** G****,"DMS, NEXT, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000717,539***9644,D**** G****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000718,545***9987,D**** G****,DMS,1,VIN + Phone + Name Match,HIGH
+C000719,532***6367,D**** G****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000720,558***5954,D**** G****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000721,535***1044,D**** G****,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000722,549***6210,D**** G****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000723,550***5056,D**** G****,"DMS, NEXT, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C000724,538***2246,D**** K***,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000725,534***4385,D**** K***,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000726,552***4991,D**** K**,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000727,549***0206,D**** K******,"DMS, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000728,,D**** K******,"DMS, SERVIS",2,VIN Match,HIGH
+C000729,541***9508,D**** K******,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000730,,D**** K******,"DMS, NEXT, SERVIS",6,VIN Match,HIGH
+C000731,539***9630,D**** K******,DMS,1,VIN + Phone + Name Match,HIGH
+C000732,,D**** K**,DMS,1,VIN Match,HIGH
+C000733,530***9270,D**** K**,"DMS, NEXT, PREMIUM, SERVIS",13,VIN + Phone + Name Match,HIGH
+C000734,553***3671,D**** K**,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000735,531***1355,D**** K***,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000736,544***0944,D**** K***,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000737,550***6605,D**** K***,"DMS, NEXT, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000738,551***5687,D**** K***,"DMS, SERVIS",11,VIN + Phone + Name Match,HIGH
+C000739,535***9382,D**** K***,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000740,542***9570,D**** K***,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000741,,D**** K***,SERVIS,3,VIN Match,HIGH
+C000742,544***0657,D**** K****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000743,532***2929,D**** K****,"DMS, NEXT, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C000744,541***7547,D**** K****,"DMS, PREMIUM, SERVIS",14,VIN + Phone + Name Match,HIGH
+C000745,556***4357,D**** K****,"DMS, NEXT, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000746,531***2228,D**** K****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000747,,D**** K****,SERVIS,5,VIN Match,HIGH
+C000748,530***3501,D**** P****,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C000749,555***0085,D**** P****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000750,548***0812,D**** S****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000751,531***7450,D**** Y*****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000752,555***0724,D**** Y*****,"DMS, NEXT, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000753,537***2984,D**** Y*****,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000754,545***0248,D**** Y*****,"DMS, SERVIS",10,VIN + Phone + Name Match,HIGH
+C000755,536***4221,D**** Ç****,"DMS, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000756,534***1349,D**** Ç****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000757,537***7106,D**** Ç****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000758,,D**** Ö****,"DMS, SERVIS",3,VIN Match,HIGH
+C000759,555***3770,D**** Ö****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000760,530***6950,D**** Ö****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000761,553***8873,D**** Ö*****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000762,537***3940,D**** Ö*****,"DMS, PREMIUM, SERVIS",12,VIN + Phone + Name Match,HIGH
+C000763,547***7366,D**** Ş****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000764,559***9160,D**** Ş*****,"DMS, NEXT, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000765,533***2744,D**** A****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000766,533***4318,D**** D****,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C000767,559***0901,D**** K***,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000768,545***0487,D**** K******,"DMS, NEXT, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000769,549***4607,D**** K***,DMS,1,VIN + Phone + Name Match,HIGH
+C000770,545***7096,D**** K***,"PREMIUM, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000771,533***9686,D**** K****,DMS,1,VIN + Phone + Name Match,HIGH
+C000772,,D**** Y*****,"DMS, SERVIS",4,VIN Match,HIGH
+C000773,539***2641,D**** Y*****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000774,551***5141,D**** Ç****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000775,552***0667,D**** Ç****,"DMS, NEXT, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000776,543***6104,D**** Ö*****,"DMS, PREMIUM",3,VIN + Phone + Name Match,HIGH
+C000777,540***8423,D**** Ş****,"DMS, NEXT, PREMIUM, SERVIS",13,VIN + Phone + Name Match,HIGH
+C000778,550***0067,B**** D****,"DMS, PREMIUM, SERVIS",14,VIN + Phone + Name Match,HIGH
+C000779,549***2912,C**** D****,"DMS, NEXT, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000780,548***2195,E*** D****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000781,548***4137,E*** A*****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000782,549***4763,E*** A*****,"DMS, SERVIS",10,VIN + Phone + Name Match,HIGH
+C000783,,E*** A*****,SERVIS,1,VIN Match,HIGH
+C000784,,E*** A****,"DMS, SERVIS",8,VIN Match,HIGH
+C000785,551***8370,E*** A****,"DMS, NEXT, SERVIS",13,VIN + Phone + Name Match,HIGH
+C000786,553***1267,E*** A****,"DMS, NEXT, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000787,534***9406,E*** A****,DMS,2,VIN + Phone + Name Match,HIGH
+C000788,553***1118,E*** A****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000789,555***4453,E*** Ç****,"DMS, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C000790,536***3577,E*** D****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000791,538***5305,E*** D****,DMS,1,VIN + Phone + Name Match,HIGH
+C000792,557***1820,E*** D****,"DMS, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C000793,538***4972,E*** D****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000794,532***2945,E*** D****,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000795,548***5085,E*** D****,"DMS, NEXT, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000796,553***2498,E*** D****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000797,557***3555,E*** G****,DMS,1,VIN + Phone + Name Match,HIGH
+C000798,537***4336,E*** G****,"DMS, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000799,559***0740,E*** G****,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C000800,551***9397,E*** K***,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000801,545***6512,E*** K***,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000802,,E*** K***,"DMS, SERVIS",9,VIN Match,HIGH
+C000803,537***3626,E*** K****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000804,554***6019,E*** K**,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000805,540***4762,E*** K******,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000806,557***6648,E*** K******,"DMS, NEXT, SERVIS",14,VIN + Phone + Name Match,HIGH
+C000807,534***4895,E*** K******,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000808,531***7592,E*** K******,"DMS, NEXT, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000809,540***2794,E*** K**,"DMS, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C000810,543***7404,E*** K**,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000811,533***7430,E*** K***,"DMS, NEXT, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C000812,540***7865,E*** K***,DMS,1,VIN + Phone + Name Match,HIGH
+C000813,548***8907,E*** K***,"DMS, NEXT, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000814,538***4744,E*** K****,"DMS, PREMIUM, SERVIS",12,VIN + Phone + Name Match,HIGH
+C000815,540***8945,E*** P****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000816,,E*** Y*****,"DMS, SERVIS",2,VIN Match,HIGH
+C000817,551***0180,E*** Y*****,"DMS, SERVIS",12,VIN + Phone + Name Match,HIGH
+C000818,547***9379,E*** Y*****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000819,549***1179,E*** Y*****,"DMS, NEXT, SERVIS",11,VIN + Phone + Name Match,HIGH
+C000820,535***6980,E*** Y*****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000821,555***1048,E*** Y*****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000822,553***9583,E*** Ç****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000823,545***9136,E*** Ç****,"DMS, NEXT, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000824,533***9015,E*** Ç****,DMS,1,VIN + Phone + Name Match,HIGH
+C000825,539***9207,E*** Ç****,"DMS, SERVIS",14,VIN + Phone + Name Match,HIGH
+C000826,540***8727,E*** Ç****,DMS,2,VIN + Phone + Name Match,HIGH
+C000827,,E*** Ç****,"DMS, SERVIS",10,VIN Match,HIGH
+C000828,536***3811,E*** Ç****,"DMS, NEXT, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000829,556***1919,E*** Ö*****,"DMS, SERVIS",11,VIN + Phone + Name Match,HIGH
+C000830,556***9194,E*** Ö*****,"DMS, NEXT, PREMIUM, SERVIS",13,VIN + Phone + Name Match,HIGH
+C000831,,E*** Ş****,"DMS, SERVIS",8,VIN Match,HIGH
+C000832,554***8736,E*** Ş****,"DMS, NEXT, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000833,537***2203,E*** Ş****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000834,531***2100,E*** Ş****,"DMS, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C000835,553***3982,E*** Ş*****,"DMS, NEXT, PREMIUM, SERVIS",15,VIN + Phone + Name Match,HIGH
+C000836,555***5775,E*** Ş*****,DMS,1,VIN + Phone + Name Match,HIGH
+C000837,556***6158,E*** Ş*****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000838,548***4124,E*** Ş*****,"DMS, NEXT, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C000839,547***8619,E*** A****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000840,559***9425,E*** D****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000841,556***0303,E*** G****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000842,553***2796,E*** G****,"DMS, SERVIS",12,VIN + Phone + Name Match,HIGH
+C000843,,E*** G****,SERVIS,6,VIN Match,HIGH
+C000844,540***3682,E*** K****,DMS,1,VIN + Phone + Name Match,HIGH
+C000845,538***3580,E*** P****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000846,,E*** P****,"DMS, SERVIS",4,VIN Match,HIGH
+C000847,543***7706,E*** Y*****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000848,558***9042,E*** Y*****,PREMIUM,1,VIN + Phone + Name Match,HIGH
+C000849,542***8169,E*** Ç****,"DMS, SERVIS",13,VIN + Phone + Name Match,HIGH
+C000850,547***7254,E*** Ş*****,"DMS, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C000851,546***6204,E*** A*****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000852,554***9645,E*** A*****,"DMS, NEXT, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000853,544***1404,E*** A*****,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000854,546***5199,E*** A****,"DMS, NEXT, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000855,548***5184,E*** A****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000856,538***7984,E*** A****,"DMS, PREMIUM, SERVIS",13,VIN + Phone + Name Match,HIGH
+C000857,556***2933,E*** A****,"DMS, NEXT, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000858,558***5783,E*** A****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000859,533***3316,E*** D****,"DMS, PREMIUM, SERVIS",17,VIN + Phone + Name Match,HIGH
+C000860,535***2170,E*** D****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000861,558***0532,E*** D****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000862,543***7297,E*** D****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000863,545***3089,E*** D****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000864,536***2417,E*** D****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000865,551***3359,E*** D****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000866,544***9047,E*** D****,"DMS, NEXT, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000867,543***5487,E*** D****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000868,,E*** D****,"PREMIUM, SERVIS",4,VIN Match,HIGH
+C000869,550***2574,E*** G****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000870,534***1125,E*** G****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000871,,E*** G****,SERVIS,3,VIN Match,HIGH
+C000872,555***5571,E*** K***,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C000873,544***2651,E*** K***,"DMS, NEXT, PREMIUM, SERVIS",13,VIN + Phone + Name Match,HIGH
+C000874,548***9968,E*** K***,"DMS, NEXT, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000875,555***7180,E*** K***,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000876,550***4513,E*** K***,"DMS, NEXT, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000877,559***1313,E*** K****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000878,553***0933,E*** K******,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000879,535***2845,E*** K******,"DMS, NEXT, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000880,551***5326,E*** K******,"DMS, PREMIUM, SERVIS",14,VIN + Phone + Name Match,HIGH
+C000881,553***9409,E*** K******,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000882,545***3873,E*** K******,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000883,547***4465,E*** K**,"DMS, NEXT, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C000884,541***0253,E*** K***,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000885,539***3665,E*** K***,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000886,543***0521,E*** K***,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000887,530***6501,E*** K***,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000888,533***6017,E*** K****,"DMS, NEXT, PREMIUM, SERVIS",14,VIN + Phone + Name Match,HIGH
+C000889,539***7256,E*** K****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000890,543***6774,E*** K****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000891,556***9639,E*** K****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000892,537***7722,E*** K****,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000893,534***8457,E*** K****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000894,538***8724,E*** K****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000895,541***3290,E*** P****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000896,531***4180,E*** P****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000897,,E*** P****,"DMS, SERVIS",3,VIN Match,HIGH
+C000898,559***2611,E*** Y*****,"DMS, NEXT, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000899,542***8209,E*** Y*****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000900,556***0596,E*** Y*****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000901,539***1051,E*** Y*****,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000902,552***9354,E*** Y*****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000903,,E*** Y*****,"DMS, SERVIS",7,VIN Match,HIGH
+C000904,555***8070,E*** Ç****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000905,541***2539,E*** Ç****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000906,542***9016,E*** Ç****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000907,,E*** Ç****,"DMS, PREMIUM, SERVIS",3,VIN Match,HIGH
+C000908,531***3052,E*** Ç****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000909,,E*** Ç****,"DMS, SERVIS",6,VIN Match,HIGH
+C000910,546***9668,E*** Ç****,"DMS, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C000911,558***3738,E*** Ç****,"DMS, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C000912,532***7263,E*** Ç****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000913,533***3119,E*** Ç****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000914,542***8256,E*** Ö****,"DMS, SERVIS",13,VIN + Phone + Name Match,HIGH
+C000915,559***1452,E*** Ö****,"DMS, PREMIUM, SERVIS",12,VIN + Phone + Name Match,HIGH
+C000916,550***5283,E*** Ö****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000917,533***7042,E*** Ö****,"DMS, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000918,547***6486,E*** Ö*****,DMS,1,VIN + Phone + Name Match,HIGH
+C000919,553***3504,E*** Ö*****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000920,,E*** Ö*****,"DMS, SERVIS",3,VIN Match,HIGH
+C000921,538***2099,E*** Ö*****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000922,556***6829,E*** Ö*****,"DMS, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000923,549***5114,E*** Ö*****,"DMS, NEXT, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000924,551***1628,E*** Ö*****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000925,,E*** Ş****,"DMS, SERVIS",2,VIN Match,HIGH
+C000926,541***5211,E*** Ş****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000927,534***2387,E*** Ş****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000928,553***4958,E*** Ş****,"DMS, NEXT, PREMIUM, SERVIS",17,VIN + Phone + Name Match,HIGH
+C000929,541***3326,E*** Ş*****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000930,537***7658,E*** Ş*****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000931,533***3346,E*** Ş*****,"DMS, NEXT, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000932,551***7489,E*** Ş*****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000933,533***8275,E*** Ş*****,"DMS, NEXT, SERVIS",13,VIN + Phone + Name Match,HIGH
+C000934,539***6226,E*** Ş*****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000935,556***4158,E*** A*****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000936,547***3204,E*** A*****,"DMS, NEXT, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000937,552***5340,E*** A*****,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C000938,556***5809,E*** A*****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000939,533***5551,E*** A*****,"PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000940,550***3146,E*** A****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000941,557***5702,E*** A****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000942,552***9713,E*** A****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000943,533***6753,E*** A****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000944,,E*** A****,"DMS, SERVIS",6,VIN Match,HIGH
+C000945,541***5887,E*** A****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000946,555***2868,E*** A****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000947,531***7480,E*** A****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000948,551***5088,E*** A****,"DMS, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000949,549***6532,E*** A****,"DMS, PREMIUM, SERVIS",14,VIN + Phone + Name Match,HIGH
+C000950,553***2982,E*** A****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000951,559***2439,E*** A****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000952,544***5511,E*** C****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000953,558***5693,E*** Ç****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000954,559***5179,E*** D****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000955,533***6915,E*** D****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000956,559***2989,E*** D****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000957,532***3436,E*** D****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000958,,E*** D****,"DMS, SERVIS",6,VIN Match,HIGH
+C000959,555***5632,E*** D****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000960,,E*** D****,"DMS, SERVIS",4,VIN Match,HIGH
+C000961,534***7584,E*** G****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000962,,E*** G****,"DMS, SERVIS",5,VIN Match,HIGH
+C000963,,E*** G****,"DMS, SERVIS",4,VIN Match,HIGH
+C000964,,E*** K***,DMS,1,VIN Match,HIGH
+C000965,540***5224,E*** K***,"DMS, NEXT, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000966,557***9642,E*** K***,"DMS, NEXT, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000967,559***7274,E*** K***,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000968,540***6154,E*** K***,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000969,556***2158,E*** K***,"DMS, PREMIUM, SERVIS",12,VIN + Phone + Name Match,HIGH
+C000970,536***8875,E*** K***,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000971,542***2329,E*** K***,"DMS, NEXT, SERVIS",10,VIN + Phone + Name Match,HIGH
+C000972,557***9028,E*** K***,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000973,538***7339,E*** K****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000974,535***9055,E*** K****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C000975,549***6444,E*** K******,"DMS, NEXT, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000976,538***7373,E*** K******,"DMS, NEXT, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000977,,E*** K******,DMS,1,VIN Match,HIGH
+C000978,542***0632,E*** K******,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000979,555***1177,E*** K******,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000980,556***6605,E*** K**,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000981,539***2381,E*** K**,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000982,547***7330,E*** K***,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000983,,E*** K***,"DMS, SERVIS",2,VIN Match,HIGH
+C000984,559***1784,E*** K***,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000985,557***9648,E*** K***,"DMS, NEXT, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C000986,551***6341,E*** K****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000987,559***5175,E*** K****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C000988,557***0914,E*** K****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000989,540***2401,E*** P****,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000990,559***9184,E*** P****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000991,553***0404,E*** P****,DMS,1,VIN + Phone + Name Match,HIGH
+C000992,547***8215,E*** P****,"DMS, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000993,532***2917,E*** P****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C000994,548***6735,E*** P****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C000995,536***4410,E*** P****,"DMS, SERVIS",8,VIN + Phone + Name Match,HIGH
+C000996,558***3667,E*** P****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C000997,533***4435,E*** Ş*****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C000998,553***3457,E*** Y*****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C000999,549***4673,E*** Y*****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001000,535***7572,E*** Y*****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001001,554***4248,E*** Y*****,"DMS, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001002,,E*** Y*****,SERVIS,6,VIN Match,HIGH
+C001003,546***6278,E*** Y*****,DMS,1,VIN + Phone + Name Match,HIGH
+C001004,557***6721,E*** Y*****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001005,530***5878,E*** Y*****,"DMS, NEXT, SERVIS",18,VIN + Phone + Name Match,HIGH
+C001006,540***3833,E*** Ç****,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001007,539***6365,E*** Ç****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001008,532***1552,E*** Ç****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001009,557***0369,E*** Ç****,"DMS, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001010,554***1728,E*** Ç****,"DMS, NEXT, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001011,537***5078,E*** Ç****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001012,538***6460,E*** Ç****,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001013,539***8473,E*** Ö****,DMS,1,VIN + Phone + Name Match,HIGH
+C001014,545***9126,E*** Ö****,"DMS, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C001015,543***6596,E*** Ö****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001016,548***5935,E*** Ö****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001017,543***9134,E*** Ö*****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001018,,E*** Ö*****,"DMS, NEXT, SERVIS",4,VIN Match,HIGH
+C001019,541***6168,E*** Ö*****,"DMS, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001020,534***2041,E*** Ö*****,"DMS, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001021,547***1676,E*** Ş****,"DMS, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C001022,556***9880,E*** Ş****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001023,545***1741,E*** Ş****,"DMS, NEXT, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C001024,530***4343,E*** Ş****,"DMS, PREMIUM, SERVIS",12,VIN + Phone + Name Match,HIGH
+C001025,544***1016,E*** Ş****,DMS,1,VIN + Phone + Name Match,HIGH
+C001026,,E*** Ş****,"DMS, SERVIS",4,VIN Match,HIGH
+C001027,549***3231,E*** Ş****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001028,,E*** Ş****,"NEXT, SERVIS",7,VIN Match,HIGH
+C001029,,E*** Ş****,SERVIS,2,VIN Match,HIGH
+C001030,559***9673,E*** Ş*****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001031,534***0366,E*** Ş*****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001032,532***0191,F**** A*****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001033,531***1446,F**** A*****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001034,531***0799,F**** A*****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001035,557***0619,F**** A****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001036,543***1251,F**** A****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001037,552***6854,F**** A****,"DMS, NEXT, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001038,545***8351,F**** A****,"DMS, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001039,539***2392,F**** A****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001040,,F**** A****,DMS,1,VIN Match,HIGH
+C001041,537***4176,F**** A****,"DMS, NEXT, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001042,551***6059,F**** A****,"DMS, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001043,539***0736,F**** A****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001044,536***2609,F**** A****,"DMS, NEXT, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001045,553***1837,F**** A****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001046,552***8213,F**** A****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001047,545***9843,F**** A****,"PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001048,542***9448,F**** C****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001049,558***0715,F**** D****,DMS,1,VIN + Phone + Name Match,HIGH
+C001050,535***3880,F**** D****,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001051,537***2478,F**** D****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001052,,F**** G****,"DMS, PREMIUM, SERVIS",3,VIN Match,HIGH
+C001053,554***4075,F**** G****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001054,540***9046,F**** G****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001055,544***6913,F**** K***,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001056,559***0904,F**** K***,"DMS, NEXT, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001057,547***5823,F**** K***,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001058,,F**** K**,"DMS, SERVIS",9,VIN Match,HIGH
+C001059,551***0211,F**** K******,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001060,,F**** K******,"DMS, PREMIUM, SERVIS",7,VIN Match,HIGH
+C001061,536***8677,F**** K******,DMS,1,VIN + Phone + Name Match,HIGH
+C001062,551***4976,F**** K******,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001063,554***4338,F**** K******,DMS,1,VIN + Phone + Name Match,HIGH
+C001064,547***4005,F**** K******,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001065,554***4617,F**** K******,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001066,537***0888,F**** K**,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001067,537***5374,F**** K**,"DMS, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001068,559***7940,F**** K**,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001069,552***1803,F**** K***,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001070,535***4559,F**** K***,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001071,549***6173,F**** K***,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001072,539***8058,F**** K***,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001073,,F**** K***,"DMS, PREMIUM, SERVIS",9,VIN Match,HIGH
+C001074,535***6945,F**** K***,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001075,535***9307,F**** K****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001076,,F**** P****,"DMS, PREMIUM, SERVIS",3,VIN Match,HIGH
+C001077,541***3544,F**** P****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001078,535***8323,F**** P****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001079,555***6606,F**** P****,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001080,544***1137,F**** Ş****,"DMS, PREMIUM, SERVIS",14,VIN + Phone + Name Match,HIGH
+C001081,557***1769,F**** Y*****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001082,551***2484,F**** Y*****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001083,531***4941,F**** Y*****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001084,555***6551,F**** Y*****,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001085,558***7220,F**** Y*****,DMS,1,VIN + Phone + Name Match,HIGH
+C001086,534***9314,F**** Y*****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001087,553***1368,F**** Y*****,"DMS, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001088,532***7696,F**** Y*****,"DMS, NEXT, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001089,542***8825,F**** Y*****,"DMS, SERVIS",14,VIN + Phone + Name Match,HIGH
+C001090,552***7826,F**** Y*****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001091,545***6624,F**** Ç****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001092,539***3537,F**** Ç****,"DMS, NEXT, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001093,554***6235,F**** Ç****,DMS,1,VIN + Phone + Name Match,HIGH
+C001094,533***0603,F**** Ç****,"DMS, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001095,,F**** Ç****,"DMS, SERVIS",6,VIN Match,HIGH
+C001096,536***4798,F**** Ç****,"DMS, NEXT, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001097,558***4370,F**** Ç****,"DMS, NEXT, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001098,552***3923,F**** Ç****,"DMS, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C001099,,F**** Ç****,"DMS, SERVIS",7,VIN Match,HIGH
+C001100,557***3492,F**** Ç****,"DMS, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001101,531***4846,F**** Ç****,"DMS, NEXT, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001102,549***3490,F**** Ö****,"DMS, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001103,554***2622,F**** Ö****,"DMS, NEXT, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001104,531***4801,F**** Ö****,"DMS, PREMIUM",4,VIN + Phone + Name Match,HIGH
+C001105,536***6810,F**** Ö****,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001106,,F**** Ö****,"DMS, SERVIS",4,VIN Match,HIGH
+C001107,539***6534,F**** Ö*****,"DMS, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001108,555***9967,F**** Ö*****,"DMS, NEXT, PREMIUM, SERVIS",15,VIN + Phone + Name Match,HIGH
+C001109,547***2077,F**** Ö*****,"DMS, PREMIUM, SERVIS",12,VIN + Phone + Name Match,HIGH
+C001110,555***6491,F**** Ö*****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001111,557***7488,F**** Ş****,"DMS, NEXT, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C001112,545***2737,F**** Ş****,"DMS, PREMIUM, SERVIS",18,VIN + Phone + Name Match,HIGH
+C001113,546***8702,F**** Ş****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001114,,F**** Ş****,"DMS, PREMIUM, SERVIS",6,VIN Match,HIGH
+C001115,537***6065,F**** Ş****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001116,559***5981,F**** Ş*****,"DMS, NEXT, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001117,553***5258,F**** Ş*****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001118,533***1696,F**** Ş*****,"DMS, NEXT, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001119,547***0589,G**** A*****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001120,534***2517,G**** A*****,"PREMIUM, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001121,532***9862,G**** A****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001122,554***0404,G**** A****,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001123,558***3590,G**** A****,"DMS, NEXT, SERVIS",11,VIN + Phone + Name Match,HIGH
+C001124,544***2076,G**** A****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001125,557***4164,G**** A****,"DMS, NEXT, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001126,545***5537,G**** A****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001127,,G**** A****,"DMS, PREMIUM, SERVIS",3,VIN Match,HIGH
+C001128,539***8776,G**** A****,DMS,1,VIN + Phone + Name Match,HIGH
+C001129,555***2467,G**** A****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001130,553***0103,G**** C****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001131,555***0622,G**** D****,"DMS, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001132,534***9758,G**** D****,"DMS, NEXT, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001133,549***2531,G**** G****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001134,552***8990,G**** G****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001135,540***1049,G**** G****,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001136,,G**** K***,"DMS, SERVIS",4,VIN Match,HIGH
+C001137,548***0541,G**** K***,"DMS, NEXT, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001138,559***7099,G**** K***,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001139,555***1903,G**** K***,"DMS, NEXT, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001140,542***4501,G**** K***,"DMS, NEXT, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001141,559***6421,G**** K***,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001142,,G**** K****,"DMS, SERVIS",2,VIN Match,HIGH
+C001143,551***2000,G**** K******,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001144,534***2618,G**** K******,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001145,534***3324,G**** K******,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001146,551***3045,G**** K******,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001147,542***2561,G**** K**,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001148,532***3050,G**** K**,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001149,558***0226,G**** K***,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001150,531***6794,G**** K***,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001151,551***5733,G**** K****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001152,538***7701,G**** K****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001153,557***3880,G**** K****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001154,554***0692,G**** K****,"DMS, NEXT, SERVIS",14,VIN + Phone + Name Match,HIGH
+C001155,,G**** K****,"DMS, SERVIS",2,VIN Match,HIGH
+C001156,535***4451,G**** Ö****,"DMS, NEXT, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001157,542***9414,G**** P****,DMS,1,VIN + Phone + Name Match,HIGH
+C001158,537***9226,G**** P****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001159,541***9119,G**** Y*****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001160,546***5113,G**** Y*****,"NEXT, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001161,543***0915,G**** Y*****,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001162,539***6493,G**** Y*****,"DMS, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001163,,G**** Y*****,"DMS, SERVIS",7,VIN Match,HIGH
+C001164,533***5039,G**** Y*****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001165,530***5890,G**** Y*****,"DMS, NEXT, PREMIUM, SERVIS",14,VIN + Phone + Name Match,HIGH
+C001166,541***1197,G**** Y*****,"DMS, PREMIUM, SERVIS",18,VIN + Phone + Name Match,HIGH
+C001167,534***3915,G**** Ç****,"DMS, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C001168,536***3918,G**** Ç****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001169,542***7911,G**** Ç****,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001170,549***6455,G**** Ç****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001171,539***4064,G**** Ç****,"DMS, PREMIUM, SERVIS",14,VIN + Phone + Name Match,HIGH
+C001172,550***0922,G**** Ç****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001173,536***8215,G**** Ç****,"DMS, NEXT, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001174,538***7388,G**** Ç****,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001175,546***7040,G**** Ç****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001176,543***6754,G**** Ç****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001177,,G**** Ç****,"PREMIUM, SERVIS",4,VIN Match,HIGH
+C001178,549***1416,G**** Ö****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001179,552***9731,G**** Ö*****,"DMS, NEXT, PREMIUM, SERVIS",12,VIN + Phone + Name Match,HIGH
+C001180,548***3062,G**** Ö*****,"DMS, NEXT, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001181,535***5290,G**** Ş****,DMS,1,VIN + Phone + Name Match,HIGH
+C001182,536***4105,G**** Ş*****,"DMS, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C001183,540***6331,B**** G****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001184,,B**** G****,"DMS, SERVIS",3,VIN Match,HIGH
+C001185,534***4357,E*** G****,"DMS, PREMIUM, SERVIS",19,VIN + Phone + Name Match,HIGH
+C001186,,G**** A****,"DMS, SERVIS",3,VIN Match,HIGH
+C001187,551***7433,G**** K***,"DMS, PREMIUM, SERVIS",14,VIN + Phone + Name Match,HIGH
+C001188,538***8425,G**** K******,"DMS, NEXT, PREMIUM, SERVIS",14,VIN + Phone + Name Match,HIGH
+C001189,541***1179,G**** K******,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001190,542***6404,G**** K***,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001191,,G**** K***,"DMS, SERVIS",5,VIN Match,HIGH
+C001192,555***3127,G**** Y*****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001193,551***1859,G**** Y*****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001194,539***3613,G**** Y*****,"DMS, NEXT, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C001195,555***7082,İ*** A****,"DMS, NEXT, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001196,552***3202,İ**** Ç****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001197,559***1902,İ*** D****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001198,542***6012,İ*** D****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001199,553***4316,I*** G****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001200,534***3763,I*** G****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001201,558***5616,İ*** P****,"DMS, NEXT, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001202,547***5830,İ*** Ş****,"DMS, PREMIUM, SERVIS",23,VIN + Phone + Name Match,HIGH
+C001203,540***7469,İ*** Y*****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001204,549***7909,K*** G****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001205,541***9518,K**** K***,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001206,554***9212,K*** M****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001207,541***8536,O*** K***,"DMS, PREMIUM, SERVIS",16,VIN + Phone + Name Match,HIGH
+C001208,554***0648,S**** K***,"DMS, NEXT, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001209,554***7994,K**** A*****,"DMS, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001210,554***9034,K**** A*****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001211,536***8735,K**** A*****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001212,541***5339,K**** A*****,"DMS, NEXT, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001213,549***7397,K**** A*****,"DMS, NEXT, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001214,551***1780,K**** A****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001215,542***8911,K**** A****,DMS,1,VIN + Phone + Name Match,HIGH
+C001216,548***7218,K**** A****,"DMS, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001217,554***4966,K**** A****,DMS,1,VIN + Phone + Name Match,HIGH
+C001218,535***5160,K**** A****,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001219,553***2209,K**** A****,"DMS, NEXT, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001220,543***6328,K**** A****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001221,547***5172,K**** A****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001222,550***1637,K**** A****,"DMS, PREMIUM, SERVIS",13,VIN + Phone + Name Match,HIGH
+C001223,538***4531,K**** C****,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001224,552***3722,K**** D****,"DMS, NEXT, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001225,,K**** D****,"DMS, SERVIS",10,VIN Match,HIGH
+C001226,555***0573,K**** D****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001227,532***4564,K**** D****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001228,551***0391,K**** D****,"DMS, NEXT, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001229,538***9281,K**** D****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001230,550***7796,K**** D****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001231,548***3824,K**** D****,DMS,1,VIN + Phone + Name Match,HIGH
+C001232,556***8772,K**** G****,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001233,545***4393,K**** G****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001234,531***3677,K**** G****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001235,549***3227,K**** G****,"DMS, NEXT, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001236,535***3030,K**** G****,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001237,541***1048,K**** G****,"DMS, NEXT, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001238,551***1177,K**** K***,"DMS, NEXT, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001239,540***5920,K**** K***,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001240,559***7305,K**** K***,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001241,531***7372,K**** K***,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001242,546***1756,K**** K**,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001243,549***8385,K**** K******,"DMS, NEXT, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001244,547***8246,K**** K******,"DMS, PREMIUM, SERVIS",13,VIN + Phone + Name Match,HIGH
+C001245,531***7420,K**** K******,"DMS, NEXT, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001246,537***9255,K**** K******,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001247,546***8817,K**** K******,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001248,558***7856,K**** K******,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001249,534***8874,K**** K******,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001250,,K**** K******,SERVIS,2,VIN Match,HIGH
+C001251,558***2081,K**** K**,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001252,544***2193,K**** K**,DMS,1,VIN + Phone + Name Match,HIGH
+C001253,558***9161,K**** K**,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001254,551***5314,K**** K***,"DMS, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001255,537***4862,K**** K***,"DMS, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001256,555***7846,K**** K***,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001257,556***1110,K**** K***,"DMS, PREMIUM, SERVIS",15,VIN + Phone + Name Match,HIGH
+C001258,543***1089,K**** K***,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001259,,K**** K***,SERVIS,3,VIN Match,HIGH
+C001260,540***0682,K**** K****,"DMS, PREMIUM, SERVIS",12,VIN + Phone + Name Match,HIGH
+C001261,535***8460,K**** K****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001262,537***7098,K**** K****,"DMS, NEXT, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001263,545***0218,K**** P****,"DMS, PREMIUM, SERVIS",12,VIN + Phone + Name Match,HIGH
+C001264,,K**** P****,"DMS, SERVIS",8,VIN Match,HIGH
+C001265,550***7375,K**** P****,DMS,1,VIN + Phone + Name Match,HIGH
+C001266,539***2823,K**** P****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001267,,K**** P****,SERVIS,3,VIN Match,HIGH
+C001268,543***0515,K**** S*****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001269,538***9126,K**** Y*****,"DMS, NEXT, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001270,553***8535,K**** Y*****,"DMS, NEXT, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001271,543***9543,K**** Y*****,DMS,1,VIN + Phone + Name Match,HIGH
+C001272,539***8088,K**** Y*****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001273,549***7606,K**** Y*****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001274,531***5982,K**** Y*****,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001275,543***4336,K**** Y*****,"DMS, NEXT, PREMIUM, SERVIS",16,VIN + Phone + Name Match,HIGH
+C001276,538***7918,K**** Y*****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001277,536***3169,K**** Y*****,DMS,1,VIN + Phone + Name Match,HIGH
+C001278,532***9462,K**** Y*****,DMS,1,VIN + Phone + Name Match,HIGH
+C001279,532***8388,K**** Y*****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001280,549***1107,K**** Ç****,"DMS, NEXT, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001281,557***0818,K**** Ç****,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001282,545***7958,K**** Ç****,"DMS, PREMIUM, SERVIS",19,VIN + Phone + Name Match,HIGH
+C001283,532***3702,K**** Ç****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001284,533***4348,K**** Ö****,"DMS, NEXT, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001285,530***7967,K**** Ö****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001286,557***5828,K**** Ö****,"DMS, NEXT, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001287,530***6646,K**** Ö****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001288,546***6267,K**** Ö****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001289,557***9922,K**** Ö****,PREMIUM,1,VIN + Phone + Name Match,HIGH
+C001290,559***1185,K**** Ö*****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001291,552***9584,K**** Ö*****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001292,530***7911,K**** Ö*****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001293,538***0350,K**** Ö*****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001294,538***2178,K**** Ş****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001295,546***7162,K**** Ş****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001296,549***3253,K**** Ş****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001297,546***3319,K**** Ş*****,DMS,1,VIN + Phone + Name Match,HIGH
+C001298,541***0113,K**** Ş*****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001299,558***2413,K**** Ş*****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001300,541***1738,K**** Ş*****,"DMS, NEXT, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001301,549***3418,K**** Ş*****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001302,546***9244,K**** Ş*****,"DMS, SERVIS",12,VIN + Phone + Name Match,HIGH
+C001303,547***0684,A**** K******,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001304,536***3534,C** K******,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001305,548***4696,C** K******,"DMS, SERVIS",12,VIN + Phone + Name Match,HIGH
+C001306,,K****** E***,"DMS, PREMIUM, SERVIS",3,VIN Match,HIGH
+C001307,541***0189,M***** K******,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001308,530***3418,O*** K******,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001309,540***4585,K** E***,"PREMIUM, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001310,545***4433,F**** K**,"DMS, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C001311,558***8738,M***** K**,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001312,531***9801,M**** K**,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001313,530***3366,S**** K**,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001314,549***9041,D**** K***,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001315,532***3144,K*** M****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001316,,K*** Z*****,"NEXT, SERVIS",2,VIN Match,HIGH
+C001317,534***0298,E*** K****,"DMS, NEXT, PREMIUM, SERVIS",16,VIN + Phone + Name Match,HIGH
+C001318,544***7955,E*** K****,"DMS, NEXT, SERVIS",11,VIN + Phone + Name Match,HIGH
+C001319,534***2046,K**** K****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001320,557***3879,K**** K****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001321,546***8161,K**** İ***,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001322,542***2066,M***** A*****,"DMS, PREMIUM, SERVIS",16,VIN + Phone + Name Match,HIGH
+C001323,557***4965,M***** A*****,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001324,544***2377,M***** A*****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001325,,M***** A*****,DMS,1,VIN Match,HIGH
+C001326,545***7886,M***** A*****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001327,559***7472,M***** A*****,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001328,547***9880,M***** A****,"DMS, PREMIUM, SERVIS",13,VIN + Phone + Name Match,HIGH
+C001329,,M***** A****,"DMS, SERVIS",8,VIN Match,HIGH
+C001330,537***9067,M***** A****,"DMS, PREMIUM, SERVIS",18,VIN + Phone + Name Match,HIGH
+C001331,,M***** A****,SERVIS,5,VIN Match,HIGH
+C001332,556***8552,M***** A****,DMS,1,VIN + Phone + Name Match,HIGH
+C001333,539***3227,M***** A****,"DMS, PREMIUM, SERVIS",13,VIN + Phone + Name Match,HIGH
+C001334,542***9088,M***** A****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001335,543***9093,M***** A****,"DMS, NEXT, PREMIUM, SERVIS",18,VIN + Phone + Name Match,HIGH
+C001336,559***2115,M***** A****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001337,,M***** A****,"DMS, SERVIS",4,VIN Match,HIGH
+C001338,558***1547,M***** Ç****,"DMS, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001339,550***6422,M***** D****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001340,532***0467,M***** D****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001341,543***3696,M***** D****,"DMS, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001342,,M***** D****,"DMS, SERVIS",5,VIN Match,HIGH
+C001343,,M***** D****,SERVIS,2,VIN Match,HIGH
+C001344,,M***** D****,SERVIS,5,VIN Match,HIGH
+C001345,559***6478,M***** D****,"DMS, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001346,536***2011,M***** D****,"DMS, NEXT, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001347,,M***** D****,"DMS, SERVIS",2,VIN Match,HIGH
+C001348,542***1758,M***** G****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001349,,M***** G****,"DMS, SERVIS",2,VIN Match,HIGH
+C001350,544***1176,M***** G****,"DMS, SERVIS",18,VIN + Phone + Name Match,HIGH
+C001351,539***2946,M***** K***,"DMS, NEXT, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001352,534***7495,M***** K***,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001353,542***5956,M***** K***,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001354,,M***** K**,DMS,1,VIN Match,HIGH
+C001355,542***6632,M***** K******,"DMS, PREMIUM, SERVIS",16,VIN + Phone + Name Match,HIGH
+C001356,545***3722,M***** K******,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001357,554***1897,M***** K**,"DMS, NEXT, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001358,534***6649,M***** K**,"DMS, NEXT, PREMIUM, SERVIS",17,VIN + Phone + Name Match,HIGH
+C001359,547***4235,M***** K***,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001360,533***1929,M***** K***,"DMS, NEXT, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001361,534***0869,M***** K***,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001362,531***6090,M***** K***,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001363,541***0297,M***** K***,"DMS, PREMIUM, SERVIS",12,VIN + Phone + Name Match,HIGH
+C001364,555***8308,M***** K****,DMS,1,VIN + Phone + Name Match,HIGH
+C001365,,M***** Ö****,"DMS, PREMIUM, SERVIS",3,VIN Match,HIGH
+C001366,537***6059,M***** P****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001367,536***9602,M***** P****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001368,,M***** P****,"DMS, SERVIS",5,VIN Match,HIGH
+C001369,543***7842,M***** P****,"PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001370,543***4356,M***** S****,DMS,1,VIN + Phone + Name Match,HIGH
+C001371,559***7158,M***** Y*****,"DMS, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001372,553***0531,M***** Y*****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001373,540***4789,M***** Y*****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001374,557***1873,M***** Y*****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001375,536***8952,M***** Y*****,"DMS, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001376,538***4056,M***** Y*****,"DMS, PREMIUM, SERVIS",12,VIN + Phone + Name Match,HIGH
+C001377,,M***** Y*****,DMS,1,VIN Match,HIGH
+C001378,548***1593,M***** Y*****,"PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001379,532***9345,M***** Ç****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001380,530***7632,M***** Ç****,DMS,1,VIN + Phone + Name Match,HIGH
+C001381,545***9824,M***** Ç****,"DMS, NEXT, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001382,551***0855,M***** Ç****,"DMS, PREMIUM, SERVIS",16,VIN + Phone + Name Match,HIGH
+C001383,541***7241,M***** Ç****,"DMS, NEXT, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001384,554***4602,M***** Ç****,"DMS, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C001385,559***6097,M***** Ö****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001386,548***6678,M***** Ö****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001387,537***2026,M***** Ö****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001388,,M***** Ö*****,"DMS, SERVIS",3,VIN Match,HIGH
+C001389,538***8037,M***** Ö*****,"DMS, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C001390,534***5485,M***** Ö*****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001391,540***8564,M***** Ş****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001392,542***3596,M***** Ş****,"DMS, SERVIS",16,VIN + Phone + Name Match,HIGH
+C001393,543***0140,M***** Ş*****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001394,533***7311,M***** Ş*****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001395,555***9031,M**** A*****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001396,,M**** A*****,"DMS, SERVIS",7,VIN Match,HIGH
+C001397,548***3914,M**** A****,"DMS, PREMIUM, SERVIS",12,VIN + Phone + Name Match,HIGH
+C001398,,M**** A****,"DMS, PREMIUM, SERVIS",4,VIN Match,HIGH
+C001399,546***6983,M**** A****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001400,533***9717,M**** A****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001401,535***9975,M**** A****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001402,547***3137,M**** A****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001403,,M**** D****,"DMS, NEXT, SERVIS",6,VIN Match,HIGH
+C001404,533***7821,M**** D****,"DMS, SERVIS",11,VIN + Phone + Name Match,HIGH
+C001405,555***7065,M**** D****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001406,559***3509,M**** D****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001407,531***0751,M**** D****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001408,544***8938,M**** G****,"DMS, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C001409,554***9867,M**** G****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001410,541***7982,M**** K***,"DMS, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001411,541***1700,M**** K***,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001412,545***0140,M**** K***,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001413,550***0433,M**** K***,"DMS, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001414,542***4659,M**** K**,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001415,531***7801,M**** K******,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001416,556***6247,M**** K******,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001417,551***4117,M**** K******,"DMS, NEXT, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001418,541***7189,M**** K******,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001419,542***9531,M**** K******,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001420,551***2813,M**** K******,"DMS, NEXT, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001421,550***8275,M**** K******,"DMS, SERVIS",15,VIN + Phone + Name Match,HIGH
+C001422,531***9914,M**** K**,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001423,539***0496,M**** K**,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001424,550***9789,M**** K**,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001425,,M**** K**,"DMS, SERVIS",3,VIN Match,HIGH
+C001426,535***6363,M**** K**,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001427,549***8113,M**** K**,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001428,557***7037,M**** K**,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001429,546***1942,M**** K**,"DMS, PREMIUM, SERVIS",12,VIN + Phone + Name Match,HIGH
+C001430,540***4343,M**** K***,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001431,554***8873,M**** K***,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001432,547***0666,M**** K****,"DMS, PREMIUM, SERVIS",13,VIN + Phone + Name Match,HIGH
+C001433,538***8599,M**** K****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001434,,M**** K****,SERVIS,2,VIN Match,HIGH
+C001435,,M**** K****,SERVIS,8,VIN Match,HIGH
+C001436,556***6745,M**** P****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001437,536***2514,M**** P****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001438,559***1650,M**** P****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001439,554***3176,M**** P****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001440,,M**** P****,SERVIS,2,VIN Match,HIGH
+C001441,541***9223,M**** Y*****,DMS,1,VIN + Phone + Name Match,HIGH
+C001442,549***9884,M**** Y*****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001443,543***1958,M**** Y*****,"DMS, NEXT, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001444,,M**** Y*****,"DMS, PREMIUM, SERVIS",11,VIN Match,HIGH
+C001445,557***1734,M**** Y*****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001446,552***0247,M**** Y*****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001447,554***1642,M**** Y*****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001448,546***9442,M**** Y*****,"DMS, NEXT, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001449,548***4713,M**** Ç****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001450,551***3596,M**** Ç****,"DMS, PREMIUM, SERVIS",12,VIN + Phone + Name Match,HIGH
+C001451,553***1346,M**** Ç****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001452,541***9591,M**** Ç****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001453,542***7421,M**** Ç****,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001454,551***9319,M**** Ç****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001455,535***5159,M**** Ö****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001456,559***8410,M**** Ö****,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001457,554***1447,M**** Ö****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001458,557***2005,M**** Ö****,"DMS, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001459,552***3236,M**** Ö****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001460,536***9914,M**** Ö****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001461,544***2741,M**** Ö****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001462,540***9730,M**** Ö*****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001463,535***2999,M**** Ö*****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001464,556***8194,M**** Ö*****,"DMS, PREMIUM, SERVIS",15,VIN + Phone + Name Match,HIGH
+C001465,546***7807,M**** Ö*****,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001466,533***2846,M**** Ö*****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001467,538***4919,M**** Ş****,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001468,540***2779,M**** Ş****,"DMS, PREMIUM, SERVIS",13,VIN + Phone + Name Match,HIGH
+C001469,530***1776,M**** Ş****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001470,540***6680,M**** Ş****,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001471,,M**** Ş****,"DMS, SERVIS",2,VIN Match,HIGH
+C001472,536***5941,M**** Ş*****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001473,540***5956,M**** Ş*****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001474,537***2844,M**** Ş*****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001475,558***6104,M**** Ş*****,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001476,536***3198,M**** Ş*****,DMS,1,VIN + Phone + Name Match,HIGH
+C001477,533***5765,M****** A*****,"DMS, NEXT, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001478,549***5706,M****** A*****,"DMS, NEXT, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001479,553***6730,M****** A*****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001480,545***0918,M****** A*****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001481,541***1903,M****** A*****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001482,546***6779,M****** A*****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001483,533***5791,M****** A*****,"DMS, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001484,554***0343,M****** A****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001485,558***4126,M****** A****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001486,546***1470,M****** A****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001487,544***7935,M****** A****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001488,541***1304,M****** A****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001489,542***3646,M****** A****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001490,531***3740,M****** A****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001491,551***0020,M****** Ç****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001492,539***6860,M****** D****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001493,552***8589,M****** D****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001494,554***4991,M****** D****,"DMS, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001495,535***8815,M****** D****,"DMS, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001496,553***9342,M****** D****,"DMS, NEXT, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001497,537***9295,M****** D****,"DMS, SERVIS",17,VIN + Phone + Name Match,HIGH
+C001498,553***4162,M****** D****,"DMS, NEXT, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001499,548***7483,M****** D****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001500,531***4532,M****** D****,"DMS, NEXT, PREMIUM, SERVIS",12,VIN + Phone + Name Match,HIGH
+C001501,,M****** D****,"DMS, NEXT, SERVIS",6,VIN Match,HIGH
+C001502,544***1548,M****** D****,"DMS, NEXT, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001503,548***8158,M****** G****,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001504,533***6650,M****** G****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001505,539***7837,M****** K***,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001506,,M****** K***,"DMS, SERVIS",5,VIN Match,HIGH
+C001507,531***6390,M****** K***,DMS,1,VIN + Phone + Name Match,HIGH
+C001508,551***1477,M****** K***,"DMS, NEXT, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001509,551***7018,M****** K***,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001510,536***5547,M****** K***,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001511,,M****** K***,"DMS, NEXT, SERVIS",4,VIN Match,HIGH
+C001512,559***4160,M****** K***,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001513,531***2127,M****** K***,DMS,1,VIN + Phone + Name Match,HIGH
+C001514,558***0872,M****** K****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001515,537***3537,M****** K****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001516,559***4652,M****** K**,"DMS, PREMIUM, SERVIS",12,VIN + Phone + Name Match,HIGH
+C001517,548***3298,M****** K******,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001518,559***1604,M****** K******,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001519,549***4148,M****** K******,"DMS, NEXT, PREMIUM, SERVIS",13,VIN + Phone + Name Match,HIGH
+C001520,533***6266,M****** K**,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001521,549***4877,M****** K**,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001522,557***6272,M****** K**,"DMS, NEXT, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001523,551***0914,M****** K***,"DMS, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001524,,M****** K***,"DMS, SERVIS",7,VIN Match,HIGH
+C001525,556***3279,M****** K****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001526,549***3212,M****** K****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001527,,M****** K****,"DMS, SERVIS",3,VIN Match,HIGH
+C001528,537***5181,M****** K****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001529,552***9861,M****** K****,"DMS, NEXT, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001530,532***2422,M****** K****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001531,548***7976,M****** K****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001532,,M****** K****,"NEXT, SERVIS",5,VIN Match,HIGH
+C001533,550***2834,M****** P****,"DMS, NEXT",2,VIN + Phone + Name Match,HIGH
+C001534,545***7809,M****** P****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001535,540***5386,M****** P****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001536,558***5467,M****** P****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001537,536***6344,M****** P****,"DMS, PREMIUM, SERVIS",17,VIN + Phone + Name Match,HIGH
+C001538,535***9527,M****** P****,DMS,1,VIN + Phone + Name Match,HIGH
+C001539,,M****** Ş****,SERVIS,6,VIN Match,HIGH
+C001540,555***2668,M****** Y*****,"DMS, NEXT, SERVIS",16,VIN + Phone + Name Match,HIGH
+C001541,554***4876,M****** Y*****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001542,535***7286,M****** Y*****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001543,,M****** Y*****,"DMS, SERVIS",4,VIN Match,HIGH
+C001544,559***3302,M****** Y*****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001545,,M****** Y*****,"DMS, SERVIS",4,VIN Match,HIGH
+C001546,,M****** Y*****,DMS,1,VIN Match,HIGH
+C001547,557***4686,M****** Y*****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001548,554***0847,M****** Y*****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001549,536***2515,M****** Y*****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001550,,M****** Y*****,"PREMIUM, SERVIS",5,VIN Match,HIGH
+C001551,545***1992,M****** Y*****,"DMS, SERVIS",11,VIN + Phone + Name Match,HIGH
+C001552,538***0240,M****** Y*****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001553,539***2266,M****** Y*****,"DMS, NEXT, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001554,532***1431,M****** Y*****,"DMS, NEXT, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001555,555***7514,M****** Ç****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001556,547***5279,M****** Ç****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001557,552***1288,M****** Ç****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001558,555***8917,M****** Ç****,"DMS, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C001559,542***6614,M****** Ç****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001560,532***0497,M****** Ö****,DMS,1,VIN + Phone + Name Match,HIGH
+C001561,,M****** Ö****,"DMS, SERVIS",2,VIN Match,HIGH
+C001562,537***4007,M****** Ö****,"DMS, NEXT, PREMIUM, SERVIS",17,VIN + Phone + Name Match,HIGH
+C001563,557***4408,M****** Ö****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001564,,M****** Ö****,"DMS, SERVIS",4,VIN Match,HIGH
+C001565,536***5391,M****** Ö****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001566,556***3223,M****** Ö****,"DMS, NEXT, PREMIUM, SERVIS",12,VIN + Phone + Name Match,HIGH
+C001567,534***8772,M****** Ö*****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001568,,M****** Ö*****,"NEXT, SERVIS",2,VIN Match,HIGH
+C001569,542***1229,M****** Ş****,"DMS, NEXT, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001570,542***4584,M****** Ş****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001571,533***6802,M****** Ş****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001572,552***3979,M****** Ş****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001573,544***7446,M****** Ş*****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001574,539***8578,M****** Ş*****,"DMS, PREMIUM, SERVIS",14,VIN + Phone + Name Match,HIGH
+C001575,539***8139,M****** Ş*****,"DMS, PREMIUM, SERVIS",16,VIN + Phone + Name Match,HIGH
+C001576,534***2997,M****** Ş*****,"DMS, PREMIUM, SERVIS",25,VIN + Phone + Name Match,HIGH
+C001577,548***3901,M****** Ş*****,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001578,558***5669,M****** Ş*****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001579,557***7514,M****** Ş*****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001580,,O*** A*****,"DMS, SERVIS",4,VIN Match,HIGH
+C001581,552***1986,O*** A*****,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001582,555***0350,O*** A*****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001583,547***4913,O*** A*****,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001584,,O*** A*****,"NEXT, SERVIS",4,VIN Match,HIGH
+C001585,537***8792,O*** A****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001586,532***2551,O*** A****,"DMS, NEXT, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001587,532***7813,O*** A****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001588,,O*** A****,SERVIS,1,VIN Match,HIGH
+C001589,538***3903,O*** A****,"DMS, NEXT, PREMIUM, SERVIS",13,VIN + Phone + Name Match,HIGH
+C001590,546***2997,O*** A****,"DMS, NEXT, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001591,543***3232,O*** A****,"DMS, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001592,533***0359,O*** A****,"DMS, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001593,550***6116,O*** C****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001594,536***8643,O*** Ç****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001595,538***3020,O*** D****,"DMS, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001596,555***4848,O*** D****,"DMS, NEXT, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001597,533***8418,O*** D****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001598,546***3883,O*** D****,"DMS, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001599,546***1673,O*** D****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001600,,O*** D****,"DMS, PREMIUM",2,VIN Match,HIGH
+C001601,543***7190,O*** D****,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001602,550***6206,O*** D****,"DMS, NEXT, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001603,530***6888,O*** D****,"DMS, NEXT, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001604,540***6777,O*** G****,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001605,556***7057,O*** K***,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001606,537***6989,O*** K***,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001607,535***4423,O*** K***,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001608,,O*** K***,"DMS, PREMIUM, SERVIS",3,VIN Match,HIGH
+C001609,547***6231,O*** K**,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001610,,O*** K**,"DMS, NEXT, SERVIS",4,VIN Match,HIGH
+C001611,554***7332,O*** K**,"DMS, PREMIUM, SERVIS",16,VIN + Phone + Name Match,HIGH
+C001612,540***3838,O*** K******,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001613,533***3392,O*** K******,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001614,558***0757,O*** K******,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001615,554***2402,O*** K******,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001616,548***0853,O*** K**,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001617,546***0621,O*** K**,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001618,539***0747,O*** K**,"DMS, NEXT, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001619,559***6692,O*** K***,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001620,,O*** K***,DMS,1,VIN Match,HIGH
+C001621,537***9524,O*** K***,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001622,,O*** K***,"DMS, SERVIS",3,VIN Match,HIGH
+C001623,534***8751,O*** K***,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001624,554***8562,O*** K***,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001625,554***2934,O*** K***,"PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001626,,O*** K***,"NEXT, SERVIS",2,VIN Match,HIGH
+C001627,532***4865,O*** K****,"DMS, PREMIUM, SERVIS",18,VIN + Phone + Name Match,HIGH
+C001628,551***3760,O*** K****,"DMS, PREMIUM, SERVIS",17,VIN + Phone + Name Match,HIGH
+C001629,543***1103,O*** K****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001630,543***7969,O*** K****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001631,539***4517,O*** P****,"DMS, NEXT, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001632,542***6353,O*** Y*****,"DMS, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C001633,531***6449,O*** Y*****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001634,530***5441,O*** Y*****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001635,548***6950,O*** Y*****,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001636,539***8325,O*** Y*****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001637,539***2487,O*** Ç****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001638,544***1308,O*** Ç****,"DMS, NEXT, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001639,544***8404,O*** Ç****,"DMS, PREMIUM, SERVIS",13,VIN + Phone + Name Match,HIGH
+C001640,544***0564,O*** Ç****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001641,557***3963,O*** Ç****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001642,544***7625,O*** Ç****,"DMS, PREMIUM, SERVIS",17,VIN + Phone + Name Match,HIGH
+C001643,559***5701,O*** Ç****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001644,532***0481,O*** Ö****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001645,550***3879,O*** Ö****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001646,553***5880,O*** Ö****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001647,532***9282,O*** Ö*****,DMS,1,VIN + Phone + Name Match,HIGH
+C001648,541***9239,O*** Ö*****,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001649,557***7072,O*** Ş****,"DMS, NEXT, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001650,541***2753,O*** Ş****,"DMS, PREMIUM, SERVIS",16,VIN + Phone + Name Match,HIGH
+C001651,544***5517,O*** Ş****,"DMS, NEXT, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001652,535***0707,O*** Ş****,"DMS, NEXT, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001653,,O*** Ş****,"PREMIUM, SERVIS",2,VIN Match,HIGH
+C001654,535***4280,O*** Ş*****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001655,,O*** Ş*****,"DMS, SERVIS",7,VIN Match,HIGH
+C001656,555***9442,O*** Ş*****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001657,532***7187,O*** Ş*****,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001658,544***3671,O*** A*****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001659,554***1338,O*** A*****,"DMS, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001660,554***6062,O*** A*****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001661,554***5349,O*** A*****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001662,552***4499,O*** A****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001663,538***2787,O*** A****,"DMS, NEXT, PREMIUM, SERVIS",16,VIN + Phone + Name Match,HIGH
+C001664,,O*** A****,"DMS, SERVIS",3,VIN Match,HIGH
+C001665,539***6332,O*** A****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001666,531***2980,O*** A****,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001667,540***1438,O*** A****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001668,531***1042,O*** A****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001669,537***7230,O*** A****,"DMS, PREMIUM, SERVIS",16,VIN + Phone + Name Match,HIGH
+C001670,534***6057,O*** A****,"DMS, NEXT, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001671,,O*** A****,"DMS, SERVIS",4,VIN Match,HIGH
+C001672,530***1067,O*** C****,"DMS, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001673,554***5419,O*** D****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001674,544***5384,O*** D****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001675,559***6170,O*** D****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001676,536***6485,O*** D****,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001677,530***9422,O*** D****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001678,537***6313,O*** D****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001679,549***0276,O*** D****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001680,541***5235,O*** D****,"DMS, NEXT, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001681,535***7283,O*** D****,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001682,536***5396,O*** D****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001683,543***9367,O*** D****,"DMS, NEXT, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001684,532***6011,O*** D****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001685,554***7508,O*** D****,"DMS, NEXT, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001686,545***2493,O*** D****,"PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001687,542***6667,O*** G****,DMS,1,VIN + Phone + Name Match,HIGH
+C001688,531***4473,O*** G****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001689,532***3176,O*** G****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001690,532***3646,O*** G****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001691,,O*** G****,"DMS, NEXT, SERVIS",4,VIN Match,HIGH
+C001692,532***5076,O*** K***,DMS,1,VIN + Phone + Name Match,HIGH
+C001693,,O*** K***,"DMS, SERVIS",2,VIN Match,HIGH
+C001694,536***3591,O*** K***,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001695,553***1075,O*** K***,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001696,553***9692,O*** K***,"PREMIUM, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001697,533***4115,O*** K****,"DMS, PREMIUM, SERVIS",14,VIN + Phone + Name Match,HIGH
+C001698,,O*** K****,"DMS, NEXT, SERVIS",3,VIN Match,HIGH
+C001699,533***7185,O*** K****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001700,543***0959,O*** K****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001701,538***3935,O*** K******,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001702,541***6054,O*** K******,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001703,536***5418,O*** K******,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001704,542***6118,O*** K******,"DMS, NEXT, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001705,534***6014,O*** K**,DMS,1,VIN + Phone + Name Match,HIGH
+C001706,547***5137,O*** K**,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001707,546***6422,O*** K**,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001708,530***8109,O*** K**,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001709,555***8440,O*** K**,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001710,532***8438,O*** K**,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001711,558***1293,O*** K**,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001712,540***5875,O*** K***,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001713,555***3248,O*** K***,"DMS, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001714,548***4239,O*** K***,"DMS, NEXT",2,VIN + Phone + Name Match,HIGH
+C001715,,O*** K***,SERVIS,8,VIN Match,HIGH
+C001716,534***7995,O*** K****,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001717,535***6539,O*** K****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001718,530***4983,O*** K****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001719,552***2144,O*** K****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001720,,O*** K****,"PREMIUM, SERVIS",2,VIN Match,HIGH
+C001721,544***9293,O*** Ö****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001722,556***7595,O*** P****,DMS,1,VIN + Phone + Name Match,HIGH
+C001723,539***8298,O*** P****,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001724,532***6342,O*** P****,"DMS, NEXT, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001725,552***4172,O*** P****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001726,532***8384,O*** P****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001727,539***9776,O*** P****,"DMS, NEXT, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001728,544***8957,O*** Ş****,"DMS, NEXT, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001729,533***7395,O*** Y*****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001730,546***3361,O*** Y*****,"DMS, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001731,530***7937,O*** Y*****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001732,552***5339,O*** Y*****,"DMS, NEXT, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001733,540***4528,O*** Y*****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001734,532***0383,O*** Y*****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001735,544***7392,O*** Y*****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001736,,O*** Y*****,SERVIS,8,VIN Match,HIGH
+C001737,552***6183,O*** Ç****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001738,534***7269,O*** Ç****,"DMS, NEXT, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001739,548***4202,O*** Ç****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001740,541***5896,O*** Ç****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001741,533***5779,O*** Ö****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001742,557***7905,O*** Ö****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001743,,O*** Ö****,SERVIS,1,VIN Match,HIGH
+C001744,554***9172,O*** Ö*****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001745,538***2704,O*** Ö*****,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001746,530***4226,O*** Ş****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001747,551***2765,O*** Ş****,"DMS, SERVIS",11,VIN + Phone + Name Match,HIGH
+C001748,553***8434,O*** Ş****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001749,548***9048,O*** Ş*****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001750,531***3987,O*** Ş*****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001751,547***7024,O*** Ş*****,"DMS, NEXT, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001752,541***7237,O*** Ş*****,"DMS, NEXT, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001753,538***2475,O*** Ş*****,"DMS, NEXT, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001754,550***4585,O*** Ş*****,"DMS, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001755,554***4521,O*** Ş*****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001756,555***0025,G**** P****,"DMS, NEXT, PREMIUM, SERVIS",14,VIN + Phone + Name Match,HIGH
+C001757,555***6689,O*** P****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001758,544***7254,Z***** P****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001759,535***2111,İ*** P****,"DMS, NEXT, PREMIUM, SERVIS",16,VIN + Phone + Name Match,HIGH
+C001760,543***2255,S**** A****,"DMS, NEXT, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001761,541***2192,S**** A****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001762,536***3209,S**** A****,"DMS, PREMIUM",4,VIN + Phone + Name Match,HIGH
+C001763,530***6644,S**** A****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001764,,S**** A****,"DMS, NEXT, SERVIS",11,VIN Match,HIGH
+C001765,,S**** A****,"DMS, SERVIS",4,VIN Match,HIGH
+C001766,537***5741,S**** D****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001767,540***3311,S**** D****,"DMS, NEXT, PREMIUM, SERVIS",16,VIN + Phone + Name Match,HIGH
+C001768,536***6683,S**** D****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001769,539***8218,S**** D****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001770,545***7469,S**** D****,DMS,2,VIN + Phone + Name Match,HIGH
+C001771,537***1823,S**** D****,"DMS, PREMIUM, SERVIS",15,VIN + Phone + Name Match,HIGH
+C001772,535***1517,S**** D****,DMS,1,VIN + Phone + Name Match,HIGH
+C001773,532***4923,S**** D****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001774,542***8012,S**** D****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001775,544***9661,S**** D****,"PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001776,540***0100,S**** G****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001777,550***6123,S**** G****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001778,542***8283,S**** K***,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001779,,S**** K***,"DMS, SERVIS",3,VIN Match,HIGH
+C001780,537***1277,S**** K***,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001781,557***3880,S**** K***,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001782,554***7758,S**** K***,"DMS, NEXT, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001783,547***0587,S**** K***,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001784,,S**** K****,SERVIS,4,VIN Match,HIGH
+C001785,544***5704,S**** K******,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001786,535***6368,S**** K******,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001787,559***9557,S**** K******,"DMS, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001788,,S**** K******,"DMS, NEXT, SERVIS",5,VIN Match,HIGH
+C001789,547***4601,S**** K******,PREMIUM,1,VIN + Phone + Name Match,HIGH
+C001790,,S**** K******,SERVIS,4,VIN Match,HIGH
+C001791,532***9837,S**** K**,"DMS, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001792,540***5961,S**** K**,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001793,552***2878,S**** K***,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001794,533***8755,S**** K***,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001795,543***0255,S**** K****,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001796,551***8859,S**** K****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001797,534***0068,S**** K****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001798,543***4497,S**** K****,"DMS, SERVIS",11,VIN + Phone + Name Match,HIGH
+C001799,551***3838,S**** K****,"DMS, PREMIUM, SERVIS",13,VIN + Phone + Name Match,HIGH
+C001800,547***6792,S**** K****,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001801,559***9874,S**** Ö*****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001802,558***7881,S**** P****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001803,,S**** P****,"DMS, SERVIS",8,VIN Match,HIGH
+C001804,,S**** P****,"DMS, NEXT, SERVIS",4,VIN Match,HIGH
+C001805,557***5306,S**** P****,"DMS, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001806,533***2651,S**** S*****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001807,553***1010,S**** Y*****,"DMS, NEXT, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001808,546***6581,S**** Y*****,"DMS, PREMIUM",3,VIN + Phone + Name Match,HIGH
+C001809,543***3502,S**** Y*****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001810,545***4047,S**** Y*****,"DMS, NEXT, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001811,556***3941,S**** Y*****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001812,546***5991,S**** Y*****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001813,539***5758,S**** Ç****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001814,553***9119,S**** Ç****,"DMS, NEXT, PREMIUM, SERVIS",14,VIN + Phone + Name Match,HIGH
+C001815,551***4808,S**** Ç****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001816,548***3335,S**** Ç****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001817,,S**** Ç****,"DMS, SERVIS",3,VIN Match,HIGH
+C001818,541***0342,S**** Ç****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001819,537***2155,S**** Ç****,DMS,1,VIN + Phone + Name Match,HIGH
+C001820,538***1977,S**** Ç****,"DMS, NEXT, PREMIUM, SERVIS",18,VIN + Phone + Name Match,HIGH
+C001821,542***4647,S**** Ç****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001822,549***4373,S**** Ö****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001823,555***8465,S**** Ö****,DMS,1,VIN + Phone + Name Match,HIGH
+C001824,551***5437,S**** Ö****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001825,551***6414,S**** Ö*****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001826,550***9636,S**** Ö*****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001827,539***8752,S**** Ö*****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001828,548***1890,S**** Ö*****,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001829,536***6603,S**** Ö*****,"DMS, SERVIS",11,VIN + Phone + Name Match,HIGH
+C001830,542***6207,S**** Ş*****,"DMS, NEXT, PREMIUM, SERVIS",12,VIN + Phone + Name Match,HIGH
+C001831,,S**** Ş*****,"DMS, SERVIS",3,VIN Match,HIGH
+C001832,,S**** Ş*****,"DMS, SERVIS",12,VIN Match,HIGH
+C001833,547***3128,S**** Ş*****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001834,,S**** Ş*****,"DMS, SERVIS",5,VIN Match,HIGH
+C001835,542***6452,S**** Ş*****,"DMS, NEXT, PREMIUM, SERVIS",13,VIN + Phone + Name Match,HIGH
+C001836,536***9144,S**** A****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001837,557***1625,S**** A****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001838,539***8331,S**** D****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001839,,S**** G****,"DMS, PREMIUM, SERVIS",9,VIN Match,HIGH
+C001840,557***8772,S**** K***,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001841,544***2074,S**** K***,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001842,543***6977,S**** K****,"DMS, NEXT, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001843,551***8604,S**** P****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001844,552***8515,S**** Ç****,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001845,555***9030,S**** Ç****,"DMS, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001846,,S**** Ç****,"DMS, SERVIS",4,VIN Match,HIGH
+C001847,,S**** Ö****,DMS,1,VIN Match,HIGH
+C001848,530***7754,S**** Ş*****,"DMS, PREMIUM, SERVIS",12,VIN + Phone + Name Match,HIGH
+C001849,548***6715,Y****** A*****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001850,548***5728,Y****** A*****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001851,550***5285,Y****** A*****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001852,549***7090,Y****** A****,"DMS, PREMIUM, SERVIS",15,VIN + Phone + Name Match,HIGH
+C001853,546***6839,Y****** A****,"DMS, PREMIUM, SERVIS",12,VIN + Phone + Name Match,HIGH
+C001854,543***0068,Y****** A****,DMS,1,VIN + Phone + Name Match,HIGH
+C001855,551***9688,Y****** A****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001856,557***2763,Y****** A****,DMS,1,VIN + Phone + Name Match,HIGH
+C001857,551***1936,Y****** A****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001858,543***9751,Y****** C****,DMS,1,VIN + Phone + Name Match,HIGH
+C001859,530***4520,Y****** C****,DMS,1,VIN + Phone + Name Match,HIGH
+C001860,545***0810,Y****** D****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001861,541***9933,Y****** D****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001862,558***2564,Y****** D****,"DMS, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001863,553***7428,Y****** D****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001864,555***6486,Y****** D****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001865,,Y****** D****,"DMS, SERVIS",10,VIN Match,HIGH
+C001866,539***5554,Y****** D****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001867,538***3932,Y****** G****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001868,552***6639,Y****** K***,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001869,539***3509,Y****** K***,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001870,537***7610,Y****** K***,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001871,556***7547,Y****** K***,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001872,535***7376,Y****** K**,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001873,554***1946,Y****** K******,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001874,554***0310,Y****** K******,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001875,557***9758,Y****** K******,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001876,535***6088,Y****** K**,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001877,552***7316,Y****** K***,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001878,547***6525,Y****** K***,DMS,1,VIN + Phone + Name Match,HIGH
+C001879,550***9980,Y****** K***,DMS,1,VIN + Phone + Name Match,HIGH
+C001880,558***5459,Y****** K***,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001881,538***0116,Y****** K***,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001882,553***2774,Y****** K***,"DMS, PREMIUM, SERVIS",22,VIN + Phone + Name Match,HIGH
+C001883,531***1248,Y****** K****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001884,555***2227,Y****** K****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001885,554***5342,Y****** K****,"DMS, NEXT, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001886,542***5261,Y****** K****,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001887,545***9848,Y****** Ö*****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001888,558***2543,Y****** P****,"DMS, NEXT, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001889,,Y****** P****,DMS,1,VIN Match,HIGH
+C001890,538***7127,Y****** P****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001891,531***4950,Y****** Y*****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001892,551***2633,Y****** Y*****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001893,558***4067,Y****** Y*****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001894,547***6363,Y****** Y*****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001895,531***3953,Y****** Y*****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001896,542***9083,Y****** Y*****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001897,550***4531,Y****** Y*****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001898,537***4773,Y****** Ç****,"DMS, PREMIUM, SERVIS",21,VIN + Phone + Name Match,HIGH
+C001899,530***5063,Y****** Ç****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001900,538***2507,Y****** Ç****,"DMS, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001901,,Y****** Ç****,"DMS, SERVIS",2,VIN Match,HIGH
+C001902,537***7913,Y****** Ç****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001903,546***3519,Y****** Ç****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001904,539***5518,Y****** Ç****,"NEXT, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001905,536***0138,Y****** Ö****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001906,549***0754,Y****** Ö****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001907,,Y****** Ö****,"DMS, SERVIS",3,VIN Match,HIGH
+C001908,554***7801,Y****** Ö****,"DMS, NEXT, PREMIUM, SERVIS",13,VIN + Phone + Name Match,HIGH
+C001909,,Y****** Ö****,"DMS, SERVIS",2,VIN Match,HIGH
+C001910,,Y****** Ö****,SERVIS,8,VIN Match,HIGH
+C001911,540***5795,Y****** Ö*****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001912,550***6144,Y****** Ö*****,"DMS, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001913,545***8801,Y****** Ö*****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001914,559***0582,Y****** Ş****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001915,536***1494,Y****** Ş*****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001916,557***7895,Y****** Ş*****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001917,555***6154,Y****** A*****,"DMS, NEXT, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001918,,Y****** A****,SERVIS,10,VIN Match,HIGH
+C001919,556***8672,Y****** D****,"DMS, NEXT, PREMIUM, SERVIS",13,VIN + Phone + Name Match,HIGH
+C001920,556***4801,Y****** D****,"DMS, PREMIUM, SERVIS",12,VIN + Phone + Name Match,HIGH
+C001921,533***2590,Y****** D****,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001922,,Y****** K***,"DMS, SERVIS",8,VIN Match,HIGH
+C001923,541***1296,Y****** K******,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001924,540***4263,Y****** K****,"DMS, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001925,554***2546,Y****** P****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001926,548***6346,Y****** Y*****,DMS,1,VIN + Phone + Name Match,HIGH
+C001927,533***8594,Y****** Y*****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001928,540***1545,Y****** Ç****,"DMS, NEXT, PREMIUM, SERVIS",14,VIN + Phone + Name Match,HIGH
+C001929,559***1705,Y****** Ç****,"DMS, NEXT, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001930,551***7199,Y****** Ö****,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001931,558***3157,Y****** Ş****,"DMS, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001932,530***8833,Y****** Ş*****,"DMS, NEXT, PREMIUM, SERVIS",15,VIN + Phone + Name Match,HIGH
+C001933,555***0445,E*** Y*****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001934,559***7788,E*** Y*****,"DMS, NEXT, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001935,539***1429,A*** Y*****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001936,535***8426,B**** Y*****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001937,554***4073,B**** Y*****,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001938,536***9132,B**** Y*****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001939,533***2431,E*** Y*****,"DMS, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001940,559***4065,Z***** A*****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001941,542***3447,Z***** A*****,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001942,553***6524,Z***** A*****,"DMS, PREMIUM, SERVIS",13,VIN + Phone + Name Match,HIGH
+C001943,559***0528,Z***** A*****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001944,555***2709,Z***** A*****,DMS,1,VIN + Phone + Name Match,HIGH
+C001945,537***4251,Z***** A*****,"DMS, SERVIS",9,VIN + Phone + Name Match,HIGH
+C001946,552***1602,Z***** A****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001947,549***9054,Z***** A****,"DMS, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001948,547***8343,Z***** A****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001949,556***1524,Z***** A****,DMS,1,VIN + Phone + Name Match,HIGH
+C001950,558***5611,Z***** A****,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001951,541***8489,Z***** Ç****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001952,549***0194,Z***** D****,"DMS, NEXT, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001953,,Z***** D****,"DMS, SERVIS",3,VIN Match,HIGH
+C001954,548***7756,Z***** D****,DMS,1,VIN + Phone + Name Match,HIGH
+C001955,556***7026,Z***** D****,"DMS, NEXT, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001956,553***4301,Z***** D****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001957,549***8028,Z***** D****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001958,,Z***** D****,"DMS, SERVIS",4,VIN Match,HIGH
+C001959,554***8484,Z***** D****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001960,530***1299,Z***** D****,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001961,558***8578,Z***** D****,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001962,549***6601,Z***** D****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001963,,Z***** D****,"DMS, SERVIS",2,VIN Match,HIGH
+C001964,,Z***** D****,PREMIUM,1,VIN Match,HIGH
+C001965,542***6291,Z***** G****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001966,534***6502,Z***** G****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001967,,Z***** G****,"DMS, SERVIS",2,VIN Match,HIGH
+C001968,556***0463,Z***** K***,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001969,552***1462,Z***** K***,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001970,558***6264,Z***** K***,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001971,538***9317,Z***** K***,"DMS, NEXT, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001972,545***5833,Z***** K***,DMS,1,VIN + Phone + Name Match,HIGH
+C001973,551***6562,Z***** K******,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001974,557***8461,Z***** K******,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001975,558***0069,Z***** K******,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C001976,556***5887,Z***** K******,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C001977,538***4924,Z***** K**,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001978,530***8934,Z***** K***,DMS,1,VIN + Phone + Name Match,HIGH
+C001979,547***5395,Z***** K***,DMS,1,VIN + Phone + Name Match,HIGH
+C001980,532***1793,Z***** K***,"DMS, SERVIS",11,VIN + Phone + Name Match,HIGH
+C001981,548***9978,Z***** K***,"DMS, NEXT, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001982,542***9846,Z***** K***,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C001983,557***9590,Z***** K***,"DMS, NEXT, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001984,537***6445,Z***** K***,"DMS, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C001985,559***7966,Z***** K****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001986,539***4349,Z***** K****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001987,557***3107,Z***** K****,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C001988,546***3734,Z***** Ö*****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001989,542***2505,Z***** P****,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C001990,538***8534,Z***** P****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001991,536***4885,Z***** P****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001992,555***4832,Z***** Y*****,DMS,2,VIN + Phone + Name Match,HIGH
+C001993,,Z***** Y*****,"DMS, SERVIS",9,VIN Match,HIGH
+C001994,551***3359,Z***** Y*****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C001995,556***5047,Z***** Y*****,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C001996,540***4549,Z***** Y*****,"DMS, NEXT, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C001997,540***0133,Z***** Y*****,"DMS, PREMIUM, SERVIS",25,VIN + Phone + Name Match,HIGH
+C001998,551***8490,Z***** Y*****,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C001999,549***6363,Z***** Y*****,"DMS, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C002000,545***9135,Z***** Ç****,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C002001,554***2503,Z***** Ç****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C002002,531***5581,Z***** Ç****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C002003,539***0660,Z***** Ç****,"DMS, NEXT, SERVIS",9,VIN + Phone + Name Match,HIGH
+C002004,544***1380,Z***** Ö****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C002005,546***1858,Z***** Ö****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C002006,550***6397,Z***** Ö****,DMS,1,VIN + Phone + Name Match,HIGH
+C002007,531***4267,Z***** Ö****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C002008,556***9943,Z***** Ö****,"DMS, NEXT, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C002009,533***3781,Z***** Ö****,"DMS, SERVIS",10,VIN + Phone + Name Match,HIGH
+C002010,537***3821,Z***** Ö*****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C002011,539***6344,Z***** Ş****,"DMS, NEXT, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C002012,533***8336,Z***** Ş*****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C002013,,Z***** Ş*****,"DMS, SERVIS",6,VIN Match,HIGH
+C002014,557***5166,Z***** Ş*****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C002015,554***7108,Z***** Ş*****,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C002016,556***6682,Z***** Ş*****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C002017,542***2262,Z***** Ş*****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C002018,536***0647,E*** Ç****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C002019,553***7789,Ç**** E***,DMS,1,VIN + Phone + Name Match,HIGH
+C002020,,F**** Ç****,SERVIS,3,VIN Match,HIGH
+C002021,,Ç**** M*****,"DMS, SERVIS",5,VIN Match,HIGH
+C002022,545***9341,İ*** Ç****,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C002023,558***1270,Ç**** B****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C002024,533***6904,Ç**** B****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C002025,,Ç**** E***,DMS,1,VIN Match,HIGH
+C002026,542***2645,G**** Ç****,"DMS, SERVIS",16,VIN + Phone + Name Match,HIGH
+C002027,531***6582,A*** Ö****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C002028,530***0773,Ö**** D****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C002029,531***8630,E*** Ö****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C002030,544***2601,Ö***** C**,"DMS, SERVIS",2,VIN + Phone + Name Match,HIGH
+C002031,531***6548,D**** Ö*****,"DMS, NEXT, PREMIUM, SERVIS",13,VIN + Phone + Name Match,HIGH
+C002032,532***9713,D**** Ö*****,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C002033,538***1255,Ö***** K****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C002034,548***5232,Ö***** Y******,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C002035,,İ*** A*****,"DMS, SERVIS",4,VIN Match,HIGH
+C002036,548***2547,İ*** A*****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C002037,550***0456,İ*** A*****,"DMS, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C002038,544***3481,İ*** A****,"DMS, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C002039,532***8613,İ*** A****,"DMS, NEXT, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C002040,547***7548,İ*** A****,"DMS, NEXT, PREMIUM, SERVIS",17,VIN + Phone + Name Match,HIGH
+C002041,557***0117,İ*** A****,"DMS, NEXT, SERVIS",5,VIN + Phone + Name Match,HIGH
+C002042,530***3024,İ*** A****,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C002043,538***3825,İ*** A****,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C002044,543***0252,İ*** A****,"DMS, NEXT, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C002045,538***1212,İ*** A****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C002046,548***2289,İ*** D****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C002047,550***7523,İ*** D****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C002048,537***0732,İ*** D****,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C002049,550***1577,İ*** D****,"PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C002050,537***0845,İ*** D****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C002051,536***6388,İ*** D****,DMS,1,VIN + Phone + Name Match,HIGH
+C002052,555***7985,İ*** D****,"DMS, NEXT, PREMIUM, SERVIS",12,VIN + Phone + Name Match,HIGH
+C002053,531***4484,İ*** G****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C002054,531***0586,İ*** K***,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C002055,541***9993,İ*** K******,"DMS, NEXT, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C002056,556***1912,İ*** K******,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C002057,532***7937,İ*** K******,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C002058,555***9902,İ*** K******,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C002059,548***8050,İ*** K******,"PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C002060,541***6470,İ*** K**,DMS,1,VIN + Phone + Name Match,HIGH
+C002061,540***1158,İ*** K**,"DMS, NEXT, PREMIUM, SERVIS",22,VIN + Phone + Name Match,HIGH
+C002062,549***2492,İ*** K**,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C002063,536***0985,İ*** K**,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C002064,546***7906,İ*** K**,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C002065,,İ*** K***,DMS,1,VIN Match,HIGH
+C002066,541***1348,İ*** K***,"DMS, SERVIS",9,VIN + Phone + Name Match,HIGH
+C002067,541***1195,İ*** K***,"DMS, NEXT, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C002068,,İ*** K***,"DMS, NEXT, SERVIS",4,VIN Match,HIGH
+C002069,558***8638,İ*** K****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C002070,550***8202,İ*** K****,"DMS, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C002071,546***6214,İ*** K****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C002072,542***2100,İ*** K****,"DMS, SERVIS",6,VIN + Phone + Name Match,HIGH
+C002073,558***2291,İ*** K****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C002074,544***3143,İ*** P****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C002075,540***9870,İ*** P****,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C002076,534***8850,İ*** P****,"DMS, PREMIUM, SERVIS",18,VIN + Phone + Name Match,HIGH
+C002077,535***7863,İ*** P****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C002078,536***6504,İ*** P****,"DMS, PREMIUM, SERVIS",12,VIN + Phone + Name Match,HIGH
+C002079,,İ*** P****,SERVIS,7,VIN Match,HIGH
+C002080,549***9101,İ*** Y*****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C002081,531***9508,İ*** Y*****,"DMS, PREMIUM, SERVIS",17,VIN + Phone + Name Match,HIGH
+C002082,533***2482,İ*** Y*****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C002083,531***7472,İ*** Y*****,"DMS, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C002084,554***9061,İ*** Y*****,"DMS, SERVIS",4,VIN + Phone + Name Match,HIGH
+C002085,538***3551,İ*** Ç****,"DMS, PREMIUM, SERVIS",12,VIN + Phone + Name Match,HIGH
+C002086,535***9349,İ*** Ç****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C002087,546***0792,İ*** Ö*****,"DMS, PREMIUM, SERVIS",8,VIN + Phone + Name Match,HIGH
+C002088,553***8571,İ*** Ş****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C002089,557***8193,İ*** Ş****,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C002090,544***7356,İ*** Ş****,"DMS, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C002091,545***1008,İ*** Ş****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH
+C002092,538***1222,İ*** Ş*****,"DMS, PREMIUM, SERVIS",11,VIN + Phone + Name Match,HIGH
+C002093,,İ*** Ş*****,"DMS, SERVIS",10,VIN Match,HIGH
+C002094,554***7536,İ*** Ş*****,"DMS, PREMIUM, SERVIS",3,VIN + Phone + Name Match,HIGH
+C002095,532***3580,İ*** Ş*****,"DMS, NEXT, PREMIUM, SERVIS",7,VIN + Phone + Name Match,HIGH
+C002096,546***6433,İ*** A****,"DMS, PREMIUM, SERVIS",5,VIN + Phone + Name Match,HIGH
+C002097,555***4295,İ*** A****,"DMS, SERVIS",5,VIN + Phone + Name Match,HIGH
+C002098,538***0896,İ*** A****,"DMS, PREMIUM, SERVIS",6,VIN + Phone + Name Match,HIGH
+C002099,544***3143,İ*** P****,"DMS, SERVIS",6,VIN + Phone + Name Match,HIGH
+C002100,550***0140,Ç**** İ***,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C002101,553***4922,İ**** Ş****,"DMS, SERVIS",7,VIN + Phone + Name Match,HIGH
+C002102,531***4070,B**** Ş****,"DMS, PREMIUM, SERVIS",12,VIN + Phone + Name Match,HIGH
+C002103,552***4568,C**** Ş****,"DMS, NEXT, PREMIUM, SERVIS",10,VIN + Phone + Name Match,HIGH
+C002104,541***6651,Ş**** E***,"DMS, SERVIS",3,VIN + Phone + Name Match,HIGH
+C002105,,F**** Ş****,SERVIS,5,VIN Match,HIGH
+C002106,534***9808,Z***** Ş****,"DMS, SERVIS",8,VIN + Phone + Name Match,HIGH
+C002107,553***4896,Ş***** A****,"DMS, PREMIUM, SERVIS",4,VIN + Phone + Name Match,HIGH
+C002108,537***0043,E*** Ş*****,"DMS, SERVIS",11,VIN + Phone + Name Match,HIGH
+C002109,530***7744,K**** Ş*****,"DMS, NEXT, PREMIUM, SERVIS",9,VIN + Phone + Name Match,HIGH
+C002110,538***5991,Ş***** S****,"DMS, PREMIUM",2,VIN + Phone + Name Match,HIGH

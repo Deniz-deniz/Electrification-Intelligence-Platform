@@ -1,0 +1,10 @@
+﻿brand,powertrain_type,trade_in_count,avg_sale_price_tl,avg_offer_tl,avg_retention_ratio,retention_pct
+BMW,Elektrik,53,3197486.0,1249866.0,0.3931,39.31
+BMW,İçten Yanmalı / Hibrit,112,3145231.0,1625667.0,0.5299,52.99
+Defender,İçten Yanmalı / Hibrit,20,7470369.0,1518907.0,0.2029,20.29
+Discovery,İçten Yanmalı / Hibrit,14,6596342.0,1544547.0,0.2419,24.19
+Jaguar,Elektrik,12,5370036.0,1376298.0,0.2591,25.91
+Jaguar,İçten Yanmalı / Hibrit,8,5063274.0,1723666.0,0.3418,34.18
+MINI,Elektrik,64,2356315.0,1305307.0,0.564,56.4
+MINI,İçten Yanmalı / Hibrit,5,2406653.0,1236389.0,0.5176,51.76
+Range Rover,İçten Yanmalı / Hibrit,36,8599951.0,1689689.0,0.201,20.1

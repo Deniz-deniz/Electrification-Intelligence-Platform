@@ -1,0 +1,16 @@
+{
+  "true_customer_count": 2000,
+  "evaluated_vehicles_count": 2683,
+  "total_truth_vehicles": 2692,
+  "true_vehicle_pairs": 785,
+  "predicted_vehicle_pairs": 649,
+  "true_positives": 649,
+  "false_positives": 0,
+  "false_negatives": 136,
+  "pairwise_precision": 1.0,
+  "pairwise_recall": 0.8268,
+  "pairwise_f1": 0.9052,
+  "share_vehicles_assigned_correct": 1.0,
+  "cluster_purity": 1.0,
+  "evaluation_timestamp": "2026-10-11T22:07:00.673119+00:00"
+}

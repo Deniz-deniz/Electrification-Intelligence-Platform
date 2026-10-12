@@ -1,0 +1,19 @@
+﻿dealer_code,dealer_name,city,point_type
+B01,Borusan Oto İstanbul,İstanbul,Bayi
+B02,Borusan Oto Ankara,Ankara,Bayi
+B03,Borusan Oto İzmir,İzmir,Bayi
+B04,Borusan Oto Bursa,Bursa,Bayi
+B05,Borusan Oto Antalya,Antalya,Bayi
+B06,Borusan Oto Adana,Adana,Bayi
+B07,Borusan Oto Konya,Konya,Bayi
+B08,Borusan Oto Kocaeli,Kocaeli,Bayi
+S01,Yetkili Servis İstanbul 1,İstanbul,Servis
+S02,Yetkili Servis Ankara 2,Ankara,Servis
+S03,Yetkili Servis İzmir 3,İzmir,Servis
+S04,Yetkili Servis Bursa 4,Bursa,Servis
+S05,Yetkili Servis Antalya 5,Antalya,Servis
+S06,Yetkili Servis Adana 6,Adana,Servis
+S07,Yetkili Servis Konya 7,Konya,Servis
+S08,Yetkili Servis Kocaeli 8,Kocaeli,Servis
+S09,Yetkili Servis İstanbul 9,İstanbul,Servis
+S10,Yetkili Servis İzmir 10,İzmir,Servis

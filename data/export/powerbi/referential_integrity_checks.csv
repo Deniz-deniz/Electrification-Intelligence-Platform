@@ -1,0 +1,4 @@
+﻿fact_table,foreign_key,parent_table,total_fact_rows,unmatched_dim_vehicles_rows,unmatched_dim_vehicles_pct,orphan_unmatched_sales_rows,orphan_unmatched_sales_pct,orphan_distinct_vins,root_cause_explanation
+service_records,vin,vehicles,8231,0,0.0,454,5.52,117,Sales transaction quarantined in Silver Clean due to corrupted/missing VIN in source DMS
+contracts,vin,vehicles,1361,0,0.0,68,5.0,68,Sales transaction quarantined in Silver Clean due to corrupted/missing VIN in source DMS
+trade_ins,vin,vehicles,345,0,0.0,21,6.09,21,Sales transaction quarantined in Silver Clean due to corrupted/missing VIN in source DMS

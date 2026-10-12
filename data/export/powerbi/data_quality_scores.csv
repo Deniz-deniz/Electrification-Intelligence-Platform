@@ -1,0 +1,13 @@
+﻿layer,table_name,rows,completeness_pct,validity_pct,uniqueness_pct,overall_dq_score,formula_documentation
+bronze,dms_satis,2732,99.08,97.33,98.54,98.24,"0.40*validity (non-null rule pass rate: VIN, dates, phone, contract) + 0.35*completeness (null & placeholder missing) + 0.25*uniqueness"
+bronze,premium_sozlesme,1445,98.98,96.96,100.0,98.43,"0.40*validity (non-null rule pass rate: VIN, dates, phone, contract) + 0.35*completeness (null & placeholder missing) + 0.25*uniqueness"
+bronze,servis_kayit,8690,99.75,97.95,100.0,99.09,"0.40*validity (non-null rule pass rate: VIN, dates, phone, contract) + 0.35*completeness (null & placeholder missing) + 0.25*uniqueness"
+bronze,next_islem,362,99.7,100.0,100.0,99.9,"0.40*validity (non-null rule pass rate: VIN, dates, phone, contract) + 0.35*completeness (null & placeholder missing) + 0.25*uniqueness"
+bronze,bayi_servis_noktalari,18,100.0,100.0,100.0,100.0,"0.40*validity (non-null rule pass rate: VIN, dates, phone, contract) + 0.35*completeness (null & placeholder missing) + 0.25*uniqueness"
+silver,sales,2554,99.37,100.0,100.0,99.78,"0.40*validity (non-null rule pass rate: VIN, dates, phone, contract) + 0.35*completeness (null & placeholder missing) + 0.25*uniqueness"
+silver,contracts,1361,99.33,100.0,100.0,99.77,"0.40*validity (non-null rule pass rate: VIN, dates, phone, contract) + 0.35*completeness (null & placeholder missing) + 0.25*uniqueness"
+silver,service_records,8231,100.0,100.0,100.0,100.0,"0.40*validity (non-null rule pass rate: VIN, dates, phone, contract) + 0.35*completeness (null & placeholder missing) + 0.25*uniqueness"
+silver,trade_ins,345,100.0,100.0,100.0,100.0,"0.40*validity (non-null rule pass rate: VIN, dates, phone, contract) + 0.35*completeness (null & placeholder missing) + 0.25*uniqueness"
+silver,dealers,18,100.0,100.0,100.0,100.0,"0.40*validity (non-null rule pass rate: VIN, dates, phone, contract) + 0.35*completeness (null & placeholder missing) + 0.25*uniqueness"
+silver,customers,2110,98.38,100.0,100.0,99.43,"0.40*validity (non-null rule pass rate: VIN, dates, phone, contract) + 0.35*completeness (null & placeholder missing) + 0.25*uniqueness"
+silver,vehicles,2683,97.12,100.0,100.0,98.99,"0.40*validity (non-null rule pass rate: VIN, dates, phone, contract) + 0.35*completeness (null & placeholder missing) + 0.25*uniqueness"

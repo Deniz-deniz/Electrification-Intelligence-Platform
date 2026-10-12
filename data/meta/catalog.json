@@ -1,0 +1,2976 @@
+{
+  "catalog_version": "1.0",
+  "generated_at": "2026-10-11T22:06:51.523110+00:00",
+  "run_id": "test-catalog-run-001",
+  "total_tables": 20,
+  "tables": [
+    {
+      "name": "bayi_servis_noktalari",
+      "table_name": "bayi_servis_noktalari",
+      "layer": "bronze",
+      "description": "Raw dealer and service point network records ingested from the dealer portal directory.",
+      "owner": "Dealer Network & Operations",
+      "source_systems": [
+        "Bayi Portali"
+      ],
+      "columns": [
+        {
+          "name": "dealer_code",
+          "type": "string",
+          "description": "Unique alphanumeric code identifying the authorized dealership or service point"
+        },
+        {
+          "name": "dealer_name",
+          "type": "string",
+          "description": "Commercial registered name of the dealership branch"
+        },
+        {
+          "name": "city",
+          "type": "string",
+          "description": "Metropolitan city where the facility is situated"
+        },
+        {
+          "name": "point_type",
+          "type": "string",
+          "description": "Facility classification (e.g. Satış ve Servis, Yetkili Servis)"
+        },
+        {
+          "name": "_source_system",
+          "type": "string",
+          "description": "System identifier indicating originating source application"
+        },
+        {
+          "name": "_source_file",
+          "type": "string",
+          "description": "Original CSV filename ingested into Bronze layer"
+        },
+        {
+          "name": "_ingested_at",
+          "type": "string",
+          "description": "UTC ISO 8601 timestamp when row was loaded into Bronze lakehouse tier"
+        },
+        {
+          "name": "_run_id",
+          "type": "string",
+          "description": "Master pipeline execution UUID identifier"
+        },
+        {
+          "name": "_row_hash",
+          "type": "string",
+          "description": "Cryptographic MD5 fingerprint of raw string columns for change detection"
+        }
+      ],
+      "row_count": 18,
+      "last_refresh_time": "2026-10-11T22:06:51.301468+00:00",
+      "quality_score": 100.0,
+      "upstream_tables": []
+    },
+    {
+      "name": "contracts",
+      "table_name": "contracts",
+      "layer": "silver",
+      "description": "Cleaned, domain-validated financial services contracts linked to golden customer entities.",
+      "owner": "Financial Services Team",
+      "source_systems": [
+        "Premium Financial Services"
+      ],
+      "columns": [
+        {
+          "name": "contract_id",
+          "type": "string",
+          "description": "Standardized unique financial contract identifier"
+        },
+        {
+          "name": "vin",
+          "type": "string",
+          "description": "Validated 17-character ISO vehicle identification number (VIN)"
+        },
+        {
+          "name": "customer_name_clean",
+          "type": "string",
+          "description": "Cleaned, whitespace-collapsed customer name in proper Turkish Title Case"
+        },
+        {
+          "name": "customer_name_ascii",
+          "type": "string",
+          "description": "ASCII-folded uppercase name string used for token-based matching"
+        },
+        {
+          "name": "phone_raw",
+          "type": "string",
+          "description": "Original contact phone string prior to normalization"
+        },
+        {
+          "name": "phone_norm",
+          "type": "string",
+          "description": "Normalized 10-digit mobile number starting with 5 (e.g. 5XXXXXXXXX)"
+        },
+        {
+          "name": "has_valid_phone",
+          "type": "bool",
+          "description": "Boolean flag indicating whether contact phone passed strict 10-digit validation"
+        },
+        {
+          "name": "contract_type",
+          "type": "string",
+          "description": "Standardized contract category (Kiralama, Finans, Kasko)"
+        },
+        {
+          "name": "start_date",
+          "type": "string",
+          "description": "Validated ISO format inception date (YYYY-MM-DD)"
+        },
+        {
+          "name": "end_date",
+          "type": "string",
+          "description": "Validated ISO format maturity date (YYYY-MM-DD) chronologically >= start_date"
+        },
+        {
+          "name": "monthly_amount_tl",
+          "type": "int64",
+          "description": "Parsed integer monthly installment or premium amount in TL"
+        },
+        {
+          "name": "_source_system",
+          "type": "string",
+          "description": "Source system metadata indicating originating platform"
+        },
+        {
+          "name": "_source_file",
+          "type": "string",
+          "description": "Ingested raw CSV filename lineage reference"
+        },
+        {
+          "name": "_ingested_at",
+          "type": "string",
+          "description": "Bronze load timestamp"
+        },
+        {
+          "name": "_run_id",
+          "type": "string",
+          "description": "Pipeline execution UUID identifier"
+        },
+        {
+          "name": "_row_hash",
+          "type": "string",
+          "description": "Cryptographic row fingerprint from Bronze ingestion"
+        },
+        {
+          "name": "customer_id",
+          "type": "string",
+          "description": "Golden master customer entity identifier (e.g. C000001) linked via entity resolution"
+        }
+      ],
+      "row_count": 1361,
+      "last_refresh_time": "2026-10-12T01:06:35.147251",
+      "quality_score": 99.77,
+      "upstream_tables": [
+        "premium_sozlesme"
+      ]
+    },
+    {
+      "name": "customers",
+      "table_name": "customers",
+      "layer": "silver",
+      "description": "Golden customer dimension resolved across all source systems with KVKK-compliant masked PII.",
+      "owner": "Data Governance",
+      "source_systems": [
+        "DMS",
+        "Premium Financial Services",
+        "Workshop DMS / Servis",
+        "Borusan Next"
+      ],
+      "columns": [
+        {
+          "name": "customer_id",
+          "type": "string",
+          "description": "Assigned immutable golden customer master ID (e.g. C000001)"
+        },
+        {
+          "name": "display_name",
+          "type": "string",
+          "description": "Consolidated customer display name in proper Turkish casing"
+        },
+        {
+          "name": "phone_norm",
+          "type": "string",
+          "description": "Canonical normalized 10-digit mobile phone number"
+        },
+        {
+          "name": "phone_masked",
+          "type": "string",
+          "description": "KVKK-compliant masked phone preserving area code and last 4 digits (530***4226)"
+        },
+        {
+          "name": "name_masked",
+          "type": "string",
+          "description": "KVKK-compliant masked name preserving initials only (O*** Ş****)"
+        },
+        {
+          "name": "source_systems",
+          "type": "list<string>",
+          "description": "Array of distinct source applications where this customer has transactions"
+        },
+        {
+          "name": "record_count",
+          "type": "int64",
+          "description": "Total transaction records linked to this customer entity across the enterprise"
+        },
+        {
+          "name": "match_rule_summary",
+          "type": "string",
+          "description": "Summary of entity resolution matching rules that joined records into this cluster"
+        },
+        {
+          "name": "match_confidence",
+          "type": "string",
+          "description": "Deterministic resolution confidence tier (High or Medium)"
+        }
+      ],
+      "row_count": 2110,
+      "last_refresh_time": "2026-10-12T01:06:36.410840",
+      "quality_score": 99.43,
+      "upstream_tables": [
+        "sales",
+        "contracts",
+        "service_records",
+        "trade_ins"
+      ]
+    },
+    {
+      "name": "data_quality_scores",
+      "table_name": "data_quality_scores",
+      "layer": "gold",
+      "description": "Layer-by-layer data quality governance scores measuring completeness, domain validity, and uniqueness.",
+      "owner": "Data Governance",
+      "source_systems": [
+        "Pipeline Engine / Medallion Layers"
+      ],
+      "columns": [
+        {
+          "name": "layer",
+          "type": "string",
+          "description": "Lakehouse medallion tier ('bronze' or 'silver')"
+        },
+        {
+          "name": "table_name",
+          "type": "string",
+          "description": "Name of the audited table"
+        },
+        {
+          "name": "rows",
+          "type": "int64",
+          "description": "Total record count in the audited table"
+        },
+        {
+          "name": "completeness_pct",
+          "type": "double",
+          "description": "Percentage of non-missing values (excluding derived masked columns)"
+        },
+        {
+          "name": "validity_pct",
+          "type": "double",
+          "description": "Percentage of non-null records adhering to business domain rules"
+        },
+        {
+          "name": "uniqueness_pct",
+          "type": "double",
+          "description": "Percentage of unique primary/business keys"
+        },
+        {
+          "name": "overall_dq_score",
+          "type": "double",
+          "description": "Composite weighted quality index (0.40*validity + 0.35*completeness + 0.25*uniqueness)"
+        },
+        {
+          "name": "formula_documentation",
+          "type": "string",
+          "description": "Exact mathematical formula and weight breakdown applied"
+        }
+      ],
+      "row_count": 12,
+      "last_refresh_time": "2026-10-12T01:06:40.129349",
+      "quality_score": null,
+      "upstream_tables": [
+        "dms_satis",
+        "premium_sozlesme",
+        "servis_kayit",
+        "next_islem",
+        "bayi_servis_noktalari",
+        "sales",
+        "contracts",
+        "service_records",
+        "trade_ins",
+        "dealers",
+        "customers",
+        "vehicles"
+      ]
+    },
+    {
+      "name": "dealers",
+      "table_name": "dealers",
+      "layer": "silver",
+      "description": "Standardized authorized dealership and service point directory.",
+      "owner": "Dealer Network & Operations",
+      "source_systems": [
+        "Bayi Portali"
+      ],
+      "columns": [
+        {
+          "name": "dealer_code",
+          "type": "string",
+          "description": "Canonical authorized dealership code (Primary Key)"
+        },
+        {
+          "name": "dealer_name",
+          "type": "string",
+          "description": "Standardized commercial name of the dealership branch"
+        },
+        {
+          "name": "city",
+          "type": "string",
+          "description": "Metropolitan city where the branch operates"
+        },
+        {
+          "name": "point_type",
+          "type": "string",
+          "description": "Standardized facility classification (Satış ve Servis, Yetkili Servis)"
+        },
+        {
+          "name": "_source_system",
+          "type": "string",
+          "description": "Source system metadata"
+        },
+        {
+          "name": "_source_file",
+          "type": "string",
+          "description": "Source CSV filename"
+        },
+        {
+          "name": "_ingested_at",
+          "type": "string",
+          "description": "Bronze load timestamp"
+        },
+        {
+          "name": "_run_id",
+          "type": "string",
+          "description": "Pipeline execution UUID identifier"
+        },
+        {
+          "name": "_row_hash",
+          "type": "string",
+          "description": "Cryptographic row fingerprint from Bronze"
+        }
+      ],
+      "row_count": 18,
+      "last_refresh_time": "2026-10-12T01:06:36.336652",
+      "quality_score": 100.0,
+      "upstream_tables": [
+        "bayi_servis_noktalari"
+      ]
+    },
+    {
+      "name": "dms_satis",
+      "table_name": "dms_satis",
+      "layer": "bronze",
+      "description": "Raw vehicle sales transactions extracted directly from dealership DMS installations.",
+      "owner": "Sales Data Team",
+      "source_systems": [
+        "DMS"
+      ],
+      "columns": [
+        {
+          "name": "sale_id",
+          "type": "string",
+          "description": "Primary transaction identifier from dealership DMS"
+        },
+        {
+          "name": "musteri_adi",
+          "type": "string",
+          "description": "Raw customer full name as entered at the dealership terminal"
+        },
+        {
+          "name": "telefon",
+          "type": "string",
+          "description": "Raw contact telephone number string before normalization"
+        },
+        {
+          "name": "sasi_no",
+          "type": "string",
+          "description": "Raw vehicle chassis identifier / VIN string as keyed in DMS"
+        },
+        {
+          "name": "marka",
+          "type": "string",
+          "description": "Raw vehicle brand name string"
+        },
+        {
+          "name": "model",
+          "type": "string",
+          "description": "Vehicle model name string"
+        },
+        {
+          "name": "yakit_tipi",
+          "type": "string",
+          "description": "Raw powertrain fuel classification (Benzin, Dizel, Elektrik, Hibrit)"
+        },
+        {
+          "name": "satis_tarihi",
+          "type": "string",
+          "description": "Raw sale transaction date string"
+        },
+        {
+          "name": "bayi_kodu",
+          "type": "string",
+          "description": "Branch code of the selling dealership"
+        },
+        {
+          "name": "satis_fiyati_tl",
+          "type": "string",
+          "description": "Raw total invoice sales price in Turkish Lira (TL)"
+        },
+        {
+          "name": "_source_system",
+          "type": "string",
+          "description": "System identifier indicating originating source application"
+        },
+        {
+          "name": "_source_file",
+          "type": "string",
+          "description": "Original CSV filename ingested into Bronze layer"
+        },
+        {
+          "name": "_ingested_at",
+          "type": "string",
+          "description": "UTC ISO 8601 timestamp when row was loaded into Bronze lakehouse tier"
+        },
+        {
+          "name": "_run_id",
+          "type": "string",
+          "description": "Master pipeline execution UUID identifier"
+        },
+        {
+          "name": "_row_hash",
+          "type": "string",
+          "description": "Cryptographic MD5 fingerprint of raw string columns for change detection"
+        }
+      ],
+      "row_count": 2732,
+      "last_refresh_time": "2026-10-11T22:06:51.086585+00:00",
+      "quality_score": 98.24,
+      "upstream_tables": []
+    },
+    {
+      "name": "ev_opportunities",
+      "table_name": "ev_opportunities",
+      "layer": "gold",
+      "description": "Targeted Opportunity Radar leads ranking ICE owners primed for EV transition by propensity score.",
+      "owner": "Sales Data Team",
+      "source_systems": [
+        "DMS",
+        "Premium Financial Services",
+        "Workshop DMS / Servis"
+      ],
+      "columns": [
+        {
+          "name": "customer_id",
+          "type": "string",
+          "description": "Golden customer master identifier"
+        },
+        {
+          "name": "name_masked",
+          "type": "string",
+          "description": "KVKK-compliant masked customer name (initials preserved)"
+        },
+        {
+          "name": "phone_masked",
+          "type": "string",
+          "description": "KVKK-compliant masked contact telephone"
+        },
+        {
+          "name": "vin",
+          "type": "string",
+          "description": "Chassis number of candidate ICE vehicle"
+        },
+        {
+          "name": "brand",
+          "type": "string",
+          "description": "Vehicle brand (e.g. BMW, MINI, Range Rover)"
+        },
+        {
+          "name": "model",
+          "type": "string",
+          "description": "Vehicle model name"
+        },
+        {
+          "name": "fuel_type",
+          "type": "string",
+          "description": "Current combustion fuel type (Benzin, Dizel, Hibrit)"
+        },
+        {
+          "name": "vehicle_age_years",
+          "type": "double",
+          "description": "Vehicle age in decimal years relative to reference date"
+        },
+        {
+          "name": "contract_type",
+          "type": "string",
+          "description": "Most relevant active contract category (Kiralama, Finans, Kasko, or NONE)"
+        },
+        {
+          "name": "contract_end_date",
+          "type": "string",
+          "description": "Contract expiration date (YYYY-MM-DD or None)"
+        },
+        {
+          "name": "days_to_contract_end",
+          "type": "double",
+          "description": "Days remaining until contract expiration relative to reference date"
+        },
+        {
+          "name": "last_service_date",
+          "type": "string",
+          "description": "Date of most recent authorized service visit"
+        },
+        {
+          "name": "months_since_last_service",
+          "type": "double",
+          "description": "Elapsed months since last authorized service visit"
+        },
+        {
+          "name": "has_unknown_vehicle",
+          "type": "bool",
+          "description": "Boolean flag indicating customer also owns a vehicle with unknown fuel type"
+        },
+        {
+          "name": "opportunity_score",
+          "type": "int64",
+          "description": "Composite additive propensity score (0 to 100)"
+        },
+        {
+          "name": "score_reasons",
+          "type": "list<string>",
+          "description": "Array of specific business trigger reasons that contributed to the score"
+        }
+      ],
+      "row_count": 1057,
+      "last_refresh_time": "2026-10-12T01:06:37.388381",
+      "quality_score": null,
+      "upstream_tables": [
+        "contracts",
+        "customers",
+        "sales",
+        "service_records",
+        "vehicles"
+      ]
+    },
+    {
+      "name": "ev_share_by_dealer",
+      "table_name": "ev_share_by_dealer",
+      "layer": "gold",
+      "description": "Annual dealership electrification adoption KPI tracking EV sales volume and EV penetration percentage.",
+      "owner": "Sales Data Team",
+      "source_systems": [
+        "DMS",
+        "Bayi Portali"
+      ],
+      "columns": [
+        {
+          "name": "year",
+          "type": "int32",
+          "description": "Sales transaction calendar year"
+        },
+        {
+          "name": "dealer_code",
+          "type": "string",
+          "description": "Authorized dealership branch code"
+        },
+        {
+          "name": "dealer_name",
+          "type": "string",
+          "description": "Dealership commercial name"
+        },
+        {
+          "name": "city",
+          "type": "string",
+          "description": "Dealership branch city"
+        },
+        {
+          "name": "brand",
+          "type": "string",
+          "description": "Vehicle brand"
+        },
+        {
+          "name": "total_sales",
+          "type": "int64",
+          "description": "Total vehicle units sold in the calendar year"
+        },
+        {
+          "name": "ev_sales",
+          "type": "int64",
+          "description": "Electric vehicle (Elektrik) units sold"
+        },
+        {
+          "name": "ev_share_pct",
+          "type": "double",
+          "description": "EV penetration percentage (ev_sales / total_sales * 100)"
+        }
+      ],
+      "row_count": 359,
+      "last_refresh_time": "2026-10-12T01:06:40.021551",
+      "quality_score": null,
+      "upstream_tables": [
+        "sales",
+        "dealers"
+      ]
+    },
+    {
+      "name": "fuel_type_verification_queue",
+      "table_name": "fuel_type_verification_queue",
+      "layer": "gold",
+      "description": "Operational verification queue for customers owning exclusively unknown-fuel vehicles before EV evaluation.",
+      "owner": "Data Governance",
+      "source_systems": [
+        "Workshop DMS / Servis"
+      ],
+      "columns": [
+        {
+          "name": "customer_id",
+          "type": "string",
+          "description": "Golden customer master identifier"
+        },
+        {
+          "name": "name_masked",
+          "type": "string",
+          "description": "KVKK-compliant masked customer name"
+        },
+        {
+          "name": "phone_masked",
+          "type": "string",
+          "description": "KVKK-compliant masked phone number"
+        },
+        {
+          "name": "vin",
+          "type": "string",
+          "description": "Chassis number of the unverified vehicle"
+        },
+        {
+          "name": "brand",
+          "type": "string",
+          "description": "Vehicle brand (or UNKNOWN)"
+        },
+        {
+          "name": "model",
+          "type": "string",
+          "description": "Vehicle model (or UNKNOWN)"
+        },
+        {
+          "name": "reason",
+          "type": "string",
+          "description": "Operational action reason ('fuel type unknown, needs verification')"
+        }
+      ],
+      "row_count": 102,
+      "last_refresh_time": "2026-10-12T01:06:40.853092",
+      "quality_score": null,
+      "upstream_tables": [
+        "customers",
+        "vehicles"
+      ]
+    },
+    {
+      "name": "next_islem",
+      "table_name": "next_islem",
+      "layer": "bronze",
+      "description": "Raw second-hand vehicle valuation, trade-in, and repurchase transactions from Borusan Next platform.",
+      "owner": "Remarketing & Trade-In Team",
+      "source_systems": [
+        "Borusan Next"
+      ],
+      "columns": [
+        {
+          "name": "islem_no",
+          "type": "string",
+          "description": "Transaction tracking number generated by Borusan Next platform"
+        },
+        {
+          "name": "vin_no",
+          "type": "string",
+          "description": "Raw vehicle chassis / VIN string entered for appraisal"
+        },
+        {
+          "name": "musteri",
+          "type": "string",
+          "description": "Raw customer name requesting valuation or trade-in"
+        },
+        {
+          "name": "islem_tarihi",
+          "type": "string",
+          "description": "Raw date string of valuation request or repurchase agreement"
+        },
+        {
+          "name": "islem_tipi",
+          "type": "string",
+          "description": "Trade-in transaction category (Takas, Değerleme, Alım)"
+        },
+        {
+          "name": "teklif_tl",
+          "type": "string",
+          "description": "Raw valuation or purchase offer amount in Turkish Lira (TL)"
+        },
+        {
+          "name": "_source_system",
+          "type": "string",
+          "description": "System identifier indicating originating source application"
+        },
+        {
+          "name": "_source_file",
+          "type": "string",
+          "description": "Original CSV filename ingested into Bronze layer"
+        },
+        {
+          "name": "_ingested_at",
+          "type": "string",
+          "description": "UTC ISO 8601 timestamp when row was loaded into Bronze lakehouse tier"
+        },
+        {
+          "name": "_run_id",
+          "type": "string",
+          "description": "Master pipeline execution UUID identifier"
+        },
+        {
+          "name": "_row_hash",
+          "type": "string",
+          "description": "Cryptographic MD5 fingerprint of raw string columns for change detection"
+        }
+      ],
+      "row_count": 362,
+      "last_refresh_time": "2026-10-11T22:06:51.279498+00:00",
+      "quality_score": 99.9,
+      "upstream_tables": []
+    },
+    {
+      "name": "premium_sozlesme",
+      "table_name": "premium_sozlesme",
+      "layer": "bronze",
+      "description": "Raw financial services contracts (leasing, auto loans, insurance) from Borusan Premium Financial Services.",
+      "owner": "Financial Services Team",
+      "source_systems": [
+        "Premium Financial Services"
+      ],
+      "columns": [
+        {
+          "name": "sozlesme_no",
+          "type": "string",
+          "description": "Contract reference number issued by Borusan Premium Financial Services"
+        },
+        {
+          "name": "musteri_unvani",
+          "type": "string",
+          "description": "Raw individual customer name or commercial company title"
+        },
+        {
+          "name": "iletisim_tel",
+          "type": "string",
+          "description": "Raw customer phone contact string"
+        },
+        {
+          "name": "vin",
+          "type": "string",
+          "description": "Raw vehicle chassis / VIN string covered by contract"
+        },
+        {
+          "name": "sozlesme_tipi",
+          "type": "string",
+          "description": "Contract agreement type (Kiralama, Finans, Kasko)"
+        },
+        {
+          "name": "baslangic",
+          "type": "string",
+          "description": "Raw contract effective start date string"
+        },
+        {
+          "name": "bitis",
+          "type": "string",
+          "description": "Raw contract maturity or expiration date string"
+        },
+        {
+          "name": "aylik_tutar_tl",
+          "type": "string",
+          "description": "Raw recurring monthly payment or insurance premium in TL"
+        },
+        {
+          "name": "_source_system",
+          "type": "string",
+          "description": "System identifier indicating originating source application"
+        },
+        {
+          "name": "_source_file",
+          "type": "string",
+          "description": "Original CSV filename ingested into Bronze layer"
+        },
+        {
+          "name": "_ingested_at",
+          "type": "string",
+          "description": "UTC ISO 8601 timestamp when row was loaded into Bronze lakehouse tier"
+        },
+        {
+          "name": "_run_id",
+          "type": "string",
+          "description": "Master pipeline execution UUID identifier"
+        },
+        {
+          "name": "_row_hash",
+          "type": "string",
+          "description": "Cryptographic MD5 fingerprint of raw string columns for change detection"
+        }
+      ],
+      "row_count": 1445,
+      "last_refresh_time": "2026-10-11T22:06:51.137924+00:00",
+      "quality_score": 98.43,
+      "upstream_tables": []
+    },
+    {
+      "name": "referential_integrity_checks",
+      "table_name": "referential_integrity_checks",
+      "layer": "gold",
+      "description": "Foreign key integrity audit identifying fact rows unlinked to sales/vehicles and quantifying orphan root causes.",
+      "owner": "Data Governance",
+      "source_systems": [
+        "Pipeline Engine"
+      ],
+      "columns": [
+        {
+          "name": "fact_table",
+          "type": "string",
+          "description": "Silver fact table evaluated (service_records, contracts, trade_ins)"
+        },
+        {
+          "name": "foreign_key",
+          "type": "string",
+          "description": "Foreign key column evaluated (vin)"
+        },
+        {
+          "name": "parent_table",
+          "type": "string",
+          "description": "Parent dimension table (vehicles)"
+        },
+        {
+          "name": "total_fact_rows",
+          "type": "int64",
+          "description": "Total rows present in the evaluated fact table"
+        },
+        {
+          "name": "unmatched_dim_vehicles_rows",
+          "type": "int64",
+          "description": "Fact rows with VIN not present in master dim_vehicles"
+        },
+        {
+          "name": "unmatched_dim_vehicles_pct",
+          "type": "double",
+          "description": "Percentage of fact rows unlinked to dim_vehicles"
+        },
+        {
+          "name": "orphan_unmatched_sales_rows",
+          "type": "int64",
+          "description": "Fact rows with VIN not present in clean sales table"
+        },
+        {
+          "name": "orphan_unmatched_sales_pct",
+          "type": "double",
+          "description": "Percentage of fact rows unlinked to clean sales table"
+        },
+        {
+          "name": "orphan_distinct_vins",
+          "type": "int64",
+          "description": "Number of distinct VINs causing orphan records"
+        },
+        {
+          "name": "root_cause_explanation",
+          "type": "string",
+          "description": "Explanatory analysis identifying sales quarantine as primary root cause"
+        }
+      ],
+      "row_count": 3,
+      "last_refresh_time": "2026-10-12T01:06:40.819695",
+      "quality_score": null,
+      "upstream_tables": [
+        "contracts",
+        "sales",
+        "service_records",
+        "trade_ins",
+        "vehicles"
+      ]
+    },
+    {
+      "name": "rejected_records",
+      "table_name": "rejected_records",
+      "layer": "silver",
+      "description": "One row per rejection event; a bronze row can have several events. Distinct rejected rows are counted in the pipeline run log (rows_rejected).",
+      "owner": "Data Governance",
+      "source_systems": [
+        "DMS",
+        "Premium Financial Services",
+        "Workshop DMS / Servis",
+        "Borusan Next"
+      ],
+      "columns": [
+        {
+          "name": "source_table",
+          "type": "string",
+          "description": "Name of the Bronze table where the validation error originated"
+        },
+        {
+          "name": "source_row_id",
+          "type": "string",
+          "description": "Row position index in the Bronze source dataset"
+        },
+        {
+          "name": "source_business_key",
+          "type": "string",
+          "description": "Primary business key of the record (e.g. sale_id, sozlesme_no, servis_id)"
+        },
+        {
+          "name": "rule_code",
+          "type": "string",
+          "description": "Standard rejection reason code (INVALID_VIN, MISSING_VIN, INVALID_DATE, CONTRACT_END_BEFORE_START, DUPLICATE_KEY)"
+        },
+        {
+          "name": "rule_description",
+          "type": "string",
+          "description": "Explanatory description of the data quality domain rule violated"
+        },
+        {
+          "name": "raw_value",
+          "type": "string",
+          "description": "Original string value that caused the validation check to fail"
+        },
+        {
+          "name": "run_id",
+          "type": "string",
+          "description": "Pipeline execution run ID during which quarantine occurred"
+        }
+      ],
+      "row_count": 741,
+      "last_refresh_time": "2026-10-11T22:06:36.363811+00:00",
+      "quality_score": null,
+      "upstream_tables": [
+        "dms_satis",
+        "premium_sozlesme",
+        "servis_kayit",
+        "next_islem"
+      ]
+    },
+    {
+      "name": "sales",
+      "table_name": "sales",
+      "layer": "silver",
+      "description": "Cleaned, standardized, deduplicated vehicle sales transactions linked to golden customers.",
+      "owner": "Sales Data Team",
+      "source_systems": [
+        "DMS"
+      ],
+      "columns": [
+        {
+          "name": "sale_id",
+          "type": "string",
+          "description": "Unique sales invoice identifier (deduplicated by primary business key)"
+        },
+        {
+          "name": "vin",
+          "type": "string",
+          "description": "Validated 17-character ISO vehicle identification number (VIN)"
+        },
+        {
+          "name": "customer_name_clean",
+          "type": "string",
+          "description": "Cleaned customer name in proper Turkish casing"
+        },
+        {
+          "name": "customer_name_ascii",
+          "type": "string",
+          "description": "ASCII-folded uppercase name key for matching"
+        },
+        {
+          "name": "phone_raw",
+          "type": "string",
+          "description": "Original contact phone string"
+        },
+        {
+          "name": "phone_norm",
+          "type": "string",
+          "description": "Normalized 10-digit mobile number starting with 5"
+        },
+        {
+          "name": "has_valid_phone",
+          "type": "bool",
+          "description": "Boolean flag indicating whether phone is a valid 10-digit number"
+        },
+        {
+          "name": "brand",
+          "type": "string",
+          "description": "Standardized vehicle brand (BMW, MINI, Range Rover, Defender, Discovery, Jaguar)"
+        },
+        {
+          "name": "model",
+          "type": "string",
+          "description": "Standardized vehicle model designation"
+        },
+        {
+          "name": "fuel_type",
+          "type": "string",
+          "description": "Standardized powertrain type (Benzin, Dizel, Elektrik, Hibrit)"
+        },
+        {
+          "name": "sale_date",
+          "type": "string",
+          "description": "Validated sales invoice date (YYYY-MM-DD)"
+        },
+        {
+          "name": "dealer_code",
+          "type": "string",
+          "description": "Dealership branch identifier code"
+        },
+        {
+          "name": "sale_price_tl",
+          "type": "int64",
+          "description": "Parsed integer sales price in Turkish Lira (TL)"
+        },
+        {
+          "name": "_source_system",
+          "type": "string",
+          "description": "Source system metadata"
+        },
+        {
+          "name": "_source_file",
+          "type": "string",
+          "description": "Source CSV filename"
+        },
+        {
+          "name": "_ingested_at",
+          "type": "string",
+          "description": "Bronze load timestamp"
+        },
+        {
+          "name": "_run_id",
+          "type": "string",
+          "description": "Pipeline execution UUID identifier"
+        },
+        {
+          "name": "_row_hash",
+          "type": "string",
+          "description": "Cryptographic row fingerprint from Bronze"
+        },
+        {
+          "name": "customer_id",
+          "type": "string",
+          "description": "Golden customer identifier linked via entity resolution"
+        }
+      ],
+      "row_count": 2554,
+      "last_refresh_time": "2026-10-12T01:06:34.802239",
+      "quality_score": 99.78,
+      "upstream_tables": [
+        "dms_satis"
+      ]
+    },
+    {
+      "name": "service_cost_comparison",
+      "table_name": "service_cost_comparison",
+      "layer": "gold",
+      "description": "Comparative aftersales maintenance cost analytics comparing Electric vs ICE powertrains by brand.",
+      "owner": "Aftersales Data Team",
+      "source_systems": [
+        "DMS",
+        "Workshop DMS / Servis"
+      ],
+      "columns": [
+        {
+          "name": "brand",
+          "type": "string",
+          "description": "Vehicle brand"
+        },
+        {
+          "name": "powertrain_type",
+          "type": "string",
+          "description": "Powertrain classification ('Elektrik' vs 'Non-Elektrik')"
+        },
+        {
+          "name": "vehicle_count",
+          "type": "int64",
+          "description": "Distinct vehicle count in the cohort"
+        },
+        {
+          "name": "total_service_visits",
+          "type": "int64",
+          "description": "Cumulative workshop service visits"
+        },
+        {
+          "name": "total_service_spend_tl",
+          "type": "int64",
+          "description": "Cumulative workshop invoice spend in TL"
+        },
+        {
+          "name": "avg_annual_cost_per_vehicle_tl",
+          "type": "double",
+          "description": "Normalized annual maintenance spend per vehicle-year in TL"
+        },
+        {
+          "name": "avg_cost_per_visit_tl",
+          "type": "double",
+          "description": "Average invoice amount per workshop visit in TL"
+        }
+      ],
+      "row_count": 9,
+      "last_refresh_time": "2026-10-12T01:06:40.048601",
+      "quality_score": null,
+      "upstream_tables": [
+        "sales",
+        "service_records",
+        "vehicles"
+      ]
+    },
+    {
+      "name": "service_records",
+      "table_name": "service_records",
+      "layer": "silver",
+      "description": "Cleaned workshop maintenance and repair orders linked to golden customers and VINs.",
+      "owner": "Aftersales Data Team",
+      "source_systems": [
+        "Workshop DMS / Servis"
+      ],
+      "columns": [
+        {
+          "name": "service_id",
+          "type": "string",
+          "description": "Unique workshop work order or repair invoice identifier"
+        },
+        {
+          "name": "vin",
+          "type": "string",
+          "description": "Validated 17-character ISO vehicle identification number (VIN)"
+        },
+        {
+          "name": "customer_name_clean",
+          "type": "string",
+          "description": "Cleaned customer name in proper Turkish casing"
+        },
+        {
+          "name": "customer_name_ascii",
+          "type": "string",
+          "description": "ASCII-folded uppercase name key for matching"
+        },
+        {
+          "name": "service_date",
+          "type": "string",
+          "description": "Validated service visit date (YYYY-MM-DD)"
+        },
+        {
+          "name": "service_point_code",
+          "type": "string",
+          "description": "Authorized service point branch code"
+        },
+        {
+          "name": "km",
+          "type": "int64",
+          "description": "Parsed vehicle odometer reading in kilometers"
+        },
+        {
+          "name": "cost_tl",
+          "type": "int64",
+          "description": "Parsed workshop invoice amount in Turkish Lira (TL)"
+        },
+        {
+          "name": "job_type",
+          "type": "string",
+          "description": "Standardized maintenance job classification (Periyodik Bakım, Mekanik Onarım, etc.)"
+        },
+        {
+          "name": "_source_system",
+          "type": "string",
+          "description": "Source system metadata"
+        },
+        {
+          "name": "_source_file",
+          "type": "string",
+          "description": "Source CSV filename"
+        },
+        {
+          "name": "_ingested_at",
+          "type": "string",
+          "description": "Bronze load timestamp"
+        },
+        {
+          "name": "_run_id",
+          "type": "string",
+          "description": "Pipeline execution UUID identifier"
+        },
+        {
+          "name": "_row_hash",
+          "type": "string",
+          "description": "Cryptographic row fingerprint from Bronze"
+        },
+        {
+          "name": "customer_id",
+          "type": "string",
+          "description": "Golden customer identifier linked via entity resolution"
+        }
+      ],
+      "row_count": 8231,
+      "last_refresh_time": "2026-10-12T01:06:35.348682",
+      "quality_score": 100.0,
+      "upstream_tables": [
+        "servis_kayit"
+      ]
+    },
+    {
+      "name": "servis_kayit",
+      "table_name": "servis_kayit",
+      "layer": "bronze",
+      "description": "Raw workshop repair orders and maintenance invoices from authorized service network.",
+      "owner": "Aftersales Data Team",
+      "source_systems": [
+        "Workshop DMS / Servis"
+      ],
+      "columns": [
+        {
+          "name": "servis_id",
+          "type": "string",
+          "description": "Unique workshop work order or repair invoice identifier"
+        },
+        {
+          "name": "sasi",
+          "type": "string",
+          "description": "Raw vehicle chassis / VIN string recorded at service intake"
+        },
+        {
+          "name": "sahip_adi",
+          "type": "string",
+          "description": "Raw customer / vehicle owner name noted during intake check-in"
+        },
+        {
+          "name": "servis_tarihi",
+          "type": "string",
+          "description": "Raw service visit date string"
+        },
+        {
+          "name": "servis_noktasi",
+          "type": "string",
+          "description": "Service point branch code where work was performed"
+        },
+        {
+          "name": "km",
+          "type": "string",
+          "description": "Raw vehicle odometer reading in kilometers at intake"
+        },
+        {
+          "name": "tutar_tl",
+          "type": "string",
+          "description": "Raw total invoice repair/maintenance cost in Turkish Lira (TL)"
+        },
+        {
+          "name": "is_tipi",
+          "type": "string",
+          "description": "Job classification (e.g. Periyodik Bakım, Mekanik Onarım, Hasar Onarım)"
+        },
+        {
+          "name": "_source_system",
+          "type": "string",
+          "description": "System identifier indicating originating source application"
+        },
+        {
+          "name": "_source_file",
+          "type": "string",
+          "description": "Original CSV filename ingested into Bronze layer"
+        },
+        {
+          "name": "_ingested_at",
+          "type": "string",
+          "description": "UTC ISO 8601 timestamp when row was loaded into Bronze lakehouse tier"
+        },
+        {
+          "name": "_run_id",
+          "type": "string",
+          "description": "Master pipeline execution UUID identifier"
+        },
+        {
+          "name": "_row_hash",
+          "type": "string",
+          "description": "Cryptographic MD5 fingerprint of raw string columns for change detection"
+        }
+      ],
+      "row_count": 8690,
+      "last_refresh_time": "2026-10-11T22:06:51.174918+00:00",
+      "quality_score": 99.09,
+      "upstream_tables": []
+    },
+    {
+      "name": "trade_in_value_ratio",
+      "table_name": "trade_in_value_ratio",
+      "layer": "gold",
+      "description": "Second-hand residual value retention analysis comparing Borusan Next offers against original sales price.",
+      "owner": "Remarketing & Trade-In Team",
+      "source_systems": [
+        "DMS",
+        "Borusan Next"
+      ],
+      "columns": [
+        {
+          "name": "brand",
+          "type": "string",
+          "description": "Vehicle brand"
+        },
+        {
+          "name": "powertrain_type",
+          "type": "string",
+          "description": "Powertrain classification (Elektrik, Benzin, Dizel, Hibrit)"
+        },
+        {
+          "name": "trade_in_count",
+          "type": "int64",
+          "description": "Number of matched trade-in appraisal transactions"
+        },
+        {
+          "name": "avg_sale_price_tl",
+          "type": "double",
+          "description": "Average original new vehicle sales price in TL"
+        },
+        {
+          "name": "avg_offer_tl",
+          "type": "double",
+          "description": "Average Borusan Next repurchase / trade-in valuation in TL"
+        },
+        {
+          "name": "avg_retention_ratio",
+          "type": "double",
+          "description": "Mean residual retention factor (offer / sale_price)"
+        },
+        {
+          "name": "retention_pct",
+          "type": "double",
+          "description": "Average retained value percentage (avg_retention_ratio * 100)"
+        }
+      ],
+      "row_count": 9,
+      "last_refresh_time": "2026-10-12T01:06:40.095707",
+      "quality_score": null,
+      "upstream_tables": [
+        "sales",
+        "trade_ins"
+      ]
+    },
+    {
+      "name": "trade_ins",
+      "table_name": "trade_ins",
+      "layer": "silver",
+      "description": "Cleaned second-hand trade-in appraisals and repurchase offers from Borusan Next.",
+      "owner": "Remarketing & Trade-In Team",
+      "source_systems": [
+        "Borusan Next"
+      ],
+      "columns": [
+        {
+          "name": "trade_in_id",
+          "type": "string",
+          "description": "Unique trade-in valuation transaction identifier"
+        },
+        {
+          "name": "vin",
+          "type": "string",
+          "description": "Validated 17-character ISO vehicle identification number (VIN)"
+        },
+        {
+          "name": "customer_name_clean",
+          "type": "string",
+          "description": "Cleaned customer name in proper Turkish casing"
+        },
+        {
+          "name": "customer_name_ascii",
+          "type": "string",
+          "description": "ASCII-folded uppercase name key for matching"
+        },
+        {
+          "name": "trade_in_date",
+          "type": "string",
+          "description": "Validated transaction date (YYYY-MM-DD)"
+        },
+        {
+          "name": "trade_in_type",
+          "type": "string",
+          "description": "Standardized trade-in transaction category (Takas, Değerleme, Alım)"
+        },
+        {
+          "name": "offer_tl",
+          "type": "int64",
+          "description": "Parsed valuation offer amount in Turkish Lira (TL)"
+        },
+        {
+          "name": "_source_system",
+          "type": "string",
+          "description": "Source system metadata"
+        },
+        {
+          "name": "_source_file",
+          "type": "string",
+          "description": "Source CSV filename"
+        },
+        {
+          "name": "_ingested_at",
+          "type": "string",
+          "description": "Bronze load timestamp"
+        },
+        {
+          "name": "_run_id",
+          "type": "string",
+          "description": "Pipeline execution UUID identifier"
+        },
+        {
+          "name": "_row_hash",
+          "type": "string",
+          "description": "Cryptographic row fingerprint from Bronze"
+        },
+        {
+          "name": "customer_id",
+          "type": "string",
+          "description": "Golden customer identifier linked via entity resolution"
+        }
+      ],
+      "row_count": 345,
+      "last_refresh_time": "2026-10-12T01:06:36.275437",
+      "quality_score": 100.0,
+      "upstream_tables": [
+        "next_islem"
+      ]
+    },
+    {
+      "name": "vehicles",
+      "table_name": "vehicles",
+      "layer": "silver",
+      "description": "Master vehicle dimension cataloging VIN, brand, model, fuel type, and current resolved owner.",
+      "owner": "Sales Data Team",
+      "source_systems": [
+        "DMS",
+        "Workshop DMS / Servis"
+      ],
+      "columns": [
+        {
+          "name": "vin",
+          "type": "string",
+          "description": "Unique 17-character vehicle chassis identifier (Primary Key)"
+        },
+        {
+          "name": "brand",
+          "type": "string",
+          "description": "Standardized vehicle brand name (or UNKNOWN for orphan service vehicles)"
+        },
+        {
+          "name": "model",
+          "type": "string",
+          "description": "Standardized vehicle model designation (or UNKNOWN)"
+        },
+        {
+          "name": "fuel_type",
+          "type": "string",
+          "description": "Powertrain fuel classification (Benzin, Dizel, Elektrik, Hibrit, or UNKNOWN)"
+        },
+        {
+          "name": "owner_customer_id",
+          "type": "string",
+          "description": "Golden customer master ID of the current vehicle owner"
+        }
+      ],
+      "row_count": 2683,
+      "last_refresh_time": "2026-10-12T01:06:36.410840",
+      "quality_score": 98.99,
+      "upstream_tables": [
+        "sales",
+        "service_records"
+      ]
+    }
+  ],
+  "tables_by_name": {
+    "bayi_servis_noktalari": {
+      "name": "bayi_servis_noktalari",
+      "table_name": "bayi_servis_noktalari",
+      "layer": "bronze",
+      "description": "Raw dealer and service point network records ingested from the dealer portal directory.",
+      "owner": "Dealer Network & Operations",
+      "source_systems": [
+        "Bayi Portali"
+      ],
+      "columns": [
+        {
+          "name": "dealer_code",
+          "type": "string",
+          "description": "Unique alphanumeric code identifying the authorized dealership or service point"
+        },
+        {
+          "name": "dealer_name",
+          "type": "string",
+          "description": "Commercial registered name of the dealership branch"
+        },
+        {
+          "name": "city",
+          "type": "string",
+          "description": "Metropolitan city where the facility is situated"
+        },
+        {
+          "name": "point_type",
+          "type": "string",
+          "description": "Facility classification (e.g. Satış ve Servis, Yetkili Servis)"
+        },
+        {
+          "name": "_source_system",
+          "type": "string",
+          "description": "System identifier indicating originating source application"
+        },
+        {
+          "name": "_source_file",
+          "type": "string",
+          "description": "Original CSV filename ingested into Bronze layer"
+        },
+        {
+          "name": "_ingested_at",
+          "type": "string",
+          "description": "UTC ISO 8601 timestamp when row was loaded into Bronze lakehouse tier"
+        },
+        {
+          "name": "_run_id",
+          "type": "string",
+          "description": "Master pipeline execution UUID identifier"
+        },
+        {
+          "name": "_row_hash",
+          "type": "string",
+          "description": "Cryptographic MD5 fingerprint of raw string columns for change detection"
+        }
+      ],
+      "row_count": 18,
+      "last_refresh_time": "2026-10-11T22:06:51.301468+00:00",
+      "quality_score": 100.0,
+      "upstream_tables": []
+    },
+    "contracts": {
+      "name": "contracts",
+      "table_name": "contracts",
+      "layer": "silver",
+      "description": "Cleaned, domain-validated financial services contracts linked to golden customer entities.",
+      "owner": "Financial Services Team",
+      "source_systems": [
+        "Premium Financial Services"
+      ],
+      "columns": [
+        {
+          "name": "contract_id",
+          "type": "string",
+          "description": "Standardized unique financial contract identifier"
+        },
+        {
+          "name": "vin",
+          "type": "string",
+          "description": "Validated 17-character ISO vehicle identification number (VIN)"
+        },
+        {
+          "name": "customer_name_clean",
+          "type": "string",
+          "description": "Cleaned, whitespace-collapsed customer name in proper Turkish Title Case"
+        },
+        {
+          "name": "customer_name_ascii",
+          "type": "string",
+          "description": "ASCII-folded uppercase name string used for token-based matching"
+        },
+        {
+          "name": "phone_raw",
+          "type": "string",
+          "description": "Original contact phone string prior to normalization"
+        },
+        {
+          "name": "phone_norm",
+          "type": "string",
+          "description": "Normalized 10-digit mobile number starting with 5 (e.g. 5XXXXXXXXX)"
+        },
+        {
+          "name": "has_valid_phone",
+          "type": "bool",
+          "description": "Boolean flag indicating whether contact phone passed strict 10-digit validation"
+        },
+        {
+          "name": "contract_type",
+          "type": "string",
+          "description": "Standardized contract category (Kiralama, Finans, Kasko)"
+        },
+        {
+          "name": "start_date",
+          "type": "string",
+          "description": "Validated ISO format inception date (YYYY-MM-DD)"
+        },
+        {
+          "name": "end_date",
+          "type": "string",
+          "description": "Validated ISO format maturity date (YYYY-MM-DD) chronologically >= start_date"
+        },
+        {
+          "name": "monthly_amount_tl",
+          "type": "int64",
+          "description": "Parsed integer monthly installment or premium amount in TL"
+        },
+        {
+          "name": "_source_system",
+          "type": "string",
+          "description": "Source system metadata indicating originating platform"
+        },
+        {
+          "name": "_source_file",
+          "type": "string",
+          "description": "Ingested raw CSV filename lineage reference"
+        },
+        {
+          "name": "_ingested_at",
+          "type": "string",
+          "description": "Bronze load timestamp"
+        },
+        {
+          "name": "_run_id",
+          "type": "string",
+          "description": "Pipeline execution UUID identifier"
+        },
+        {
+          "name": "_row_hash",
+          "type": "string",
+          "description": "Cryptographic row fingerprint from Bronze ingestion"
+        },
+        {
+          "name": "customer_id",
+          "type": "string",
+          "description": "Golden master customer entity identifier (e.g. C000001) linked via entity resolution"
+        }
+      ],
+      "row_count": 1361,
+      "last_refresh_time": "2026-10-12T01:06:35.147251",
+      "quality_score": 99.77,
+      "upstream_tables": [
+        "premium_sozlesme"
+      ]
+    },
+    "customers": {
+      "name": "customers",
+      "table_name": "customers",
+      "layer": "silver",
+      "description": "Golden customer dimension resolved across all source systems with KVKK-compliant masked PII.",
+      "owner": "Data Governance",
+      "source_systems": [
+        "DMS",
+        "Premium Financial Services",
+        "Workshop DMS / Servis",
+        "Borusan Next"
+      ],
+      "columns": [
+        {
+          "name": "customer_id",
+          "type": "string",
+          "description": "Assigned immutable golden customer master ID (e.g. C000001)"
+        },
+        {
+          "name": "display_name",
+          "type": "string",
+          "description": "Consolidated customer display name in proper Turkish casing"
+        },
+        {
+          "name": "phone_norm",
+          "type": "string",
+          "description": "Canonical normalized 10-digit mobile phone number"
+        },
+        {
+          "name": "phone_masked",
+          "type": "string",
+          "description": "KVKK-compliant masked phone preserving area code and last 4 digits (530***4226)"
+        },
+        {
+          "name": "name_masked",
+          "type": "string",
+          "description": "KVKK-compliant masked name preserving initials only (O*** Ş****)"
+        },
+        {
+          "name": "source_systems",
+          "type": "list<string>",
+          "description": "Array of distinct source applications where this customer has transactions"
+        },
+        {
+          "name": "record_count",
+          "type": "int64",
+          "description": "Total transaction records linked to this customer entity across the enterprise"
+        },
+        {
+          "name": "match_rule_summary",
+          "type": "string",
+          "description": "Summary of entity resolution matching rules that joined records into this cluster"
+        },
+        {
+          "name": "match_confidence",
+          "type": "string",
+          "description": "Deterministic resolution confidence tier (High or Medium)"
+        }
+      ],
+      "row_count": 2110,
+      "last_refresh_time": "2026-10-12T01:06:36.410840",
+      "quality_score": 99.43,
+      "upstream_tables": [
+        "sales",
+        "contracts",
+        "service_records",
+        "trade_ins"
+      ]
+    },
+    "data_quality_scores": {
+      "name": "data_quality_scores",
+      "table_name": "data_quality_scores",
+      "layer": "gold",
+      "description": "Layer-by-layer data quality governance scores measuring completeness, domain validity, and uniqueness.",
+      "owner": "Data Governance",
+      "source_systems": [
+        "Pipeline Engine / Medallion Layers"
+      ],
+      "columns": [
+        {
+          "name": "layer",
+          "type": "string",
+          "description": "Lakehouse medallion tier ('bronze' or 'silver')"
+        },
+        {
+          "name": "table_name",
+          "type": "string",
+          "description": "Name of the audited table"
+        },
+        {
+          "name": "rows",
+          "type": "int64",
+          "description": "Total record count in the audited table"
+        },
+        {
+          "name": "completeness_pct",
+          "type": "double",
+          "description": "Percentage of non-missing values (excluding derived masked columns)"
+        },
+        {
+          "name": "validity_pct",
+          "type": "double",
+          "description": "Percentage of non-null records adhering to business domain rules"
+        },
+        {
+          "name": "uniqueness_pct",
+          "type": "double",
+          "description": "Percentage of unique primary/business keys"
+        },
+        {
+          "name": "overall_dq_score",
+          "type": "double",
+          "description": "Composite weighted quality index (0.40*validity + 0.35*completeness + 0.25*uniqueness)"
+        },
+        {
+          "name": "formula_documentation",
+          "type": "string",
+          "description": "Exact mathematical formula and weight breakdown applied"
+        }
+      ],
+      "row_count": 12,
+      "last_refresh_time": "2026-10-12T01:06:40.129349",
+      "quality_score": null,
+      "upstream_tables": [
+        "dms_satis",
+        "premium_sozlesme",
+        "servis_kayit",
+        "next_islem",
+        "bayi_servis_noktalari",
+        "sales",
+        "contracts",
+        "service_records",
+        "trade_ins",
+        "dealers",
+        "customers",
+        "vehicles"
+      ]
+    },
+    "dealers": {
+      "name": "dealers",
+      "table_name": "dealers",
+      "layer": "silver",
+      "description": "Standardized authorized dealership and service point directory.",
+      "owner": "Dealer Network & Operations",
+      "source_systems": [
+        "Bayi Portali"
+      ],
+      "columns": [
+        {
+          "name": "dealer_code",
+          "type": "string",
+          "description": "Canonical authorized dealership code (Primary Key)"
+        },
+        {
+          "name": "dealer_name",
+          "type": "string",
+          "description": "Standardized commercial name of the dealership branch"
+        },
+        {
+          "name": "city",
+          "type": "string",
+          "description": "Metropolitan city where the branch operates"
+        },
+        {
+          "name": "point_type",
+          "type": "string",
+          "description": "Standardized facility classification (Satış ve Servis, Yetkili Servis)"
+        },
+        {
+          "name": "_source_system",
+          "type": "string",
+          "description": "Source system metadata"
+        },
+        {
+          "name": "_source_file",
+          "type": "string",
+          "description": "Source CSV filename"
+        },
+        {
+          "name": "_ingested_at",
+          "type": "string",
+          "description": "Bronze load timestamp"
+        },
+        {
+          "name": "_run_id",
+          "type": "string",
+          "description": "Pipeline execution UUID identifier"
+        },
+        {
+          "name": "_row_hash",
+          "type": "string",
+          "description": "Cryptographic row fingerprint from Bronze"
+        }
+      ],
+      "row_count": 18,
+      "last_refresh_time": "2026-10-12T01:06:36.336652",
+      "quality_score": 100.0,
+      "upstream_tables": [
+        "bayi_servis_noktalari"
+      ]
+    },
+    "dms_satis": {
+      "name": "dms_satis",
+      "table_name": "dms_satis",
+      "layer": "bronze",
+      "description": "Raw vehicle sales transactions extracted directly from dealership DMS installations.",
+      "owner": "Sales Data Team",
+      "source_systems": [
+        "DMS"
+      ],
+      "columns": [
+        {
+          "name": "sale_id",
+          "type": "string",
+          "description": "Primary transaction identifier from dealership DMS"
+        },
+        {
+          "name": "musteri_adi",
+          "type": "string",
+          "description": "Raw customer full name as entered at the dealership terminal"
+        },
+        {
+          "name": "telefon",
+          "type": "string",
+          "description": "Raw contact telephone number string before normalization"
+        },
+        {
+          "name": "sasi_no",
+          "type": "string",
+          "description": "Raw vehicle chassis identifier / VIN string as keyed in DMS"
+        },
+        {
+          "name": "marka",
+          "type": "string",
+          "description": "Raw vehicle brand name string"
+        },
+        {
+          "name": "model",
+          "type": "string",
+          "description": "Vehicle model name string"
+        },
+        {
+          "name": "yakit_tipi",
+          "type": "string",
+          "description": "Raw powertrain fuel classification (Benzin, Dizel, Elektrik, Hibrit)"
+        },
+        {
+          "name": "satis_tarihi",
+          "type": "string",
+          "description": "Raw sale transaction date string"
+        },
+        {
+          "name": "bayi_kodu",
+          "type": "string",
+          "description": "Branch code of the selling dealership"
+        },
+        {
+          "name": "satis_fiyati_tl",
+          "type": "string",
+          "description": "Raw total invoice sales price in Turkish Lira (TL)"
+        },
+        {
+          "name": "_source_system",
+          "type": "string",
+          "description": "System identifier indicating originating source application"
+        },
+        {
+          "name": "_source_file",
+          "type": "string",
+          "description": "Original CSV filename ingested into Bronze layer"
+        },
+        {
+          "name": "_ingested_at",
+          "type": "string",
+          "description": "UTC ISO 8601 timestamp when row was loaded into Bronze lakehouse tier"
+        },
+        {
+          "name": "_run_id",
+          "type": "string",
+          "description": "Master pipeline execution UUID identifier"
+        },
+        {
+          "name": "_row_hash",
+          "type": "string",
+          "description": "Cryptographic MD5 fingerprint of raw string columns for change detection"
+        }
+      ],
+      "row_count": 2732,
+      "last_refresh_time": "2026-10-11T22:06:51.086585+00:00",
+      "quality_score": 98.24,
+      "upstream_tables": []
+    },
+    "ev_opportunities": {
+      "name": "ev_opportunities",
+      "table_name": "ev_opportunities",
+      "layer": "gold",
+      "description": "Targeted Opportunity Radar leads ranking ICE owners primed for EV transition by propensity score.",
+      "owner": "Sales Data Team",
+      "source_systems": [
+        "DMS",
+        "Premium Financial Services",
+        "Workshop DMS / Servis"
+      ],
+      "columns": [
+        {
+          "name": "customer_id",
+          "type": "string",
+          "description": "Golden customer master identifier"
+        },
+        {
+          "name": "name_masked",
+          "type": "string",
+          "description": "KVKK-compliant masked customer name (initials preserved)"
+        },
+        {
+          "name": "phone_masked",
+          "type": "string",
+          "description": "KVKK-compliant masked contact telephone"
+        },
+        {
+          "name": "vin",
+          "type": "string",
+          "description": "Chassis number of candidate ICE vehicle"
+        },
+        {
+          "name": "brand",
+          "type": "string",
+          "description": "Vehicle brand (e.g. BMW, MINI, Range Rover)"
+        },
+        {
+          "name": "model",
+          "type": "string",
+          "description": "Vehicle model name"
+        },
+        {
+          "name": "fuel_type",
+          "type": "string",
+          "description": "Current combustion fuel type (Benzin, Dizel, Hibrit)"
+        },
+        {
+          "name": "vehicle_age_years",
+          "type": "double",
+          "description": "Vehicle age in decimal years relative to reference date"
+        },
+        {
+          "name": "contract_type",
+          "type": "string",
+          "description": "Most relevant active contract category (Kiralama, Finans, Kasko, or NONE)"
+        },
+        {
+          "name": "contract_end_date",
+          "type": "string",
+          "description": "Contract expiration date (YYYY-MM-DD or None)"
+        },
+        {
+          "name": "days_to_contract_end",
+          "type": "double",
+          "description": "Days remaining until contract expiration relative to reference date"
+        },
+        {
+          "name": "last_service_date",
+          "type": "string",
+          "description": "Date of most recent authorized service visit"
+        },
+        {
+          "name": "months_since_last_service",
+          "type": "double",
+          "description": "Elapsed months since last authorized service visit"
+        },
+        {
+          "name": "has_unknown_vehicle",
+          "type": "bool",
+          "description": "Boolean flag indicating customer also owns a vehicle with unknown fuel type"
+        },
+        {
+          "name": "opportunity_score",
+          "type": "int64",
+          "description": "Composite additive propensity score (0 to 100)"
+        },
+        {
+          "name": "score_reasons",
+          "type": "list<string>",
+          "description": "Array of specific business trigger reasons that contributed to the score"
+        }
+      ],
+      "row_count": 1057,
+      "last_refresh_time": "2026-10-12T01:06:37.388381",
+      "quality_score": null,
+      "upstream_tables": [
+        "contracts",
+        "customers",
+        "sales",
+        "service_records",
+        "vehicles"
+      ]
+    },
+    "ev_share_by_dealer": {
+      "name": "ev_share_by_dealer",
+      "table_name": "ev_share_by_dealer",
+      "layer": "gold",
+      "description": "Annual dealership electrification adoption KPI tracking EV sales volume and EV penetration percentage.",
+      "owner": "Sales Data Team",
+      "source_systems": [
+        "DMS",
+        "Bayi Portali"
+      ],
+      "columns": [
+        {
+          "name": "year",
+          "type": "int32",
+          "description": "Sales transaction calendar year"
+        },
+        {
+          "name": "dealer_code",
+          "type": "string",
+          "description": "Authorized dealership branch code"
+        },
+        {
+          "name": "dealer_name",
+          "type": "string",
+          "description": "Dealership commercial name"
+        },
+        {
+          "name": "city",
+          "type": "string",
+          "description": "Dealership branch city"
+        },
+        {
+          "name": "brand",
+          "type": "string",
+          "description": "Vehicle brand"
+        },
+        {
+          "name": "total_sales",
+          "type": "int64",
+          "description": "Total vehicle units sold in the calendar year"
+        },
+        {
+          "name": "ev_sales",
+          "type": "int64",
+          "description": "Electric vehicle (Elektrik) units sold"
+        },
+        {
+          "name": "ev_share_pct",
+          "type": "double",
+          "description": "EV penetration percentage (ev_sales / total_sales * 100)"
+        }
+      ],
+      "row_count": 359,
+      "last_refresh_time": "2026-10-12T01:06:40.021551",
+      "quality_score": null,
+      "upstream_tables": [
+        "sales",
+        "dealers"
+      ]
+    },
+    "fuel_type_verification_queue": {
+      "name": "fuel_type_verification_queue",
+      "table_name": "fuel_type_verification_queue",
+      "layer": "gold",
+      "description": "Operational verification queue for customers owning exclusively unknown-fuel vehicles before EV evaluation.",
+      "owner": "Data Governance",
+      "source_systems": [
+        "Workshop DMS / Servis"
+      ],
+      "columns": [
+        {
+          "name": "customer_id",
+          "type": "string",
+          "description": "Golden customer master identifier"
+        },
+        {
+          "name": "name_masked",
+          "type": "string",
+          "description": "KVKK-compliant masked customer name"
+        },
+        {
+          "name": "phone_masked",
+          "type": "string",
+          "description": "KVKK-compliant masked phone number"
+        },
+        {
+          "name": "vin",
+          "type": "string",
+          "description": "Chassis number of the unverified vehicle"
+        },
+        {
+          "name": "brand",
+          "type": "string",
+          "description": "Vehicle brand (or UNKNOWN)"
+        },
+        {
+          "name": "model",
+          "type": "string",
+          "description": "Vehicle model (or UNKNOWN)"
+        },
+        {
+          "name": "reason",
+          "type": "string",
+          "description": "Operational action reason ('fuel type unknown, needs verification')"
+        }
+      ],
+      "row_count": 102,
+      "last_refresh_time": "2026-10-12T01:06:40.853092",
+      "quality_score": null,
+      "upstream_tables": [
+        "customers",
+        "vehicles"
+      ]
+    },
+    "next_islem": {
+      "name": "next_islem",
+      "table_name": "next_islem",
+      "layer": "bronze",
+      "description": "Raw second-hand vehicle valuation, trade-in, and repurchase transactions from Borusan Next platform.",
+      "owner": "Remarketing & Trade-In Team",
+      "source_systems": [
+        "Borusan Next"
+      ],
+      "columns": [
+        {
+          "name": "islem_no",
+          "type": "string",
+          "description": "Transaction tracking number generated by Borusan Next platform"
+        },
+        {
+          "name": "vin_no",
+          "type": "string",
+          "description": "Raw vehicle chassis / VIN string entered for appraisal"
+        },
+        {
+          "name": "musteri",
+          "type": "string",
+          "description": "Raw customer name requesting valuation or trade-in"
+        },
+        {
+          "name": "islem_tarihi",
+          "type": "string",
+          "description": "Raw date string of valuation request or repurchase agreement"
+        },
+        {
+          "name": "islem_tipi",
+          "type": "string",
+          "description": "Trade-in transaction category (Takas, Değerleme, Alım)"
+        },
+        {
+          "name": "teklif_tl",
+          "type": "string",
+          "description": "Raw valuation or purchase offer amount in Turkish Lira (TL)"
+        },
+        {
+          "name": "_source_system",
+          "type": "string",
+          "description": "System identifier indicating originating source application"
+        },
+        {
+          "name": "_source_file",
+          "type": "string",
+          "description": "Original CSV filename ingested into Bronze layer"
+        },
+        {
+          "name": "_ingested_at",
+          "type": "string",
+          "description": "UTC ISO 8601 timestamp when row was loaded into Bronze lakehouse tier"
+        },
+        {
+          "name": "_run_id",
+          "type": "string",
+          "description": "Master pipeline execution UUID identifier"
+        },
+        {
+          "name": "_row_hash",
+          "type": "string",
+          "description": "Cryptographic MD5 fingerprint of raw string columns for change detection"
+        }
+      ],
+      "row_count": 362,
+      "last_refresh_time": "2026-10-11T22:06:51.279498+00:00",
+      "quality_score": 99.9,
+      "upstream_tables": []
+    },
+    "premium_sozlesme": {
+      "name": "premium_sozlesme",
+      "table_name": "premium_sozlesme",
+      "layer": "bronze",
+      "description": "Raw financial services contracts (leasing, auto loans, insurance) from Borusan Premium Financial Services.",
+      "owner": "Financial Services Team",
+      "source_systems": [
+        "Premium Financial Services"
+      ],
+      "columns": [
+        {
+          "name": "sozlesme_no",
+          "type": "string",
+          "description": "Contract reference number issued by Borusan Premium Financial Services"
+        },
+        {
+          "name": "musteri_unvani",
+          "type": "string",
+          "description": "Raw individual customer name or commercial company title"
+        },
+        {
+          "name": "iletisim_tel",
+          "type": "string",
+          "description": "Raw customer phone contact string"
+        },
+        {
+          "name": "vin",
+          "type": "string",
+          "description": "Raw vehicle chassis / VIN string covered by contract"
+        },
+        {
+          "name": "sozlesme_tipi",
+          "type": "string",
+          "description": "Contract agreement type (Kiralama, Finans, Kasko)"
+        },
+        {
+          "name": "baslangic",
+          "type": "string",
+          "description": "Raw contract effective start date string"
+        },
+        {
+          "name": "bitis",
+          "type": "string",
+          "description": "Raw contract maturity or expiration date string"
+        },
+        {
+          "name": "aylik_tutar_tl",
+          "type": "string",
+          "description": "Raw recurring monthly payment or insurance premium in TL"
+        },
+        {
+          "name": "_source_system",
+          "type": "string",
+          "description": "System identifier indicating originating source application"
+        },
+        {
+          "name": "_source_file",
+          "type": "string",
+          "description": "Original CSV filename ingested into Bronze layer"
+        },
+        {
+          "name": "_ingested_at",
+          "type": "string",
+          "description": "UTC ISO 8601 timestamp when row was loaded into Bronze lakehouse tier"
+        },
+        {
+          "name": "_run_id",
+          "type": "string",
+          "description": "Master pipeline execution UUID identifier"
+        },
+        {
+          "name": "_row_hash",
+          "type": "string",
+          "description": "Cryptographic MD5 fingerprint of raw string columns for change detection"
+        }
+      ],
+      "row_count": 1445,
+      "last_refresh_time": "2026-10-11T22:06:51.137924+00:00",
+      "quality_score": 98.43,
+      "upstream_tables": []
+    },
+    "referential_integrity_checks": {
+      "name": "referential_integrity_checks",
+      "table_name": "referential_integrity_checks",
+      "layer": "gold",
+      "description": "Foreign key integrity audit identifying fact rows unlinked to sales/vehicles and quantifying orphan root causes.",
+      "owner": "Data Governance",
+      "source_systems": [
+        "Pipeline Engine"
+      ],
+      "columns": [
+        {
+          "name": "fact_table",
+          "type": "string",
+          "description": "Silver fact table evaluated (service_records, contracts, trade_ins)"
+        },
+        {
+          "name": "foreign_key",
+          "type": "string",
+          "description": "Foreign key column evaluated (vin)"
+        },
+        {
+          "name": "parent_table",
+          "type": "string",
+          "description": "Parent dimension table (vehicles)"
+        },
+        {
+          "name": "total_fact_rows",
+          "type": "int64",
+          "description": "Total rows present in the evaluated fact table"
+        },
+        {
+          "name": "unmatched_dim_vehicles_rows",
+          "type": "int64",
+          "description": "Fact rows with VIN not present in master dim_vehicles"
+        },
+        {
+          "name": "unmatched_dim_vehicles_pct",
+          "type": "double",
+          "description": "Percentage of fact rows unlinked to dim_vehicles"
+        },
+        {
+          "name": "orphan_unmatched_sales_rows",
+          "type": "int64",
+          "description": "Fact rows with VIN not present in clean sales table"
+        },
+        {
+          "name": "orphan_unmatched_sales_pct",
+          "type": "double",
+          "description": "Percentage of fact rows unlinked to clean sales table"
+        },
+        {
+          "name": "orphan_distinct_vins",
+          "type": "int64",
+          "description": "Number of distinct VINs causing orphan records"
+        },
+        {
+          "name": "root_cause_explanation",
+          "type": "string",
+          "description": "Explanatory analysis identifying sales quarantine as primary root cause"
+        }
+      ],
+      "row_count": 3,
+      "last_refresh_time": "2026-10-12T01:06:40.819695",
+      "quality_score": null,
+      "upstream_tables": [
+        "contracts",
+        "sales",
+        "service_records",
+        "trade_ins",
+        "vehicles"
+      ]
+    },
+    "rejected_records": {
+      "name": "rejected_records",
+      "table_name": "rejected_records",
+      "layer": "silver",
+      "description": "One row per rejection event; a bronze row can have several events. Distinct rejected rows are counted in the pipeline run log (rows_rejected).",
+      "owner": "Data Governance",
+      "source_systems": [
+        "DMS",
+        "Premium Financial Services",
+        "Workshop DMS / Servis",
+        "Borusan Next"
+      ],
+      "columns": [
+        {
+          "name": "source_table",
+          "type": "string",
+          "description": "Name of the Bronze table where the validation error originated"
+        },
+        {
+          "name": "source_row_id",
+          "type": "string",
+          "description": "Row position index in the Bronze source dataset"
+        },
+        {
+          "name": "source_business_key",
+          "type": "string",
+          "description": "Primary business key of the record (e.g. sale_id, sozlesme_no, servis_id)"
+        },
+        {
+          "name": "rule_code",
+          "type": "string",
+          "description": "Standard rejection reason code (INVALID_VIN, MISSING_VIN, INVALID_DATE, CONTRACT_END_BEFORE_START, DUPLICATE_KEY)"
+        },
+        {
+          "name": "rule_description",
+          "type": "string",
+          "description": "Explanatory description of the data quality domain rule violated"
+        },
+        {
+          "name": "raw_value",
+          "type": "string",
+          "description": "Original string value that caused the validation check to fail"
+        },
+        {
+          "name": "run_id",
+          "type": "string",
+          "description": "Pipeline execution run ID during which quarantine occurred"
+        }
+      ],
+      "row_count": 741,
+      "last_refresh_time": "2026-10-11T22:06:36.363811+00:00",
+      "quality_score": null,
+      "upstream_tables": [
+        "dms_satis",
+        "premium_sozlesme",
+        "servis_kayit",
+        "next_islem"
+      ]
+    },
+    "sales": {
+      "name": "sales",
+      "table_name": "sales",
+      "layer": "silver",
+      "description": "Cleaned, standardized, deduplicated vehicle sales transactions linked to golden customers.",
+      "owner": "Sales Data Team",
+      "source_systems": [
+        "DMS"
+      ],
+      "columns": [
+        {
+          "name": "sale_id",
+          "type": "string",
+          "description": "Unique sales invoice identifier (deduplicated by primary business key)"
+        },
+        {
+          "name": "vin",
+          "type": "string",
+          "description": "Validated 17-character ISO vehicle identification number (VIN)"
+        },
+        {
+          "name": "customer_name_clean",
+          "type": "string",
+          "description": "Cleaned customer name in proper Turkish casing"
+        },
+        {
+          "name": "customer_name_ascii",
+          "type": "string",
+          "description": "ASCII-folded uppercase name key for matching"
+        },
+        {
+          "name": "phone_raw",
+          "type": "string",
+          "description": "Original contact phone string"
+        },
+        {
+          "name": "phone_norm",
+          "type": "string",
+          "description": "Normalized 10-digit mobile number starting with 5"
+        },
+        {
+          "name": "has_valid_phone",
+          "type": "bool",
+          "description": "Boolean flag indicating whether phone is a valid 10-digit number"
+        },
+        {
+          "name": "brand",
+          "type": "string",
+          "description": "Standardized vehicle brand (BMW, MINI, Range Rover, Defender, Discovery, Jaguar)"
+        },
+        {
+          "name": "model",
+          "type": "string",
+          "description": "Standardized vehicle model designation"
+        },
+        {
+          "name": "fuel_type",
+          "type": "string",
+          "description": "Standardized powertrain type (Benzin, Dizel, Elektrik, Hibrit)"
+        },
+        {
+          "name": "sale_date",
+          "type": "string",
+          "description": "Validated sales invoice date (YYYY-MM-DD)"
+        },
+        {
+          "name": "dealer_code",
+          "type": "string",
+          "description": "Dealership branch identifier code"
+        },
+        {
+          "name": "sale_price_tl",
+          "type": "int64",
+          "description": "Parsed integer sales price in Turkish Lira (TL)"
+        },
+        {
+          "name": "_source_system",
+          "type": "string",
+          "description": "Source system metadata"
+        },
+        {
+          "name": "_source_file",
+          "type": "string",
+          "description": "Source CSV filename"
+        },
+        {
+          "name": "_ingested_at",
+          "type": "string",
+          "description": "Bronze load timestamp"
+        },
+        {
+          "name": "_run_id",
+          "type": "string",
+          "description": "Pipeline execution UUID identifier"
+        },
+        {
+          "name": "_row_hash",
+          "type": "string",
+          "description": "Cryptographic row fingerprint from Bronze"
+        },
+        {
+          "name": "customer_id",
+          "type": "string",
+          "description": "Golden customer identifier linked via entity resolution"
+        }
+      ],
+      "row_count": 2554,
+      "last_refresh_time": "2026-10-12T01:06:34.802239",
+      "quality_score": 99.78,
+      "upstream_tables": [
+        "dms_satis"
+      ]
+    },
+    "service_cost_comparison": {
+      "name": "service_cost_comparison",
+      "table_name": "service_cost_comparison",
+      "layer": "gold",
+      "description": "Comparative aftersales maintenance cost analytics comparing Electric vs ICE powertrains by brand.",
+      "owner": "Aftersales Data Team",
+      "source_systems": [
+        "DMS",
+        "Workshop DMS / Servis"
+      ],
+      "columns": [
+        {
+          "name": "brand",
+          "type": "string",
+          "description": "Vehicle brand"
+        },
+        {
+          "name": "powertrain_type",
+          "type": "string",
+          "description": "Powertrain classification ('Elektrik' vs 'Non-Elektrik')"
+        },
+        {
+          "name": "vehicle_count",
+          "type": "int64",
+          "description": "Distinct vehicle count in the cohort"
+        },
+        {
+          "name": "total_service_visits",
+          "type": "int64",
+          "description": "Cumulative workshop service visits"
+        },
+        {
+          "name": "total_service_spend_tl",
+          "type": "int64",
+          "description": "Cumulative workshop invoice spend in TL"
+        },
+        {
+          "name": "avg_annual_cost_per_vehicle_tl",
+          "type": "double",
+          "description": "Normalized annual maintenance spend per vehicle-year in TL"
+        },
+        {
+          "name": "avg_cost_per_visit_tl",
+          "type": "double",
+          "description": "Average invoice amount per workshop visit in TL"
+        }
+      ],
+      "row_count": 9,
+      "last_refresh_time": "2026-10-12T01:06:40.048601",
+      "quality_score": null,
+      "upstream_tables": [
+        "sales",
+        "service_records",
+        "vehicles"
+      ]
+    },
+    "service_records": {
+      "name": "service_records",
+      "table_name": "service_records",
+      "layer": "silver",
+      "description": "Cleaned workshop maintenance and repair orders linked to golden customers and VINs.",
+      "owner": "Aftersales Data Team",
+      "source_systems": [
+        "Workshop DMS / Servis"
+      ],
+      "columns": [
+        {
+          "name": "service_id",
+          "type": "string",
+          "description": "Unique workshop work order or repair invoice identifier"
+        },
+        {
+          "name": "vin",
+          "type": "string",
+          "description": "Validated 17-character ISO vehicle identification number (VIN)"
+        },
+        {
+          "name": "customer_name_clean",
+          "type": "string",
+          "description": "Cleaned customer name in proper Turkish casing"
+        },
+        {
+          "name": "customer_name_ascii",
+          "type": "string",
+          "description": "ASCII-folded uppercase name key for matching"
+        },
+        {
+          "name": "service_date",
+          "type": "string",
+          "description": "Validated service visit date (YYYY-MM-DD)"
+        },
+        {
+          "name": "service_point_code",
+          "type": "string",
+          "description": "Authorized service point branch code"
+        },
+        {
+          "name": "km",
+          "type": "int64",
+          "description": "Parsed vehicle odometer reading in kilometers"
+        },
+        {
+          "name": "cost_tl",
+          "type": "int64",
+          "description": "Parsed workshop invoice amount in Turkish Lira (TL)"
+        },
+        {
+          "name": "job_type",
+          "type": "string",
+          "description": "Standardized maintenance job classification (Periyodik Bakım, Mekanik Onarım, etc.)"
+        },
+        {
+          "name": "_source_system",
+          "type": "string",
+          "description": "Source system metadata"
+        },
+        {
+          "name": "_source_file",
+          "type": "string",
+          "description": "Source CSV filename"
+        },
+        {
+          "name": "_ingested_at",
+          "type": "string",
+          "description": "Bronze load timestamp"
+        },
+        {
+          "name": "_run_id",
+          "type": "string",
+          "description": "Pipeline execution UUID identifier"
+        },
+        {
+          "name": "_row_hash",
+          "type": "string",
+          "description": "Cryptographic row fingerprint from Bronze"
+        },
+        {
+          "name": "customer_id",
+          "type": "string",
+          "description": "Golden customer identifier linked via entity resolution"
+        }
+      ],
+      "row_count": 8231,
+      "last_refresh_time": "2026-10-12T01:06:35.348682",
+      "quality_score": 100.0,
+      "upstream_tables": [
+        "servis_kayit"
+      ]
+    },
+    "servis_kayit": {
+      "name": "servis_kayit",
+      "table_name": "servis_kayit",
+      "layer": "bronze",
+      "description": "Raw workshop repair orders and maintenance invoices from authorized service network.",
+      "owner": "Aftersales Data Team",
+      "source_systems": [
+        "Workshop DMS / Servis"
+      ],
+      "columns": [
+        {
+          "name": "servis_id",
+          "type": "string",
+          "description": "Unique workshop work order or repair invoice identifier"
+        },
+        {
+          "name": "sasi",
+          "type": "string",
+          "description": "Raw vehicle chassis / VIN string recorded at service intake"
+        },
+        {
+          "name": "sahip_adi",
+          "type": "string",
+          "description": "Raw customer / vehicle owner name noted during intake check-in"
+        },
+        {
+          "name": "servis_tarihi",
+          "type": "string",
+          "description": "Raw service visit date string"
+        },
+        {
+          "name": "servis_noktasi",
+          "type": "string",
+          "description": "Service point branch code where work was performed"
+        },
+        {
+          "name": "km",
+          "type": "string",
+          "description": "Raw vehicle odometer reading in kilometers at intake"
+        },
+        {
+          "name": "tutar_tl",
+          "type": "string",
+          "description": "Raw total invoice repair/maintenance cost in Turkish Lira (TL)"
+        },
+        {
+          "name": "is_tipi",
+          "type": "string",
+          "description": "Job classification (e.g. Periyodik Bakım, Mekanik Onarım, Hasar Onarım)"
+        },
+        {
+          "name": "_source_system",
+          "type": "string",
+          "description": "System identifier indicating originating source application"
+        },
+        {
+          "name": "_source_file",
+          "type": "string",
+          "description": "Original CSV filename ingested into Bronze layer"
+        },
+        {
+          "name": "_ingested_at",
+          "type": "string",
+          "description": "UTC ISO 8601 timestamp when row was loaded into Bronze lakehouse tier"
+        },
+        {
+          "name": "_run_id",
+          "type": "string",
+          "description": "Master pipeline execution UUID identifier"
+        },
+        {
+          "name": "_row_hash",
+          "type": "string",
+          "description": "Cryptographic MD5 fingerprint of raw string columns for change detection"
+        }
+      ],
+      "row_count": 8690,
+      "last_refresh_time": "2026-10-11T22:06:51.174918+00:00",
+      "quality_score": 99.09,
+      "upstream_tables": []
+    },
+    "trade_in_value_ratio": {
+      "name": "trade_in_value_ratio",
+      "table_name": "trade_in_value_ratio",
+      "layer": "gold",
+      "description": "Second-hand residual value retention analysis comparing Borusan Next offers against original sales price.",
+      "owner": "Remarketing & Trade-In Team",
+      "source_systems": [
+        "DMS",
+        "Borusan Next"
+      ],
+      "columns": [
+        {
+          "name": "brand",
+          "type": "string",
+          "description": "Vehicle brand"
+        },
+        {
+          "name": "powertrain_type",
+          "type": "string",
+          "description": "Powertrain classification (Elektrik, Benzin, Dizel, Hibrit)"
+        },
+        {
+          "name": "trade_in_count",
+          "type": "int64",
+          "description": "Number of matched trade-in appraisal transactions"
+        },
+        {
+          "name": "avg_sale_price_tl",
+          "type": "double",
+          "description": "Average original new vehicle sales price in TL"
+        },
+        {
+          "name": "avg_offer_tl",
+          "type": "double",
+          "description": "Average Borusan Next repurchase / trade-in valuation in TL"
+        },
+        {
+          "name": "avg_retention_ratio",
+          "type": "double",
+          "description": "Mean residual retention factor (offer / sale_price)"
+        },
+        {
+          "name": "retention_pct",
+          "type": "double",
+          "description": "Average retained value percentage (avg_retention_ratio * 100)"
+        }
+      ],
+      "row_count": 9,
+      "last_refresh_time": "2026-10-12T01:06:40.095707",
+      "quality_score": null,
+      "upstream_tables": [
+        "sales",
+        "trade_ins"
+      ]
+    },
+    "trade_ins": {
+      "name": "trade_ins",
+      "table_name": "trade_ins",
+      "layer": "silver",
+      "description": "Cleaned second-hand trade-in appraisals and repurchase offers from Borusan Next.",
+      "owner": "Remarketing & Trade-In Team",
+      "source_systems": [
+        "Borusan Next"
+      ],
+      "columns": [
+        {
+          "name": "trade_in_id",
+          "type": "string",
+          "description": "Unique trade-in valuation transaction identifier"
+        },
+        {
+          "name": "vin",
+          "type": "string",
+          "description": "Validated 17-character ISO vehicle identification number (VIN)"
+        },
+        {
+          "name": "customer_name_clean",
+          "type": "string",
+          "description": "Cleaned customer name in proper Turkish casing"
+        },
+        {
+          "name": "customer_name_ascii",
+          "type": "string",
+          "description": "ASCII-folded uppercase name key for matching"
+        },
+        {
+          "name": "trade_in_date",
+          "type": "string",
+          "description": "Validated transaction date (YYYY-MM-DD)"
+        },
+        {
+          "name": "trade_in_type",
+          "type": "string",
+          "description": "Standardized trade-in transaction category (Takas, Değerleme, Alım)"
+        },
+        {
+          "name": "offer_tl",
+          "type": "int64",
+          "description": "Parsed valuation offer amount in Turkish Lira (TL)"
+        },
+        {
+          "name": "_source_system",
+          "type": "string",
+          "description": "Source system metadata"
+        },
+        {
+          "name": "_source_file",
+          "type": "string",
+          "description": "Source CSV filename"
+        },
+        {
+          "name": "_ingested_at",
+          "type": "string",
+          "description": "Bronze load timestamp"
+        },
+        {
+          "name": "_run_id",
+          "type": "string",
+          "description": "Pipeline execution UUID identifier"
+        },
+        {
+          "name": "_row_hash",
+          "type": "string",
+          "description": "Cryptographic row fingerprint from Bronze"
+        },
+        {
+          "name": "customer_id",
+          "type": "string",
+          "description": "Golden customer identifier linked via entity resolution"
+        }
+      ],
+      "row_count": 345,
+      "last_refresh_time": "2026-10-12T01:06:36.275437",
+      "quality_score": 100.0,
+      "upstream_tables": [
+        "next_islem"
+      ]
+    },
+    "vehicles": {
+      "name": "vehicles",
+      "table_name": "vehicles",
+      "layer": "silver",
+      "description": "Master vehicle dimension cataloging VIN, brand, model, fuel type, and current resolved owner.",
+      "owner": "Sales Data Team",
+      "source_systems": [
+        "DMS",
+        "Workshop DMS / Servis"
+      ],
+      "columns": [
+        {
+          "name": "vin",
+          "type": "string",
+          "description": "Unique 17-character vehicle chassis identifier (Primary Key)"
+        },
+        {
+          "name": "brand",
+          "type": "string",
+          "description": "Standardized vehicle brand name (or UNKNOWN for orphan service vehicles)"
+        },
+        {
+          "name": "model",
+          "type": "string",
+          "description": "Standardized vehicle model designation (or UNKNOWN)"
+        },
+        {
+          "name": "fuel_type",
+          "type": "string",
+          "description": "Powertrain fuel classification (Benzin, Dizel, Elektrik, Hibrit, or UNKNOWN)"
+        },
+        {
+          "name": "owner_customer_id",
+          "type": "string",
+          "description": "Golden customer master ID of the current vehicle owner"
+        }
+      ],
+      "row_count": 2683,
+      "last_refresh_time": "2026-10-12T01:06:36.410840",
+      "quality_score": 98.99,
+      "upstream_tables": [
+        "sales",
+        "service_records"
+      ]
+    }
+  }
+}

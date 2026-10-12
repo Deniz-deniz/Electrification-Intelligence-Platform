@@ -1,0 +1,10 @@
+﻿brand,powertrain_type,vehicle_count,total_service_visits,total_service_spend_tl,avg_annual_cost_per_vehicle_tl,avg_cost_per_visit_tl
+BMW,Elektrik,356,1283,9574377,5886.15,7462.49
+BMW,İçten Yanmalı / Hibrit,694,2466,30600666,9695.1,12409.03
+Defender,İçten Yanmalı / Hibrit,143,529,6864413,10538.93,12976.21
+Discovery,İçten Yanmalı / Hibrit,103,409,5041634,10520.34,12326.73
+Jaguar,Elektrik,59,190,1455352,5549.69,7659.75
+Jaguar,İçten Yanmalı / Hibrit,54,169,2176079,10388.07,12876.21
+MINI,Elektrik,449,1739,13054117,6175.06,7506.68
+MINI,İçten Yanmalı / Hibrit,49,190,2337830,10060.17,12304.37
+Range Rover,İçten Yanmalı / Hibrit,222,802,9948365,10523.42,12404.45
